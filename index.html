@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Inventory</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #f5f3ee;
+  --surface: #ffffff;
+  --border: #e0ddd6;
+  --border-strong: #c8c4bb;
+  --text: #1a1917;
+  --text-muted: #7a7670;
+  --accent: #2d5a27;
+  --accent-light: #e8f0e7;
+  --mono: 'DM Mono', monospace;
+  --sans: 'DM Sans', sans-serif;
+  --radius: 6px;
+  --radius-lg: 10px;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { font-size: 15px; }
+body { font-family: var(--sans); background: var(--bg); color: var(--text); min-height: 100vh; }
+
+/* --- HEADER --- */
+header {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 52px;
+  position: sticky; top: 0; z-index: 10;
+}
+.logo { font-family: var(--mono); font-size: 13px; font-weight: 500; letter-spacing: .04em; color: var(--accent); display: flex; align-items: center; gap: 8px; }
+.logo::before { content: ''; width: 8px; height: 8px; background: var(--accent); border-radius: 50%; display: block; }
+.header-actions { display: flex; gap: 8px; align-items: center; }
+#sync-status { font-family: var(--mono); font-size: 11px; color: var(--text-muted); }
+
+/* --- STATS BAR --- */
+.stats-bar {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: .6rem 1.5rem;
+  display: flex;
+  gap: 2rem;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.stats-bar::-webkit-scrollbar { display: none; }
+.stat { flex-shrink: 0; }
+.stat-label { font-size: 10px; font-family: var(--mono); text-transform: uppercase; letter-spacing: .06em; color: var(--text-muted); }
+.stat-val { font-size: 18px; font-weight: 500; line-height: 1.2; }
+
+/* --- TOOLBAR --- */
+.toolbar {
+  padding: .75rem 1.5rem;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+input[type=text], input[type=number], input[type=date], input[type=url], input[type=password], select, textarea {
+  font-family: var(--sans);
+  font-size: 13px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 7px 10px;
+  color: var(--text);
+  outline: none;
+  transition: border-color .15s;
+}
+input:focus, select:focus, textarea:focus { border-color: var(--accent); }
+.toolbar input[type=text] { flex: 1; min-width: 200px; }
+textarea { resize: vertical; min-height: 72px; width: 100%; }
+
+/* --- BUTTONS --- */
+.btn {
+  font-family: var(--sans);
+  font-size: 13px;
+  font-weight: 500;
+  padding: 7px 14px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border-strong);
+  background: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+  transition: background .12s;
+  white-space: nowrap;
+}
+.btn:hover { background: var(--bg); }
+.btn-primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+.btn-primary:hover { background: #1e3f1a; }
+.btn-sm { padding: 4px 9px; font-size: 11px; }
+.btn-ghost { border-color: transparent; background: transparent; }
+.btn-ghost:hover { background: var(--bg); }
+.btn-danger { color: #a33; border-color: #f0c0c0; }
+.btn-danger:hover { background: #fff0f0; }
+
+/* --- TABLE --- */
+.table-wrap {
+  padding: 0 1.5rem 1.5rem;
+  overflow-x: auto;
+}
+table { width: 100%; border-collapse: collapse; font-size: 13px; background: var(--surface); border-radius: var(--radius-lg); overflow: hidden; border: 1px solid var(--border); }
+th {
+  background: var(--bg);
+  padding: 9px 12px;
+  text-align: left;
+  font-family: var(--mono);
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  color: var(--text-muted);
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+  user-select: none;
+  cursor: pointer;
+}
+th:hover { color: var(--text); }
+td { padding: 9px 12px; border-bottom: 1px solid var(--border); vertical-align: middle; }
+tr:last-child td { border-bottom: none; }
+tr:hover td { background: #fafaf7; }
+.col-name { min-width: 160px; font-weight: 500; }
+.col-cat { min-width: 110px; }
+.col-status { min-width: 130px; }
+.col-price { min-width: 90px; font-family: var(--mono); font-size: 12px; }
+.col-loc { min-width: 120px; color: var(--text-muted); }
+.col-date { min-width: 100px; font-family: var(--mono); font-size: 11px; color: var(--text-muted); }
+.col-receipt { min-width: 80px; }
+.col-actions { min-width: 100px; white-space: nowrap; }
+
+/* --- BADGES --- */
+.badge {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 10px;
+  font-weight: 500;
+  padding: 2px 8px;
+  border-radius: 20px;
+  letter-spacing: .02em;
+}
+.b-ok        { background: #e6f4e3; color: #2a5e24; }
+.b-repair    { background: #fdf0e0; color: #8a4a10; }
+.b-suitcase  { background: #e3eef8; color: #1a4a7a; }
+.b-closet    { background: #ede8f7; color: #4a2d8a; }
+.b-storage   { background: #f0f0f0; color: #4a4a4a; }
+.b-lent      { background: #fde8e8; color: #8a1a1a; }
+.b-sold      { background: #f5f3ee; color: #888; border: 1px solid var(--border); }
+
+/* --- EMPTY STATE --- */
+.empty { text-align: center; padding: 4rem 1rem; color: var(--text-muted); font-size: 14px; }
+.empty p { margin-top: 8px; font-family: var(--mono); font-size: 11px; }
+
+/* --- MODAL --- */
+.modal-overlay {
+  position: fixed; inset: 0;
+  background: rgba(20,18,14,.55);
+  display: flex; align-items: center; justify-content: center;
+  z-index: 100; padding: 1rem;
+  opacity: 0; pointer-events: none; transition: opacity .18s;
+}
+.modal-overlay.open { opacity: 1; pointer-events: all; }
+.modal {
+  background: var(--surface);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+  width: min(580px, 100%);
+  max-height: 92vh;
+  overflow-y: auto;
+  transform: translateY(8px); transition: transform .18s;
+}
+.modal-overlay.open .modal { transform: translateY(0); }
+.modal-header { padding: 1.1rem 1.25rem .9rem; border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; }
+.modal-header h2 { font-size: 15px; font-weight: 500; }
+.modal-body { padding: 1.25rem; }
+.modal-footer { padding: .9rem 1.25rem; border-top: 1px solid var(--border); display: flex; justify-content: flex-end; gap: 8px; }
+
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 12px; }
+.form-row.full { grid-template-columns: 1fr; }
+.form-group { display: flex; flex-direction: column; gap: 4px; }
+.form-group label { font-size: 11px; font-family: var(--mono); text-transform: uppercase; letter-spacing: .04em; color: var(--text-muted); }
+
+/* --- SETUP MODAL --- */
+.setup-note { font-size: 12px; color: var(--text-muted); margin-top: 5px; line-height: 1.5; }
+.setup-note a { color: var(--accent); }
+.step-num { font-family: var(--mono); font-size: 11px; background: var(--accent-light); color: var(--accent); border-radius: 50%; width: 20px; height: 20px; display: inline-flex; align-items: center; justify-content: center; font-weight: 500; flex-shrink: 0; margin-right: 6px; }
+.step { display: flex; align-items: flex-start; gap: 0; margin-bottom: 12px; font-size: 13px; line-height: 1.5; }
+
+/* --- PDF UPLOAD ZONE --- */
+.upload-zone {
+  border: 1.5px dashed var(--border-strong);
+  border-radius: var(--radius);
+  padding: 1rem;
+  text-align: center;
+  cursor: pointer;
+  font-size: 12px;
+  color: var(--text-muted);
+  transition: border-color .15s, background .15s;
+}
+.upload-zone:hover, .upload-zone.drag { border-color: var(--accent); background: var(--accent-light); color: var(--accent); }
+.upload-zone input { display: none; }
+.upload-zone.has-file { border-color: var(--accent); color: var(--accent); background: var(--accent-light); }
+
+/* --- RECEIPT LINK --- */
+.receipt-link { font-size: 11px; color: var(--accent); text-decoration: none; font-family: var(--mono); }
+.receipt-link:hover { text-decoration: underline; }
+
+/* --- PAGINATION --- */
+.pager { display: flex; justify-content: flex-end; align-items: center; gap: 8px; padding: 0 1.5rem 1.5rem; font-size: 12px; color: var(--text-muted); font-family: var(--mono); }
+
+/* --- RESPONSIVE --- */
+@media (max-width: 600px) {
+  header { padding: 0 1rem; }
+  .toolbar { padding: .75rem 1rem; }
+  .table-wrap { padding: 0 1rem 1rem; }
+  .form-row { grid-template-columns: 1fr; }
+  .stats-bar { padding: .6rem 1rem; gap: 1.25rem; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">possession index</div>
+  <div class="header-actions">
+    <span id="sync-status"></span>
+    <button class="btn btn-sm" onclick="openSetup()">⚙ config</button>
+    <button class="btn btn-sm btn-primary" onclick="openModal()">+ add item</button>
+  </div>
+</header>
+
+<div class="stats-bar" id="statsBar"></div>
+
+<div class="toolbar">
+  <input type="text" id="search" placeholder="Search anything…" oninput="render()">
+  <select id="filterCat" onchange="render()"><option value="">All categories</option></select>
+  <select id="filterStatus" onchange="render()">
+    <option value="">All statuses</option>
+    <option>OK</option>
+    <option>In need of repair</option>
+    <option>In suitcase</option>
+    <option>In closet</option>
+    <option>In storage</option>
+    <option>Lent out</option>
+    <option>Sold</option>
+  </select>
+</div>
+
+<div class="table-wrap">
+  <table>
+    <colgroup>
+      <col style="width:18%"><col style="width:10%"><col style="width:12%"><col style="width:9%">
+      <col style="width:10%"><col style="width:9%"><col style="width:8%"><col style="width:24%">
+    </colgroup>
+    <thead>
+      <tr>
+        <th onclick="sortBy('name')">Name</th>
+        <th onclick="sortBy('category')">Category</th>
+        <th onclick="sortBy('status')">Status</th>
+        <th onclick="sortBy('price')">Price</th>
+        <th onclick="sortBy('location')">Location</th>
+        <th onclick="sortBy('date')">Date</th>
+        <th>Receipt</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+</div>
+<div class="pager" id="pager"></div>
+
+<!-- ITEM MODAL -->
+<div class="modal-overlay" id="itemModal">
+  <div class="modal">
+    <div class="modal-header">
+      <h2 id="modalTitle">Add item</h2>
+      <button class="btn btn-ghost btn-sm" onclick="closeModal('itemModal')">✕</button>
+    </div>
+    <div class="modal-body">
+      <div class="form-row">
+        <div class="form-group full">
+          <label>Name *</label>
+          <input type="text" id="f_name" placeholder="e.g. Sony WH-1000XM5">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Category</label>
+          <input type="text" id="f_cat" placeholder="Electronics, Furniture…" list="catList">
+          <datalist id="catList"></datalist>
+        </div>
+        <div class="form-group">
+          <label>Status</label>
+          <select id="f_status">
+            <option>OK</option>
+            <option>In need of repair</option>
+            <option>In suitcase</option>
+            <option>In closet</option>
+            <option>In storage</option>
+            <option>Lent out</option>
+            <option>Sold</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Price (CHF)</label>
+          <input type="number" id="f_price" placeholder="0.00" min="0" step="0.01">
+        </div>
+        <div class="form-group">
+          <label>Purchase date</label>
+          <input type="date" id="f_date">
+        </div>
+      </div>
+      <div class="form-row full">
+        <div class="form-group">
+          <label>Location</label>
+          <input type="text" id="f_loc" placeholder="Bedroom shelf, Storage unit B…">
+        </div>
+      </div>
+      <div class="form-row full">
+        <div class="form-group">
+          <label>Description / notes</label>
+          <textarea id="f_desc" placeholder="Serial number, condition notes, warranty info…"></textarea>
+        </div>
+      </div>
+      <div class="form-row full">
+        <div class="form-group">
+          <label>Product link</label>
+          <input type="url" id="f_link" placeholder="https://…">
+        </div>
+      </div>
+      <div class="form-row full">
+        <div class="form-group">
+          <label>Tags (comma-separated)</label>
+          <input type="text" id="f_tags" placeholder="insured, fragile, gift…">
+        </div>
+      </div>
+      <div class="form-row full">
+        <div class="form-group">
+          <label>Receipt PDF</label>
+          <div class="upload-zone" id="uploadZone" onclick="document.getElementById('f_receipt_file').click()" ondragover="handleDrag(event,true)" ondragleave="handleDrag(event,false)" ondrop="handleDrop(event)">
+            <input type="file" id="f_receipt_file" accept="application/pdf" onchange="handleFileSelect(this)">
+            <div id="uploadLabel">Drop PDF here or click to browse</div>
+          </div>
+          <div id="existingReceipt" style="display:none; font-size:11px; color:var(--text-muted); margin-top:4px;"></div>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn" onclick="closeModal('itemModal')">Cancel</button>
+      <button class="btn btn-primary" onclick="saveItem()" id="saveBtn">Save</button>
+    </div>
+  </div>
+</div>
+
+<!-- SETUP MODAL -->
+<div class="modal-overlay" id="setupModal">
+  <div class="modal">
+    <div class="modal-header">
+      <h2>GitHub configuration</h2>
+      <button class="btn btn-ghost btn-sm" onclick="closeModal('setupModal')">✕</button>
+    </div>
+    <div class="modal-body">
+      <div style="margin-bottom:1.25rem">
+        <div class="step"><span class="step-num">1</span><span>Create a GitHub repo named <code style="background:var(--bg);padding:1px 5px;border-radius:3px;font-size:12px">my-inventory</code> (or any name) and enable GitHub Pages from Settings → Pages → Deploy from branch <code style="background:var(--bg);padding:1px 5px;border-radius:3px;font-size:12px">main</code>.</span></div>
+        <div class="step"><span class="step-num">2</span><span>Create a Personal Access Token at <a href="https://github.com/settings/tokens/new" target="_blank" style="color:var(--accent)">github.com/settings/tokens/new</a> — select <strong>Classic</strong>, tick <code style="background:var(--bg);padding:1px 5px;border-radius:3px;font-size:12px">repo</code> scope only.</span></div>
+        <div class="step"><span class="step-num">3</span><span>Upload this <code style="background:var(--bg);padding:1px 5px;border-radius:3px;font-size:12px">index.html</code> to the root of your repo, then fill in the fields below.</span></div>
+      </div>
+      <div class="form-row full" style="margin-bottom:10px">
+        <div class="form-group">
+          <label>GitHub username</label>
+          <input type="text" id="cfg_user" placeholder="your-username">
+        </div>
+      </div>
+      <div class="form-row full" style="margin-bottom:10px">
+        <div class="form-group">
+          <label>Repository name</label>
+          <input type="text" id="cfg_repo" placeholder="my-inventory">
+        </div>
+      </div>
+      <div class="form-row full" style="margin-bottom:10px">
+        <div class="form-group">
+          <label>Personal Access Token</label>
+          <input type="password" id="cfg_token" placeholder="ghp_…">
+          <div class="setup-note">Stored only in this browser's localStorage. Never sent anywhere except api.github.com.</div>
+        </div>
+      </div>
+      <div id="cfg_error" style="font-size:12px;color:#a33;margin-top:8px;display:none"></div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn" onclick="closeModal('setupModal')">Cancel</button>
+      <button class="btn btn-primary" onclick="saveConfig()">Save & connect</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// ─── CONFIG ───────────────────────────────────────────────────────────────────
+let cfg = JSON.parse(localStorage.getItem('inv_cfg') || '{}');
+let db  = [];
+let pendingFile = null;
+let editId = null;
+let sortCol = 'name', sortAsc = true, page = 1;
+const PER = 20;
+
+const BADGE = {
+  'OK':                 'b-ok',
+  'In need of repair':  'b-repair',
+  'In suitcase':        'b-suitcase',
+  'In closet':          'b-closet',
+  'In storage':         'b-storage',
+  'Lent out':           'b-lent',
+  'Sold':               'b-sold',
+};
+
+// ─── GITHUB API ───────────────────────────────────────────────────────────────
+const BASE = 'https://api.github.com';
+async function ghGet(path) {
+  const r = await fetch(`${BASE}${path}`, {
+    headers: { Authorization: `token ${cfg.token}`, Accept: 'application/vnd.github.v3+json' }
+  });
+  if (!r.ok) throw new Error(`GitHub ${r.status}: ${r.statusText}`);
+  return r.json();
+}
+
+async function ghPut(path, body) {
+  const r = await fetch(`${BASE}${path}`, {
+    method: 'PUT',
+    headers: {
+      Authorization: `token ${cfg.token}`,
+      Accept: 'application/vnd.github.v3+json',
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(body)
+  });
+  if (!r.ok) { const e = await r.json(); throw new Error(e.message || r.statusText); }
+  return r.json();
+}
+
+async function getFileSha(path) {
+  try { const d = await ghGet(`/repos/${cfg.user}/${cfg.repo}/contents/${path}`); return d.sha; }
+  catch { return null; }
+}
+
+async function writeFile(path, content, message, isBinary = false) {
+  const sha = await getFileSha(path);
+  const encoded = isBinary ? content : btoa(unescape(encodeURIComponent(content)));
+  const body = { message, content: encoded };
+  if (sha) body.sha = sha;
+  return ghPut(`/repos/${cfg.user}/${cfg.repo}/contents/${path}`, body);
+}
+
+// ─── DATA ─────────────────────────────────────────────────────────────────────
+function uid() { return Date.now().toString(36) + Math.random().toString(36).slice(2,6); }
+
+async function loadDB() {
+  if (!cfg.token) { render(); return; }
+  setStatus('syncing…');
+  try {
+    const d = await ghGet(`/repos/${cfg.user}/${cfg.repo}/contents/inventory.json`);
+    db = JSON.parse(atob(d.content.replace(/\n/g, '')));
+    setStatus('synced');
+  } catch (e) {
+    if (e.message.includes('404')) { db = []; setStatus('ready (new db)'); }
+    else setStatus('error: ' + e.message);
+  }
+  render();
+}
+
+async function saveDB(message = 'Update inventory') {
+  if (!cfg.token) { setStatus('not configured'); return; }
+  setStatus('saving…');
+  try {
+    await writeFile('inventory.json', JSON.stringify(db, null, 2), message);
+    setStatus('saved ✓');
+  } catch (e) { setStatus('error: ' + e.message); }
+}
+
+async function uploadReceipt(itemId, itemName, file) {
+  const ext = file.name.split('.').pop();
+  const path = `receipts/${itemId}.${ext}`;
+  const ab = await file.arrayBuffer();
+  const bytes = new Uint8Array(ab);
+  let binary = '';
+  bytes.forEach(b => binary += String.fromCharCode(b));
+  const b64 = btoa(binary);
+  await writeFile(path, b64, `Add receipt for ${itemName}`, true);
+  return path;
+}
+
+// ─── RENDER ───────────────────────────────────────────────────────────────────
+function filtered() {
+  const q = document.getElementById('search').value.toLowerCase();
+  const cat = document.getElementById('filterCat').value;
+  const st = document.getElementById('filterStatus').value;
+  return db.filter(i => {
+    if (cat && i.category !== cat) return false;
+    if (st && i.status !== st) return false;
+    if (q && ![i.name,i.category,i.location,i.description,i.tags].join(' ').toLowerCase().includes(q)) return false;
+    return true;
+  }).sort((a, b) => {
+    let av = a[sortCol] || '', bv = b[sortCol] || '';
+    if (sortCol === 'price') { av = parseFloat(av)||0; bv = parseFloat(bv)||0; return sortAsc ? av-bv : bv-av; }
+    return sortAsc ? String(av).localeCompare(String(bv)) : String(bv).localeCompare(String(av));
+  });
+}
+
+function sortBy(col) { if (sortCol === col) sortAsc = !sortAsc; else { sortCol = col; sortAsc = true; } render(); }
+
+function render() {
+  const rows = filtered();
+  const total = rows.length;
+  const pages = Math.max(1, Math.ceil(total / PER));
+  if (page > pages) page = 1;
+  const slice = rows.slice((page-1)*PER, page*PER);
+
+  const tbody = document.getElementById('tbody');
+  if (!slice.length) {
+    tbody.innerHTML = `<tr><td colspan="8"><div class="empty">${db.length ? 'No results.' : (!cfg.token ? 'Configure GitHub first (⚙ config), then add items.' : 'No items yet.')}<p>${db.length ? '' : (!cfg.token ? '' : 'Click + add item to get started.')}</p></div></td></tr>`;
+  } else {
+    tbody.innerHTML = slice.map(i => {
+      const price = i.price ? `CHF ${parseFloat(i.price).toFixed(2)}` : '—';
+      const badge = `<span class="badge ${BADGE[i.status]||'b-ok'}">${i.status||'OK'}</span>`;
+      const receipt = i.receipt
+        ? `<a class="receipt-link" href="https://raw.githubusercontent.com/${cfg.user}/${cfg.repo}/main/${i.receipt}" target="_blank">PDF ↗</a>`
+        : '<span style="color:var(--text-muted);font-size:11px">—</span>';
+      const nameCell = i.link
+        ? `<a href="${i.link}" target="_blank" style="color:var(--text);font-weight:500;text-decoration:none;border-bottom:1px solid var(--border)">${esc(i.name)}</a>`
+        : `<span style="font-weight:500">${esc(i.name)}</span>`;
+      const tags = i.tags ? `<div style="font-size:10px;color:var(--text-muted);font-family:var(--mono);margin-top:2px">${esc(i.tags)}</div>` : '';
+      return `<tr>
+        <td class="col-name">${nameCell}${tags}</td>
+        <td class="col-cat">${esc(i.category||'—')}</td>
+        <td class="col-status">${badge}</td>
+        <td class="col-price">${price}</td>
+        <td class="col-loc">${esc(i.location||'—')}</td>
+        <td class="col-date">${i.date||'—'}</td>
+        <td class="col-receipt">${receipt}</td>
+        <td class="col-actions">
+          <button class="btn btn-sm" onclick="openModal('${i.id}')">edit</button>
+          <button class="btn btn-sm btn-danger" onclick="deleteItem('${i.id}')">del</button>
+        </td>
+      </tr>`;
+    }).join('');
+  }
+
+  // stats
+  const totalVal = db.reduce((s,i) => s + (parseFloat(i.price)||0), 0);
+  const repairN = db.filter(i => i.status === 'In need of repair').length;
+  const lentN   = db.filter(i => i.status === 'Lent out').length;
+  document.getElementById('statsBar').innerHTML = [
+    ['items', db.length],
+    ['total value', `CHF ${totalVal.toLocaleString('de-CH',{minimumFractionDigits:0,maximumFractionDigits:0})}`],
+    ['need repair', repairN],
+    ['lent out', lentN],
+    ['categories', new Set(db.map(i=>i.category).filter(Boolean)).size],
+  ].map(([l,v]) => `<div class="stat"><div class="stat-label">${l}</div><div class="stat-val">${v}</div></div>`).join('');
+
+  // category filter + datalist
+  const cats = [...new Set(db.map(i=>i.category).filter(Boolean))].sort();
+  const catSel = document.getElementById('filterCat');
+  const prev = catSel.value;
+  catSel.innerHTML = '<option value="">All categories</option>' + cats.map(c=>`<option${c===prev?' selected':''}>${esc(c)}</option>`).join('');
+  const catList = document.getElementById('catList');
+  if (catList) catList.innerHTML = cats.map(c=>`<option value="${esc(c)}">`).join('');
+
+  // pager
+  const pager = document.getElementById('pager');
+  pager.innerHTML = total > PER
+    ? `<span>${(page-1)*PER+1}–${Math.min(page*PER,total)} of ${total}</span>
+       <button class="btn btn-sm" onclick="goPage(${page-1})" ${page===1?'disabled':''}>←</button>
+       <button class="btn btn-sm" onclick="goPage(${page+1})" ${page===pages?'disabled':''}>→</button>`
+    : '';
+}
+
+function goPage(p) { page = p; render(); }
+function esc(s) { return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+
+// ─── MODAL ────────────────────────────────────────────────────────────────────
+function openModal(id) {
+  editId = id || null;
+  pendingFile = null;
+  document.getElementById('modalTitle').textContent = id ? 'Edit item' : 'Add item';
+  const fields = {name:'',cat:'',status:'OK',price:'',date:'',loc:'',desc:'',link:'',tags:''};
+  const i = id ? db.find(x => x.id === id) : {};
+  if (i) {
+    Object.assign(fields, {
+      name:i.name||'', cat:i.category||'', status:i.status||'OK',
+      price:i.price||'', date:i.date||'', loc:i.location||'',
+      desc:i.description||'', link:i.link||'', tags:i.tags||''
+    });
+  }
+  for (const [k,v] of Object.entries(fields)) {
+    const el = document.getElementById(`f_${k}`);
+    if (el) el.value = v;
+  }
+  const uploadLabel = document.getElementById('uploadLabel');
+  const zone = document.getElementById('uploadZone');
+  const existing = document.getElementById('existingReceipt');
+  zone.classList.remove('has-file');
+  uploadLabel.textContent = 'Drop PDF here or click to browse';
+  document.getElementById('f_receipt_file').value = '';
+  if (id && i && i.receipt) {
+    existing.style.display = 'block';
+    existing.innerHTML = `Current: <a class="receipt-link" href="https://raw.githubusercontent.com/${cfg.user}/${cfg.repo}/main/${i.receipt}" target="_blank">${i.receipt.split('/').pop()}</a> — upload new to replace`;
+  } else { existing.style.display = 'none'; }
+  openOverlay('itemModal');
+}
+
+function closeModal(id) { document.getElementById(id).classList.remove('open'); }
+function openOverlay(id) { document.getElementById(id).classList.add('open'); }
+
+function openSetup() {
+  document.getElementById('cfg_user').value = cfg.user || '';
+  document.getElementById('cfg_repo').value = cfg.repo || '';
+  document.getElementById('cfg_token').value = cfg.token || '';
+  document.getElementById('cfg_error').style.display = 'none';
+  openOverlay('setupModal');
+}
+
+async function saveConfig() {
+  const user = document.getElementById('cfg_user').value.trim();
+  const repo = document.getElementById('cfg_repo').value.trim();
+  const token = document.getElementById('cfg_token').value.trim();
+  if (!user || !repo || !token) { showCfgError('All fields are required.'); return; }
+  cfg = { user, repo, token };
+  localStorage.setItem('inv_cfg', JSON.stringify(cfg));
+  closeModal('setupModal');
+  await loadDB();
+}
+
+function showCfgError(msg) {
+  const el = document.getElementById('cfg_error');
+  el.textContent = msg; el.style.display = 'block';
+}
+
+// ─── SAVE ITEM ────────────────────────────────────────────────────────────────
+async function saveItem() {
+  const name = document.getElementById('f_name').value.trim();
+  if (!name) { alert('Name is required.'); return; }
+  if (!cfg.token) { alert('Configure GitHub first (⚙ config button).'); return; }
+
+  const btn = document.getElementById('saveBtn');
+  btn.textContent = 'Saving…'; btn.disabled = true;
+
+  try {
+    const id = editId || uid();
+    let receiptPath = editId ? (db.find(x=>x.id===editId)||{}).receipt : undefined;
+
+    if (pendingFile) {
+      setStatus('uploading receipt…');
+      receiptPath = await uploadReceipt(id, name, pendingFile);
+    }
+
+    const item = {
+      id,
+      name,
+      category: document.getElementById('f_cat').value.trim(),
+      status:   document.getElementById('f_status').value,
+      price:    document.getElementById('f_price').value,
+      date:     document.getElementById('f_date').value,
+      location: document.getElementById('f_loc').value.trim(),
+      description: document.getElementById('f_desc').value.trim(),
+      link:     document.getElementById('f_link').value.trim(),
+      tags:     document.getElementById('f_tags').value.trim(),
+      receipt:  receiptPath || null,
+    };
+
+    if (editId) { const idx = db.findIndex(x=>x.id===editId); if (idx>-1) db[idx]=item; }
+    else db.push(item);
+
+    await saveDB(editId ? `Edit: ${name}` : `Add: ${name}`);
+    closeModal('itemModal');
+    render();
+  } catch (e) {
+    alert('Error: ' + e.message);
+    setStatus('error');
+  } finally {
+    btn.textContent = 'Save'; btn.disabled = false;
+  }
+}
+
+async function deleteItem(id) {
+  const item = db.find(x=>x.id===id);
+  if (!item || !confirm(`Delete "${item.name}"?`)) return;
+  db = db.filter(x=>x.id!==id);
+  await saveDB(`Delete: ${item.name}`);
+  render();
+}
+
+// ─── FILE HANDLING ────────────────────────────────────────────────────────────
+function handleFileSelect(input) {
+  if (input.files[0]) setPendingFile(input.files[0]);
+}
+function handleDrag(e, on) {
+  e.preventDefault();
+  document.getElementById('uploadZone').classList.toggle('drag', on);
+}
+function handleDrop(e) {
+  e.preventDefault();
+  document.getElementById('uploadZone').classList.remove('drag');
+  const f = e.dataTransfer.files[0];
+  if (f && f.type === 'application/pdf') setPendingFile(f);
+  else alert('Please drop a PDF file.');
+}
+function setPendingFile(f) {
+  pendingFile = f;
+  const zone = document.getElementById('uploadZone');
+  document.getElementById('uploadLabel').textContent = `📄 ${f.name} (${(f.size/1024).toFixed(0)} KB)`;
+  zone.classList.add('has-file');
+}
+
+// ─── UTILS ───────────────────────────────────────────────────────────────────
+function setStatus(msg) { document.getElementById('sync-status').textContent = msg; }
+
+// close overlays on bg click
+document.querySelectorAll('.modal-overlay').forEach(el => {
+  el.addEventListener('click', e => { if (e.target === el) el.classList.remove('open'); });
+});
+
+// ─── INIT ─────────────────────────────────────────────────────────────────────
+if (!cfg.token) {
+  render();
+  // Prompt setup on first load
+  setTimeout(() => openSetup(), 400);
+} else {
+  loadDB();
+}
+</script>
+</body>
+</html>
