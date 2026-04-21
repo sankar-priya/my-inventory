@@ -311,8 +311,15 @@ tr:hover td { background: #fafaf7; }
       </div>
       <div class="form-row">
         <div class="form-group">
-          <label>Price (CHF)</label>
-          <input type="number" id="f_price" placeholder="0.00" min="0" step="0.01">
+          <label>Price</label>
+          <div style="display:flex;gap:6px">
+            <select id="f_currency" style="width:90px;flex-shrink:0">
+              <option>CHF</option><option>EUR</option><option>USD</option><option>GBP</option><option>INR</option>
+              <option>AUD</option><option>CAD</option><option>JPY</option><option>CNY</option><option>SGD</option>
+              <option>HKD</option><option>NZD</option><option>DKK</option><option>SEK</option><option>NOK</option>
+            </select>
+            <input type="number" id="f_price" placeholder="0.00" min="0" step="0.01" style="flex:1">
+          </div>
         </div>
         <div class="form-group">
           <label>Purchase date</label>
@@ -322,7 +329,11 @@ tr:hover td { background: #fafaf7; }
       <div class="form-row full">
         <div class="form-group">
           <label>Location</label>
-          <input type="text" id="f_loc" placeholder="Bedroom shelf, Storage unit B…">
+          <div style="display:flex;gap:6px;align-items:center">
+            <input type="text" id="f_loc" placeholder="Pick from list or type freely…" list="locList" style="flex:1">
+            <button type="button" class="btn btn-sm" onclick="openLocManager()" title="Manage saved locations" style="flex-shrink:0;padding:7px 10px">✎</button>
+          </div>
+          <datalist id="locList"></datalist>
         </div>
       </div>
       <div class="form-row full">
@@ -370,7 +381,7 @@ tr:hover td { background: #fafaf7; }
     </div>
     <div class="modal-body">
       <div style="margin-bottom:1.25rem">
-        <div class="step"><span class="step-num">1</span><span>Create a GitHub repo named <code style="background:var(--bg);padding:1px 5px;border-radius:3px;font-size:12px">my-inventory</code> (or any name) and enable GitHub Pages from Settings → Pages → Deploy from branch <code style="background:var(--bg);padding:1px 5px;border-radius:3px;font-size:12px">main</code>.</span></div>
+        <div class="step"><span class="step-num">1</span><span>Create a GitHub repo and enable GitHub Pages from Settings → Pages → Deploy from branch <code style="background:var(--bg);padding:1px 5px;border-radius:3px;font-size:12px">main</code>.</span></div>
         <div class="step"><span class="step-num">2</span><span>Create a Personal Access Token at <a href="https://github.com/settings/tokens/new" target="_blank" style="color:var(--accent)">github.com/settings/tokens/new</a> — select <strong>Classic</strong>, tick <code style="background:var(--bg);padding:1px 5px;border-radius:3px;font-size:12px">repo</code> scope only.</span></div>
         <div class="step"><span class="step-num">3</span><span>Upload this <code style="background:var(--bg);padding:1px 5px;border-radius:3px;font-size:12px">index.html</code> to the root of your repo, then fill in the fields below.</span></div>
       </div>
@@ -402,6 +413,27 @@ tr:hover td { background: #fafaf7; }
   </div>
 </div>
 
+<!-- LOCATION MANAGER MODAL -->
+<div class="modal-overlay" id="locModal">
+  <div class="modal">
+    <div class="modal-header">
+      <h2>Manage locations</h2>
+      <button class="btn btn-ghost btn-sm" onclick="closeModal('locModal')">✕</button>
+    </div>
+    <div class="modal-body">
+      <p style="font-size:12px;color:var(--text-muted);margin-bottom:1rem">These appear as quick-pick suggestions in the location field. You can still type anything freely.</p>
+      <div style="display:flex;gap:8px;margin-bottom:1rem">
+        <input type="text" id="newLocInput" placeholder="Add new location…" style="flex:1" onkeydown="if(event.key==='Enter')addLocation()">
+        <button class="btn btn-primary btn-sm" onclick="addLocation()">Add</button>
+      </div>
+      <div id="locList_edit" style="display:flex;flex-direction:column;gap:6px"></div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn btn-primary" onclick="saveLocations()">Done</button>
+    </div>
+  </div>
+</div>
+
 <script>
 // ─── CONFIG ───────────────────────────────────────────────────────────────────
 let cfg = JSON.parse(localStorage.getItem('inv_cfg') || '{}');
@@ -410,6 +442,17 @@ let pendingFile = null;
 let editId = null;
 let sortCol = 'name', sortAsc = true, page = 1;
 const PER = 20;
+
+const DEFAULT_LOCATIONS = [
+  'US Box A','US Box B','US Box C','US Box D','US Box E',
+  'Fencing bag','Art','Ski bag','Blue suitcase','Grey suitcase','James'
+];
+let savedLocations = JSON.parse(localStorage.getItem('inv_locations') || 'null') || [...DEFAULT_LOCATIONS];
+
+function updateLocDatalist() {
+  const dl = document.getElementById('locList');
+  if (dl) dl.innerHTML = savedLocations.map(l => `<option value="${esc(l)}">`).join('');
+}
 
 const BADGE = {
   'OK':                 'b-ok',
@@ -527,7 +570,7 @@ function render() {
     tbody.innerHTML = `<tr><td colspan="8"><div class="empty">${db.length ? 'No results.' : (!cfg.token ? 'Configure GitHub first (⚙ config), then add items.' : 'No items yet.')}<p>${db.length ? '' : (!cfg.token ? '' : 'Click + add item to get started.')}</p></div></td></tr>`;
   } else {
     tbody.innerHTML = slice.map(i => {
-      const price = i.price ? `CHF ${parseFloat(i.price).toFixed(2)}` : '—';
+      const price = i.price ? `${i.currency||'CHF'} ${parseFloat(i.price).toFixed(2)}` : '—';
       const badge = `<span class="badge ${BADGE[i.status]||'b-ok'}">${i.status||'OK'}</span>`;
       const receipt = i.receipt
         ? `<a class="receipt-link" href="https://raw.githubusercontent.com/${cfg.user}/${cfg.repo}/main/${i.receipt}" target="_blank">PDF ↗</a>`
@@ -558,7 +601,6 @@ function render() {
   const lentN   = db.filter(i => i.status === 'Lent out').length;
   document.getElementById('statsBar').innerHTML = [
     ['items', db.length],
-    ['total value', `CHF ${totalVal.toLocaleString('de-CH',{minimumFractionDigits:0,maximumFractionDigits:0})}`],
     ['need repair', repairN],
     ['lent out', lentN],
     ['categories', new Set(db.map(i=>i.category).filter(Boolean)).size],
@@ -589,12 +631,12 @@ function openModal(id) {
   editId = id || null;
   pendingFile = null;
   document.getElementById('modalTitle').textContent = id ? 'Edit item' : 'Add item';
-  const fields = {name:'',cat:'',status:'OK',price:'',date:'',loc:'',desc:'',link:'',tags:''};
+  const fields = {name:'',cat:'',status:'OK',price:'',currency:'CHF',date:'',loc:'',desc:'',link:'',tags:''};
   const i = id ? db.find(x => x.id === id) : {};
   if (i) {
     Object.assign(fields, {
       name:i.name||'', cat:i.category||'', status:i.status||'OK',
-      price:i.price||'', date:i.date||'', loc:i.location||'',
+      price:i.price||'', currency:i.currency||'CHF', date:i.date||'', loc:i.location||'',
       desc:i.description||'', link:i.link||'', tags:i.tags||''
     });
   }
@@ -602,6 +644,7 @@ function openModal(id) {
     const el = document.getElementById(`f_${k}`);
     if (el) el.value = v;
   }
+  updateLocDatalist();
   const uploadLabel = document.getElementById('uploadLabel');
   const zone = document.getElementById('uploadZone');
   const existing = document.getElementById('existingReceipt');
@@ -666,6 +709,7 @@ async function saveItem() {
       category: document.getElementById('f_cat').value.trim(),
       status:   document.getElementById('f_status').value,
       price:    document.getElementById('f_price').value,
+      currency: document.getElementById('f_currency').value,
       date:     document.getElementById('f_date').value,
       location: document.getElementById('f_loc').value.trim(),
       description: document.getElementById('f_desc').value.trim(),
@@ -718,6 +762,42 @@ function setPendingFile(f) {
   zone.classList.add('has-file');
 }
 
+// ─── LOCATION MANAGER ────────────────────────────────────────────────────────
+function openLocManager() {
+  renderLocList();
+  openOverlay('locModal');
+}
+
+function renderLocList() {
+  const el = document.getElementById('locList_edit');
+  el.innerHTML = savedLocations.map((l, i) => `
+    <div style="display:flex;align-items:center;gap:8px;padding:6px 10px;background:var(--bg);border-radius:var(--radius);border:1px solid var(--border)">
+      <span style="flex:1;font-size:13px">${esc(l)}</span>
+      <button class="btn btn-sm btn-danger" onclick="removeLocation(${i})">remove</button>
+    </div>`).join('');
+}
+
+function addLocation() {
+  const input = document.getElementById('newLocInput');
+  const val = input.value.trim();
+  if (!val) return;
+  if (savedLocations.includes(val)) { input.value=''; return; }
+  savedLocations.push(val);
+  input.value = '';
+  renderLocList();
+}
+
+function removeLocation(idx) {
+  savedLocations.splice(idx, 1);
+  renderLocList();
+}
+
+function saveLocations() {
+  localStorage.setItem('inv_locations', JSON.stringify(savedLocations));
+  updateLocDatalist();
+  closeModal('locModal');
+}
+
 // ─── UTILS ───────────────────────────────────────────────────────────────────
 function setStatus(msg) { document.getElementById('sync-status').textContent = msg; }
 
@@ -729,10 +809,11 @@ document.querySelectorAll('.modal-overlay').forEach(el => {
 // ─── INIT ─────────────────────────────────────────────────────────────────────
 if (!cfg.token) {
   render();
-  // Prompt setup on first load
+  updateLocDatalist();
   setTimeout(() => openSetup(), 400);
 } else {
   loadDB();
+  updateLocDatalist();
 }
 </script>
 </body>
