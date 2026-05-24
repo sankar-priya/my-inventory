@@ -576,5 +576,26 @@
     ],
     "createdAt": "2026-05-24T17:30:41.187Z",
     "updatedAt": "2026-05-24T17:30:41.187Z"
+  },
+  {
+    "id": "mpk2g13dt572",
+    "name": "RL Wool Tweed Pants",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "39.93",
+    "currency": "USD",
+    "date": "2022-12-23",
+    "location": "Plastic Box 1",
+    "description": "Polo Ralph Lauren wool pants size 8 vintage",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mpk2g13dt572_wool_rl_pants.pdf"
+    ],
+    "photos": [
+      "photos/mpk2g13dt572_IMG_1480.HEIC"
+    ],
+    "createdAt": "2026-05-24T17:43:23.159Z",
+    "updatedAt": "2026-05-24T17:43:23.159Z"
   }
 ]
