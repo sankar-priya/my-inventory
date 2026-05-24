@@ -7,10 +7,15 @@
     "price": "97.84",
     "currency": "USD",
     "date": "2026-05-08",
-    "location": "",
+    "location": "CH Flat",
     "description": "",
     "link": "",
     "tags": "",
-    "receipt": "receipts/mpjpqy1k1htq.pdf"
+    "receipts": [
+      "receipts/mpjpqy1k1htq.pdf"
+    ],
+    "photos": [],
+    "createdAt": "2026-05-24T12:05:41.719Z",
+    "updatedAt": "2026-05-24T12:05:41.719Z"
   }
 ]
