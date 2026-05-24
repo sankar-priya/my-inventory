@@ -448,11 +448,32 @@
     "description": "Natural, size M, strapless",
     "link": "https://www.revolve.com/alohas-dinka-maxi-dress-in-natural/dp/ALOH-WD1/?d=Womens&code=ALOH-WD1&utm_medium=email&utm_source=Transactional&utm_campaign=TRANS_REV_SHIPMENT_SHIPMENTINCLUSIVE&utm_content=trans_rev_shipment_shipmentinclusive&userId=&refID=B331863239-20251104015959",
     "tags": "",
-    "receipts": [],
+    "receipts": [
+      "receipts/mpk1062hqdec_Alohas_dress.pdf"
+    ],
     "photos": [
       "photos/mpk1062hqdec_IMG_1470.HEIC"
     ],
     "createdAt": "2026-05-24T17:03:02.698Z",
-    "updatedAt": "2026-05-24T17:03:02.698Z"
+    "updatedAt": "2026-05-24T17:03:19.765Z"
+  },
+  {
+    "id": "mpk19101r28i",
+    "name": "Red Likely Short Sleeve mini dress",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "45.23",
+    "currency": "USD",
+    "date": "2022-04-13",
+    "location": "Plastic Box 1",
+    "description": "LIKELY Manhattan Red Mini Dress size 10",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpk19101r28i_IMG_1472.HEIC"
+    ],
+    "createdAt": "2026-05-24T17:09:55.168Z",
+    "updatedAt": "2026-05-24T17:09:55.168Z"
   }
 ]
