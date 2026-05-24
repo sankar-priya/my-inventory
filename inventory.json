@@ -281,8 +281,29 @@
     "link": "",
     "tags": "",
     "receipts": [],
-    "photos": [],
+    "photos": [
+      "photos/mpjsf39kyeeg_IMG_1456.HEIC"
+    ],
     "createdAt": "2026-05-24T13:02:39.176Z",
-    "updatedAt": "2026-05-24T13:02:39.176Z"
+    "updatedAt": "2026-05-24T13:02:57.152Z"
+  },
+  {
+    "id": "mpjsifqnj79z",
+    "name": "Farm Rio Green Dress",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "72.05",
+    "currency": "USD",
+    "date": "2023-05-25",
+    "location": "Ski bag",
+    "description": "Farm Rio Fresh Forest Scarf Mini Dress Size M",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpjsifqnj79z_IMG_1457.HEIC"
+    ],
+    "createdAt": "2026-05-24T13:05:34.109Z",
+    "updatedAt": "2026-05-24T13:05:34.109Z"
   }
 ]
