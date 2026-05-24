@@ -374,5 +374,24 @@
     ],
     "createdAt": "2026-05-24T13:20:39.456Z",
     "updatedAt": "2026-05-24T13:20:39.456Z"
+  },
+  {
+    "id": "mpjt3pd33g49",
+    "name": "Hat Südbar",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "20",
+    "currency": "CHF",
+    "date": "2026-03-27",
+    "location": "Ski bag",
+    "description": "From sudbar in St Gallen",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpjt3pd33g49_IMG_1459.HEIC"
+    ],
+    "createdAt": "2026-05-24T13:22:03.299Z",
+    "updatedAt": "2026-05-24T13:22:03.299Z"
   }
 ]
