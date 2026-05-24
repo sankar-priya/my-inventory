@@ -616,5 +616,43 @@
     ],
     "createdAt": "2026-05-24T17:46:28.794Z",
     "updatedAt": "2026-05-24T17:46:28.794Z"
+  },
+  {
+    "id": "mpk2l893bch4",
+    "name": "US Flag Hawaiian shirt",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Plastic Box 1",
+    "description": "Rowdy Gentlemen US Flag Hawaiian shirt size S",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpk2l893bch4_IMG_1483.HEIC"
+    ],
+    "createdAt": "2026-05-24T17:47:24.236Z",
+    "updatedAt": "2026-05-24T17:47:24.236Z"
+  },
+  {
+    "id": "mpk2y7b3tmy3",
+    "name": "Amanda Uprichard Burgundy Satin midi dress",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Plastic Box 1",
+    "description": "Size 6",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpk2y7b3tmy3_IMG_1471.HEIC"
+    ],
+    "createdAt": "2026-05-24T17:57:30.093Z",
+    "updatedAt": "2026-05-24T17:57:30.093Z"
   }
 ]
