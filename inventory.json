@@ -355,5 +355,24 @@
     ],
     "createdAt": "2026-05-24T13:17:44.751Z",
     "updatedAt": "2026-05-24T13:17:44.751Z"
+  },
+  {
+    "id": "mpjt1pd6ywja",
+    "name": "Hat Watches & Wonders",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "25",
+    "currency": "CHF",
+    "date": "2026-04-18",
+    "location": "Ski bag",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpjt1pd6ywja_IMG_1459.HEIC"
+    ],
+    "createdAt": "2026-05-24T13:20:39.456Z",
+    "updatedAt": "2026-05-24T13:20:39.456Z"
   }
 ]
