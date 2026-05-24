@@ -267,5 +267,22 @@
     "photos": [],
     "createdAt": "2026-05-24T13:01:13.760Z",
     "updatedAt": "2026-05-24T13:01:13.760Z"
+  },
+  {
+    "id": "mpjsf39kyeeg",
+    "name": "Burberry trench dress",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "97.93",
+    "currency": "CHF",
+    "date": "2025-07-29",
+    "location": "Ski bag",
+    "description": "Safari dress from early 2000's,; short sleeved with check trim,",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [],
+    "createdAt": "2026-05-24T13:02:39.176Z",
+    "updatedAt": "2026-05-24T13:02:39.176Z"
   }
 ]
