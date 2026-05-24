@@ -349,12 +349,14 @@
     "description": "Confused Women Slipper (left/right) size 7 US Women",
     "link": "",
     "tags": "",
-    "receipts": [],
+    "receipts": [
+      "receipts/mpjsy1ngy808_Stubbs_and_Wootton_Slippers.pdf"
+    ],
     "photos": [
       "photos/mpjsy1ngy808_IMG_1458.HEIC"
     ],
     "createdAt": "2026-05-24T13:17:44.751Z",
-    "updatedAt": "2026-05-24T13:17:44.751Z"
+    "updatedAt": "2026-05-24T13:23:11.805Z"
   },
   {
     "id": "mpjt1pd6ywja",
@@ -393,5 +395,24 @@
     ],
     "createdAt": "2026-05-24T13:22:03.299Z",
     "updatedAt": "2026-05-24T13:22:03.299Z"
+  },
+  {
+    "id": "mpjt4t60z1a2",
+    "name": "HSG MBF Hoodie",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Ski bag",
+    "description": "Custom MBF Hoodie from HSG Size L",
+    "link": "",
+    "tags": "gift",
+    "receipts": [],
+    "photos": [
+      "photos/mpjt4t60z1a2_IMG_1461.HEIC"
+    ],
+    "createdAt": "2026-05-24T13:22:52.978Z",
+    "updatedAt": "2026-05-24T13:22:52.978Z"
   }
 ]
