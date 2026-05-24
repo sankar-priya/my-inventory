@@ -51,5 +51,22 @@
     "photos": [],
     "createdAt": "2026-05-24T12:20:22.682Z",
     "updatedAt": "2026-05-24T12:20:22.682Z"
+  },
+  {
+    "id": "mpjqyk5p4z78",
+    "name": "Ski boots",
+    "category": "Sporting Equipment",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "2025-12-15",
+    "location": "Ski bag",
+    "description": "Nordica Size 39",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [],
+    "createdAt": "2026-05-24T12:21:48.301Z",
+    "updatedAt": "2026-05-24T12:21:48.301Z"
   }
 ]
