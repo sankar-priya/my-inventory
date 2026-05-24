@@ -264,9 +264,11 @@
     "link": "https://www.amazon.com/dp/B075ZXZ5X5?ref_=ppx_printOD_title_dt_b_fed_asin_title_0_0",
     "tags": "",
     "receipts": [],
-    "photos": [],
+    "photos": [
+      "photos/mpjsd9cwxium_IMG_1455.HEIC"
+    ],
     "createdAt": "2026-05-24T13:01:13.760Z",
-    "updatedAt": "2026-05-24T13:01:13.760Z"
+    "updatedAt": "2026-05-24T13:07:06.211Z"
   },
   {
     "id": "mpjsf39kyeeg",
@@ -299,11 +301,13 @@
     "description": "Farm Rio Fresh Forest Scarf Mini Dress Size M",
     "link": "",
     "tags": "",
-    "receipts": [],
+    "receipts": [
+      "receipts/mpjsifqnj79z_Farm_Rio_dress.pdf"
+    ],
     "photos": [
       "photos/mpjsifqnj79z_IMG_1457.HEIC"
     ],
     "createdAt": "2026-05-24T13:05:34.109Z",
-    "updatedAt": "2026-05-24T13:05:34.109Z"
+    "updatedAt": "2026-05-24T13:06:25.772Z"
   }
 ]
