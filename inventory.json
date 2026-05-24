@@ -17,5 +17,22 @@
     "photos": [],
     "createdAt": "2026-05-24T12:05:41.719Z",
     "updatedAt": "2026-05-24T12:05:41.719Z"
+  },
+  {
+    "id": "mpjqtt8xj89f",
+    "name": "Head Skis",
+    "category": "Sporting Equipment",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "2026-02-13",
+    "location": "Ski bag",
+    "description": "Cyber C120 156cm with Salomon bindings",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [],
+    "createdAt": "2026-05-24T12:18:06.801Z",
+    "updatedAt": "2026-05-24T12:18:06.801Z"
   }
 ]
