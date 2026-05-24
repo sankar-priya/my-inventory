@@ -383,7 +383,7 @@
   },
   {
     "id": "mpjt3pd33g49",
-    "name": "Hat SÃÂ¼dbar",
+    "name": "Hat Sudbar",
     "category": "Clothing",
     "status": "OK",
     "price": "20",
@@ -398,7 +398,7 @@
       "photos/mpjt3pd33g49_IMG_1459.HEIC"
     ],
     "createdAt": "2026-05-24T13:22:03.299Z",
-    "updatedAt": "2026-05-24T13:22:03.299Z"
+    "updatedAt": "2026-05-24T17:10:14.982Z"
   },
   {
     "id": "mpjt4t60z1a2",
@@ -469,11 +469,34 @@
     "description": "LIKELY Manhattan Red Mini Dress size 10",
     "link": "",
     "tags": "",
-    "receipts": [],
+    "receipts": [
+      "receipts/mpk19101r28i_Likely_Manhattan_Red.pdf"
+    ],
     "photos": [
       "photos/mpk19101r28i_IMG_1472.HEIC"
     ],
     "createdAt": "2026-05-24T17:09:55.168Z",
-    "updatedAt": "2026-05-24T17:09:55.168Z"
+    "updatedAt": "2026-05-24T17:10:07.354Z"
+  },
+  {
+    "id": "mpk1d23nvmjx",
+    "name": "Aritzia Teal Dress",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "54.99",
+    "currency": "USD",
+    "date": "2022-07-11",
+    "location": "Plastic Box 1",
+    "description": "Babaton SCULPT KNIT RACER DRESS Size M Turquoise Blue",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mpk1d23nvmjx_Aritzia_Teal_Dress.pdf"
+    ],
+    "photos": [
+      "photos/mpk1d23nvmjx_IMG_1473.HEIC"
+    ],
+    "createdAt": "2026-05-24T17:13:13.526Z",
+    "updatedAt": "2026-05-24T17:13:13.526Z"
   }
 ]
