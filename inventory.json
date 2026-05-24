@@ -383,7 +383,7 @@
   },
   {
     "id": "mpjt3pd33g49",
-    "name": "Hat SÃ¼dbar",
+    "name": "Hat SÃÂ¼dbar",
     "category": "Clothing",
     "status": "OK",
     "price": "20",
@@ -418,5 +418,22 @@
     ],
     "createdAt": "2026-05-24T13:22:52.978Z",
     "updatedAt": "2026-05-24T13:22:52.978Z"
+  },
+  {
+    "id": "mpk0xs5dfwha",
+    "name": "Plastic Box 1",
+    "category": "Storage CH",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "CH flat",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [],
+    "createdAt": "2026-05-24T17:01:08.162Z",
+    "updatedAt": "2026-05-24T17:01:08.162Z"
   }
 ]
