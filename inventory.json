@@ -597,5 +597,24 @@
     ],
     "createdAt": "2026-05-24T17:43:23.159Z",
     "updatedAt": "2026-05-24T17:43:23.159Z"
+  },
+  {
+    "id": "mpk2k15g2y0p",
+    "name": "Navy Pencil Skirt",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Plastic Box 1",
+    "description": "J Crew No. 2 Pencil Skirt in Navy bi stretch cotton size 4",
+    "link": "https://www.jcrew.com/m/womens/categories/clothing/skirts/pencil/trouser-pencil-skirt-in-four-season-stretch/ME851?display=standard&fit=Classic&color_name=black&colorProductCode=CS863",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpk2k15g2y0p_IMG_1482.HEIC"
+    ],
+    "createdAt": "2026-05-24T17:46:28.794Z",
+    "updatedAt": "2026-05-24T17:46:28.794Z"
   }
 ]
