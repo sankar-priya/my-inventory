@@ -130,9 +130,12 @@
     "link": "",
     "tags": "",
     "receipts": [],
-    "photos": [],
+    "photos": [
+      "photos/mpjr0tn143dd_IMG_1447.HEIC",
+      "photos/mpjr0tn143dd_IMG_1448.HEIC"
+    ],
     "createdAt": "2026-05-24T12:23:33.901Z",
-    "updatedAt": "2026-05-24T12:23:33.901Z"
+    "updatedAt": "2026-05-24T12:31:48.224Z"
   },
   {
     "id": "mpjr3snvhegi",
@@ -154,5 +157,26 @@
     ],
     "createdAt": "2026-05-24T12:25:54.128Z",
     "updatedAt": "2026-05-24T12:26:42.998Z"
+  },
+  {
+    "id": "mpjrecj3pkts",
+    "name": "Carhartt Gloves",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "27.99",
+    "currency": "USD",
+    "date": "2023-02-03",
+    "location": "Ski bag",
+    "description": "Carhartt Women's Quilts Insulated Breathable Glove with Waterproof Wicking Insert, Black, Medium",
+    "link": "https://www.amazon.com/dp/B007BL26TO?ref_=ppx_printOD_title_dt_b_fed_asin_title_1_0&th=1&psc=1",
+    "tags": "",
+    "receipts": [
+      "receipts/mpjrecj3pkts_Carhartt_Gloves.pdf"
+    ],
+    "photos": [
+      "photos/mpjrecj3pkts_IMG_1450.HEIC"
+    ],
+    "createdAt": "2026-05-24T12:34:35.191Z",
+    "updatedAt": "2026-05-24T12:34:35.191Z"
   }
 ]
