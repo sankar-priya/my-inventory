@@ -212,12 +212,14 @@
     "description": "Greta Fuschia top and bottom from Frankies Bikinis size M",
     "link": "",
     "tags": "",
-    "receipts": [],
+    "receipts": [
+      "receipts/mpjrxj3cef1o_pink_bikini.pdf"
+    ],
     "photos": [
       "photos/mpjrxj3cef1o_IMG_1452.HEIC"
     ],
     "createdAt": "2026-05-24T12:48:59.880Z",
-    "updatedAt": "2026-05-24T13:08:29.439Z"
+    "updatedAt": "2026-05-24T13:37:06.690Z"
   },
   {
     "id": "mpjs0yp3pb82",
@@ -381,7 +383,7 @@
   },
   {
     "id": "mpjt3pd33g49",
-    "name": "Hat Südbar",
+    "name": "Hat SÃ¼dbar",
     "category": "Clothing",
     "status": "OK",
     "price": "20",
