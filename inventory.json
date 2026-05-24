@@ -19,7 +19,7 @@
     "updatedAt": "2026-05-24T12:05:41.719Z"
   },
   {
-    "id": "mpjqv18omjgo",
+    "id": "mpjqtt8xj89f",
     "name": "Head Skis",
     "category": "Sporting Equipment",
     "status": "OK",
@@ -32,7 +32,24 @@
     "tags": "",
     "receipts": [],
     "photos": [],
-    "createdAt": "2026-05-24T12:19:03.817Z",
-    "updatedAt": "2026-05-24T12:19:03.817Z"
+    "createdAt": "2026-05-24T12:18:06.801Z",
+    "updatedAt": "2026-05-24T12:18:06.801Z"
+  },
+  {
+    "id": "mpjqwq3dcnwc",
+    "name": "Stockli Skis",
+    "category": "Sporting Equipment",
+    "status": "In need of repair",
+    "price": "",
+    "currency": "CHF",
+    "date": "2026-02-25",
+    "location": "Ski bag",
+    "description": "Laser SX 154cm\nRequires a wax/service",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [],
+    "createdAt": "2026-05-24T12:20:22.682Z",
+    "updatedAt": "2026-05-24T12:20:22.682Z"
   }
 ]
