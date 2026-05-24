@@ -144,6 +144,10 @@ tr:hover td { background: #fafaf7; }
 .b-storage   { background: #f0f0f0; color: #4a4a4a; }
 .b-lent      { background: #fde8e8; color: #8a1a1a; }
 .b-sold      { background: #f5f3ee; color: #888; border: 1px solid var(--border); }
+.b-trashed   { background: #f0f0f0; color: #666; border: 1px solid #ddd; text-decoration: line-through; }
+.b-donated   { background: #e8f4fb; color: #1a5a7a; }
+.b-gifted    { background: #fce8f4; color: #7a1a5a; }
+.archived-row td { opacity: 0.55; }
 
 .empty { text-align: center; padding: 4rem 1rem; color: var(--text-muted); font-size: 14px; }
 .empty p { margin-top: 8px; font-family: var(--mono); font-size: 11px; }
@@ -253,6 +257,10 @@ tr:hover td { background: #fafaf7; }
     <option>Lent out</option>
     <option>Sold</option>
   </select>
+  <label style="display:flex;align-items:center;gap:6px;font-size:13px;color:var(--text-muted);cursor:pointer;white-space:nowrap">
+    <input type="checkbox" id="showArchived" onchange="render()" style="width:auto;padding:0;border:none">
+    Show archived
+  </label>
 </div>
 
 <div class="table-wrap">
@@ -435,6 +443,45 @@ tr:hover td { background: #fafaf7; }
   </div>
 </div>
 
+<!-- ARCHIVE MODAL -->
+<div class="modal-overlay" id="archiveModal">
+  <div class="modal">
+    <div class="modal-header">
+      <h2 id="archiveTitle">Archive item</h2>
+      <button class="btn btn-ghost btn-sm" onclick="closeModal('archiveModal')">✕</button>
+    </div>
+    <div class="modal-body">
+      <p style="font-size:13px;color:var(--text-muted);margin-bottom:1rem">All original data (price, receipts, photos) is preserved. Archived items are hidden by default but always searchable.</p>
+      <div class="form-row full" style="margin-bottom:12px">
+        <div class="form-group">
+          <label>Archive reason *</label>
+          <select id="arc_reason">
+            <option value="Trashed">Trashed — threw it away</option>
+            <option value="Donated">Donated — given to charity / organisation</option>
+            <option value="Gifted">Gifted — given to a person</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-row full" style="margin-bottom:12px">
+        <div class="form-group">
+          <label>Date</label>
+          <input type="date" id="arc_date">
+        </div>
+      </div>
+      <div class="form-row full">
+        <div class="form-group">
+          <label>Note (optional) — who received it, which charity, condition etc.</label>
+          <textarea id="arc_note" placeholder="e.g. Donated to Brocki Zürich, gifted to Sarah, left at recycling centre…" style="min-height:60px"></textarea>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn" onclick="closeModal('archiveModal')">Cancel</button>
+      <button class="btn btn-primary" onclick="confirmArchive()" style="background:#7a6010;border-color:#7a6010">Archive item</button>
+    </div>
+  </div>
+</div>
+
 <!-- LOCATION MANAGER MODAL -->
 <div class="modal-overlay" id="locModal">
   <div class="modal">
@@ -482,7 +529,8 @@ function updateLocDatalist() {
 
 const BADGE = {
   'OK':'b-ok','In need of repair':'b-repair','In suitcase':'b-suitcase',
-  'In closet':'b-closet','In storage':'b-storage','Lent out':'b-lent','Sold':'b-sold'
+  'In closet':'b-closet','In storage':'b-storage','Lent out':'b-lent','Sold':'b-sold',
+  'Trashed':'b-trashed','Donated':'b-donated','Gifted':'b-gifted'
 };
 
 // ─── GITHUB API ───────────────────────────────────────────────────────────────
@@ -558,10 +606,12 @@ function filtered() {
   const q = document.getElementById('search').value.toLowerCase();
   const cat = document.getElementById('filterCat').value;
   const st = document.getElementById('filterStatus').value;
+  const showArchived = document.getElementById('showArchived').checked;
   return db.filter(i => {
+    if (!showArchived && i.archived) return false;
     if (cat && i.category !== cat) return false;
     if (st && i.status !== st) return false;
-    if (q && ![i.name,i.category,i.location,i.description,i.tags].join(' ').toLowerCase().includes(q)) return false;
+    if (q && ![i.name,i.category,i.location,i.description,i.tags,i.archiveNote].join(' ').toLowerCase().includes(q)) return false;
     return true;
   }).sort((a,b) => {
     let av = a[sortCol]||'', bv = b[sortCol]||'';
@@ -606,8 +656,12 @@ function render() {
         ? `<div class="files-cell">${allFiles.map(p=>`<a class="file-link" href="https://raw.githubusercontent.com/${cfg.user}/${cfg.repo}/main/${p}" target="_blank">${fileLabel(p)}</a>`).join('')}</div>`
         : '<span style="color:var(--text-muted);font-size:11px">—</span>';
 
-      return `<tr>
-        <td class="col-name">${nameCell}${tags}</td>
+      const archiveNote = i.archived
+        ? `<div style="font-size:10px;color:var(--text-muted);font-family:var(--mono);margin-top:2px">
+            archived ${i.archivedDate||''} ${i.archiveNote ? '· '+esc(i.archiveNote) : ''}
+           </div>` : '';
+      return `<tr class="${i.archived?'archived-row':''}">
+        <td class="col-name">${nameCell}${tags}${archiveNote}</td>
         <td class="col-cat">${esc(i.category||'—')}</td>
         <td class="col-status">${badge}</td>
         <td class="col-price">${price}</td>
@@ -617,19 +671,25 @@ function render() {
         <td class="col-files">${filesCell}</td>
         <td class="col-actions">
           <button class="btn btn-sm" onclick="openModal('${i.id}')">edit</button>
+          ${i.archived
+            ? `<button class="btn btn-sm" onclick="unarchiveItem('${i.id}')" title="Restore to active">restore</button>`
+            : `<button class="btn btn-sm" style="color:#7a6010;border-color:#e8d89a" onclick="openArchive('${i.id}')">archive</button>`
+          }
           <button class="btn btn-sm btn-danger" onclick="deleteItem('${i.id}')">del</button>
         </td>
       </tr>`;
     }).join('');
   }
 
-  const repairN = db.filter(i=>i.status==='In need of repair').length;
-  const lentN   = db.filter(i=>i.status==='Lent out').length;
+  const repairN   = db.filter(i=>!i.archived && i.status==='In need of repair').length;
+  const lentN     = db.filter(i=>!i.archived && i.status==='Lent out').length;
+  const archivedN = db.filter(i=>i.archived).length;
   document.getElementById('statsBar').innerHTML = [
-    ['items', db.length],
+    ['active items', db.filter(i=>!i.archived).length],
     ['need repair', repairN],
     ['lent out', lentN],
-    ['categories', new Set(db.map(i=>i.category).filter(Boolean)).size],
+    ['archived', archivedN],
+    ['categories', new Set(db.filter(i=>!i.archived).map(i=>i.category).filter(Boolean)).size],
   ].map(([l,v])=>`<div class="stat"><div class="stat-label">${l}</div><div class="stat-val">${v}</div></div>`).join('');
 
   const cats = [...new Set(db.map(i=>i.category).filter(Boolean))].sort();
@@ -833,6 +893,43 @@ async function deleteItem(id) {
   if (!item || !confirm(`Delete "${item.name}"?`)) return;
   db = db.filter(x=>x.id!==id);
   await saveDB(`Delete: ${item.name}`);
+  render();
+}
+
+// ─── ARCHIVE ─────────────────────────────────────────────────────────────────
+let archiveTargetId = null;
+
+function openArchive(id) {
+  archiveTargetId = id;
+  const item = db.find(x=>x.id===id);
+  document.getElementById('archiveTitle').textContent = `Archive: ${item.name}`;
+  document.getElementById('arc_date').value = new Date().toISOString().slice(0,10);
+  document.getElementById('arc_note').value = '';
+  document.getElementById('arc_reason').value = 'Trashed';
+  openOverlay('archiveModal');
+}
+
+async function confirmArchive() {
+  const item = db.find(x=>x.id===archiveTargetId);
+  if (!item) return;
+  item.archived = true;
+  item.archivedAs = document.getElementById('arc_reason').value;
+  item.archivedDate = document.getElementById('arc_date').value;
+  item.archiveNote = document.getElementById('arc_note').value.trim();
+  item.status = item.archivedAs; // reflect in status field for display
+  item.updatedAt = new Date().toISOString();
+  await saveDB(`Archive: ${item.name} (${item.archivedAs})`);
+  closeModal('archiveModal');
+  render();
+}
+
+async function unarchiveItem(id) {
+  const item = db.find(x=>x.id===id);
+  if (!item || !confirm(`Restore "${item.name}" to active inventory?`)) return;
+  item.archived = false;
+  item.status = 'OK';
+  item.updatedAt = new Date().toISOString();
+  await saveDB(`Restore: ${item.name}`);
   render();
 }
 
