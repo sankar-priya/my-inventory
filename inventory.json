@@ -555,5 +555,26 @@
     ],
     "createdAt": "2026-05-24T17:25:40.590Z",
     "updatedAt": "2026-05-24T17:25:40.590Z"
+  },
+  {
+    "id": "mpk1zns70izz",
+    "name": "Poupette St Barth Floral Print Mini Dress",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "95.88",
+    "currency": "USD",
+    "date": "2023-03-24",
+    "location": "Plastic Box 1",
+    "description": "Poupette St Barth Floral Print Mini Dress in orange - crossover top with shirring",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mpk1zns70izz_Poupette_dress.pdf"
+    ],
+    "photos": [
+      "photos/mpk1zns70izz_IMG_1477.HEIC"
+    ],
+    "createdAt": "2026-05-24T17:30:41.187Z",
+    "updatedAt": "2026-05-24T17:30:41.187Z"
   }
 ]
