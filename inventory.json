@@ -68,5 +68,39 @@
     "photos": [],
     "createdAt": "2026-05-24T12:21:48.301Z",
     "updatedAt": "2026-05-24T12:21:48.301Z"
+  },
+  {
+    "id": "mpjqzk9oryd9",
+    "name": "Ski Goggles Bolle",
+    "category": "Sporting Equipment",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Ski bag",
+    "description": "Black, reflective yellow lens",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [],
+    "createdAt": "2026-05-24T12:22:35.100Z",
+    "updatedAt": "2026-05-24T12:22:35.100Z"
+  },
+  {
+    "id": "mpjr0bk3bhz3",
+    "name": "Ski Goggles White",
+    "category": "Sporting Equipment",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Ski bag",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [],
+    "createdAt": "2026-05-24T12:23:10.467Z",
+    "updatedAt": "2026-05-24T12:23:10.467Z"
   }
 ]
