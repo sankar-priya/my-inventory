@@ -250,5 +250,22 @@
     "photos": [],
     "createdAt": "2026-05-24T12:59:05.069Z",
     "updatedAt": "2026-05-24T12:59:05.069Z"
+  },
+  {
+    "id": "mpjsd9cwxium",
+    "name": "Green Swim Seafolly",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "99.99",
+    "currency": "USD",
+    "date": "2019-02-25",
+    "location": "Ski bag",
+    "description": "Seafolly Women's Active Lace-Up Halter Maillot Moss 4",
+    "link": "https://www.amazon.com/dp/B075ZXZ5X5?ref_=ppx_printOD_title_dt_b_fed_asin_title_0_0",
+    "tags": "",
+    "receipts": [],
+    "photos": [],
+    "createdAt": "2026-05-24T13:01:13.760Z",
+    "updatedAt": "2026-05-24T13:01:13.760Z"
   }
 ]
