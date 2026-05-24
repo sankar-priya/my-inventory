@@ -213,9 +213,11 @@
     "link": "",
     "tags": "",
     "receipts": [],
-    "photos": [],
+    "photos": [
+      "photos/mpjrxj3cef1o_IMG_1452.HEIC"
+    ],
     "createdAt": "2026-05-24T12:48:59.880Z",
-    "updatedAt": "2026-05-24T12:48:59.880Z"
+    "updatedAt": "2026-05-24T13:08:29.439Z"
   },
   {
     "id": "mpjs0yp3pb82",
@@ -230,9 +232,11 @@
     "link": "",
     "tags": "",
     "receipts": [],
-    "photos": [],
+    "photos": [
+      "photos/mpjs0yp3pb82_IMG_1453.HEIC"
+    ],
     "createdAt": "2026-05-24T12:51:40.071Z",
-    "updatedAt": "2026-05-24T12:51:40.071Z"
+    "updatedAt": "2026-05-24T13:07:57.072Z"
   },
   {
     "id": "mpjsai21w3z1",
@@ -263,12 +267,14 @@
     "description": "Seafolly Women's Active Lace-Up Halter Maillot Moss 4",
     "link": "https://www.amazon.com/dp/B075ZXZ5X5?ref_=ppx_printOD_title_dt_b_fed_asin_title_0_0",
     "tags": "",
-    "receipts": [],
+    "receipts": [
+      "receipts/mpjsd9cwxium_Seafolly_swim.pdf"
+    ],
     "photos": [
       "photos/mpjsd9cwxium_IMG_1455.HEIC"
     ],
     "createdAt": "2026-05-24T13:01:13.760Z",
-    "updatedAt": "2026-05-24T13:07:06.211Z"
+    "updatedAt": "2026-05-24T13:07:19.486Z"
   },
   {
     "id": "mpjsf39kyeeg",
