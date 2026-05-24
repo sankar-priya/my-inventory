@@ -102,5 +102,41 @@
     "photos": [],
     "createdAt": "2026-05-24T12:23:10.467Z",
     "updatedAt": "2026-05-24T12:23:10.467Z"
+  },
+  {
+    "id": "mpjr0tn143dd",
+    "name": "Ski Helmet",
+    "category": "Sporting Equipment",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Ski bag",
+    "description": "Giro brand",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [],
+    "createdAt": "2026-05-24T12:23:33.901Z",
+    "updatedAt": "2026-05-24T12:23:33.901Z"
+  },
+  {
+    "id": "mpjr3snvhegi",
+    "name": "Ski pants",
+    "category": "Sporting Equipment",
+    "status": "OK",
+    "price": "65.92",
+    "currency": "USD",
+    "date": "2023-02-07",
+    "location": "Ski bag",
+    "description": "Grey Columbia Large, no suspenders",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mpjr3snvhegi_Ski_pant.pdf"
+    ],
+    "photos": [],
+    "createdAt": "2026-05-24T12:25:54.128Z",
+    "updatedAt": "2026-05-24T12:25:54.128Z"
   }
 ]
