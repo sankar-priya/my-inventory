@@ -455,7 +455,7 @@
       "photos/mpk1062hqdec_IMG_1470.HEIC"
     ],
     "createdAt": "2026-05-24T17:03:02.698Z",
-    "updatedAt": "2026-05-24T17:03:19.765Z"
+    "updatedAt": "2026-05-24T17:20:41.654Z"
   },
   {
     "id": "mpk19101r28i",
@@ -517,5 +517,24 @@
     ],
     "createdAt": "2026-05-24T17:20:10.656Z",
     "updatedAt": "2026-05-24T17:20:10.656Z"
+  },
+  {
+    "id": "mpk1q69gjjjh",
+    "name": "Burgundy BCBG dress",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Plastic Box 1",
+    "description": "Faux Suede Mini Dress with Short Sleeves c. 2015 size 0",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpk1q69gjjjh_IMG_1475.HEIC"
+    ],
+    "createdAt": "2026-05-24T17:23:15.160Z",
+    "updatedAt": "2026-05-24T17:23:15.160Z"
   }
 ]
