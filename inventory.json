@@ -536,5 +536,24 @@
     ],
     "createdAt": "2026-05-24T17:23:15.160Z",
     "updatedAt": "2026-05-24T17:23:15.160Z"
+  },
+  {
+    "id": "mpk1tagpbacl",
+    "name": "Red UO Skater dress",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Plastic Box 1",
+    "description": "Red Urban Outfitters Strappy Skater dress size S",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpk1tagpbacl_IMG_1476.HEIC"
+    ],
+    "createdAt": "2026-05-24T17:25:40.590Z",
+    "updatedAt": "2026-05-24T17:25:40.590Z"
   }
 ]
