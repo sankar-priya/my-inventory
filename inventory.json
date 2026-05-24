@@ -336,5 +336,24 @@
     ],
     "createdAt": "2026-05-24T13:15:07.357Z",
     "updatedAt": "2026-05-24T13:15:07.357Z"
+  },
+  {
+    "id": "mpjsy1ngy808",
+    "name": "Stubbs and Wootton Slippers",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "238.60",
+    "currency": "USD",
+    "date": "2017-12-01",
+    "location": "Ski bag",
+    "description": "Confused Women Slipper (left/right) size 7 US Women",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpjsy1ngy808_IMG_1458.HEIC"
+    ],
+    "createdAt": "2026-05-24T13:17:44.751Z",
+    "updatedAt": "2026-05-24T13:17:44.751Z"
   }
 ]
