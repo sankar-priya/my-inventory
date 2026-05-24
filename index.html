@@ -25,7 +25,6 @@
 html { font-size: 15px; }
 body { font-family: var(--sans); background: var(--bg); color: var(--text); min-height: 100vh; }
 
-/* --- HEADER --- */
 header {
   background: var(--surface);
   border-bottom: 1px solid var(--border);
@@ -41,7 +40,6 @@ header {
 .header-actions { display: flex; gap: 8px; align-items: center; }
 #sync-status { font-family: var(--mono); font-size: 11px; color: var(--text-muted); }
 
-/* --- STATS BAR --- */
 .stats-bar {
   background: var(--surface);
   border-bottom: 1px solid var(--border);
@@ -56,7 +54,6 @@ header {
 .stat-label { font-size: 10px; font-family: var(--mono); text-transform: uppercase; letter-spacing: .06em; color: var(--text-muted); }
 .stat-val { font-size: 18px; font-weight: 500; line-height: 1.2; }
 
-/* --- TOOLBAR --- */
 .toolbar {
   padding: .75rem 1.5rem;
   display: flex;
@@ -79,7 +76,6 @@ input:focus, select:focus, textarea:focus { border-color: var(--accent); }
 .toolbar input[type=text] { flex: 1; min-width: 200px; }
 textarea { resize: vertical; min-height: 72px; width: 100%; }
 
-/* --- BUTTONS --- */
 .btn {
   font-family: var(--sans);
   font-size: 13px;
@@ -102,11 +98,7 @@ textarea { resize: vertical; min-height: 72px; width: 100%; }
 .btn-danger { color: #a33; border-color: #f0c0c0; }
 .btn-danger:hover { background: #fff0f0; }
 
-/* --- TABLE --- */
-.table-wrap {
-  padding: 0 1.5rem 1.5rem;
-  overflow-x: auto;
-}
+.table-wrap { padding: 0 1.5rem 1.5rem; overflow-x: auto; }
 table { width: 100%; border-collapse: collapse; font-size: 13px; background: var(--surface); border-radius: var(--radius-lg); overflow: hidden; border: 1px solid var(--border); }
 th {
   background: var(--bg);
@@ -127,16 +119,15 @@ th:hover { color: var(--text); }
 td { padding: 9px 12px; border-bottom: 1px solid var(--border); vertical-align: middle; }
 tr:last-child td { border-bottom: none; }
 tr:hover td { background: #fafaf7; }
-.col-name { min-width: 160px; font-weight: 500; }
-.col-cat { min-width: 110px; }
-.col-status { min-width: 130px; }
+.col-name { min-width: 160px; }
+.col-cat { min-width: 100px; }
+.col-status { min-width: 120px; }
 .col-price { min-width: 90px; font-family: var(--mono); font-size: 12px; }
-.col-loc { min-width: 120px; color: var(--text-muted); }
-.col-date { min-width: 100px; font-family: var(--mono); font-size: 11px; color: var(--text-muted); }
-.col-receipt { min-width: 80px; }
-.col-actions { min-width: 100px; white-space: nowrap; }
+.col-loc { min-width: 110px; color: var(--text-muted); }
+.col-date { min-width: 90px; font-family: var(--mono); font-size: 11px; color: var(--text-muted); }
+.col-files { min-width: 100px; }
+.col-actions { min-width: 90px; white-space: nowrap; }
 
-/* --- BADGES --- */
 .badge {
   display: inline-block;
   font-family: var(--mono);
@@ -154,11 +145,9 @@ tr:hover td { background: #fafaf7; }
 .b-lent      { background: #fde8e8; color: #8a1a1a; }
 .b-sold      { background: #f5f3ee; color: #888; border: 1px solid var(--border); }
 
-/* --- EMPTY STATE --- */
 .empty { text-align: center; padding: 4rem 1rem; color: var(--text-muted); font-size: 14px; }
 .empty p { margin-top: 8px; font-family: var(--mono); font-size: 11px; }
 
-/* --- MODAL --- */
 .modal-overlay {
   position: fixed; inset: 0;
   background: rgba(20,18,14,.55);
@@ -171,7 +160,7 @@ tr:hover td { background: #fafaf7; }
   background: var(--surface);
   border-radius: var(--radius-lg);
   border: 1px solid var(--border);
-  width: min(580px, 100%);
+  width: min(600px, 100%);
   max-height: 92vh;
   overflow-y: auto;
   transform: translateY(8px); transition: transform .18s;
@@ -187,17 +176,16 @@ tr:hover td { background: #fafaf7; }
 .form-group { display: flex; flex-direction: column; gap: 4px; }
 .form-group label { font-size: 11px; font-family: var(--mono); text-transform: uppercase; letter-spacing: .04em; color: var(--text-muted); }
 
-/* --- SETUP MODAL --- */
 .setup-note { font-size: 12px; color: var(--text-muted); margin-top: 5px; line-height: 1.5; }
 .setup-note a { color: var(--accent); }
 .step-num { font-family: var(--mono); font-size: 11px; background: var(--accent-light); color: var(--accent); border-radius: 50%; width: 20px; height: 20px; display: inline-flex; align-items: center; justify-content: center; font-weight: 500; flex-shrink: 0; margin-right: 6px; }
 .step { display: flex; align-items: flex-start; gap: 0; margin-bottom: 12px; font-size: 13px; line-height: 1.5; }
 
-/* --- PDF UPLOAD ZONE --- */
+/* --- UPLOAD ZONE --- */
 .upload-zone {
   border: 1.5px dashed var(--border-strong);
   border-radius: var(--radius);
-  padding: 1rem;
+  padding: .85rem 1rem;
   text-align: center;
   cursor: pointer;
   font-size: 12px;
@@ -208,14 +196,28 @@ tr:hover td { background: #fafaf7; }
 .upload-zone input { display: none; }
 .upload-zone.has-file { border-color: var(--accent); color: var(--accent); background: var(--accent-light); }
 
-/* --- RECEIPT LINK --- */
-.receipt-link { font-size: 11px; color: var(--accent); text-decoration: none; font-family: var(--mono); }
-.receipt-link:hover { text-decoration: underline; }
+/* --- FILE CHIPS --- */
+.file-chips { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 7px; }
+.chip {
+  display: inline-flex; align-items: center; gap: 4px;
+  background: var(--bg); border: 1px solid var(--border);
+  border-radius: 20px; padding: 2px 8px 2px 8px;
+  font-size: 11px; font-family: var(--mono); color: var(--text-muted);
+  max-width: 200px;
+}
+.chip span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.chip button { border: none; background: none; cursor: pointer; color: var(--text-muted); font-size: 13px; line-height: 1; padding: 0 0 0 2px; }
+.chip button:hover { color: #a33; }
+.chip.existing { border-color: var(--accent); color: var(--accent); background: var(--accent-light); }
+.chip.existing a { color: var(--accent); text-decoration: none; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 150px; display:inline-block; }
+.chip.existing a:hover { text-decoration: underline; }
 
-/* --- PAGINATION --- */
+.file-link { font-size: 11px; color: var(--accent); text-decoration: none; font-family: var(--mono); }
+.file-link:hover { text-decoration: underline; }
+.files-cell { display: flex; flex-wrap: wrap; gap: 4px; }
+
 .pager { display: flex; justify-content: flex-end; align-items: center; gap: 8px; padding: 0 1.5rem 1.5rem; font-size: 12px; color: var(--text-muted); font-family: var(--mono); }
 
-/* --- RESPONSIVE --- */
 @media (max-width: 600px) {
   header { padding: 0 1rem; }
   .toolbar { padding: .75rem 1rem; }
@@ -255,20 +257,17 @@ tr:hover td { background: #fafaf7; }
 
 <div class="table-wrap">
   <table>
-    <colgroup>
-      <col style="width:18%"><col style="width:10%"><col style="width:12%"><col style="width:9%">
-      <col style="width:10%"><col style="width:9%"><col style="width:8%"><col style="width:24%">
-    </colgroup>
     <thead>
       <tr>
-        <th onclick="sortBy('name')">Name</th>
-        <th onclick="sortBy('category')">Category</th>
-        <th onclick="sortBy('status')">Status</th>
-        <th onclick="sortBy('price')">Price</th>
-        <th onclick="sortBy('location')">Location</th>
-        <th onclick="sortBy('date')">Date</th>
-        <th>Receipt</th>
-        <th>Actions</th>
+        <th class="col-name" onclick="sortBy('name')">Name</th>
+        <th class="col-cat" onclick="sortBy('category')">Category</th>
+        <th class="col-status" onclick="sortBy('status')">Status</th>
+        <th class="col-price" onclick="sortBy('price')">Price</th>
+        <th class="col-loc" onclick="sortBy('location')">Location</th>
+        <th class="col-date" onclick="sortBy('date')">Date</th>
+        <th class="col-date" onclick="sortBy('updatedAt')">Last updated</th>
+        <th class="col-files">Files</th>
+        <th class="col-actions">Actions</th>
       </tr>
     </thead>
     <tbody id="tbody"></tbody>
@@ -284,8 +283,8 @@ tr:hover td { background: #fafaf7; }
       <button class="btn btn-ghost btn-sm" onclick="closeModal('itemModal')">✕</button>
     </div>
     <div class="modal-body">
-      <div class="form-row">
-        <div class="form-group full">
+      <div class="form-row full">
+        <div class="form-group">
           <label>Name *</label>
           <input type="text" id="f_name" placeholder="e.g. Sony WH-1000XM5">
         </div>
@@ -354,16 +353,39 @@ tr:hover td { background: #fafaf7; }
           <input type="text" id="f_tags" placeholder="insured, fragile, gift…">
         </div>
       </div>
+
+      <!-- RECEIPTS -->
       <div class="form-row full">
         <div class="form-group">
-          <label>Receipt PDF</label>
-          <div class="upload-zone" id="uploadZone" onclick="document.getElementById('f_receipt_file').click()" ondragover="handleDrag(event,true)" ondragleave="handleDrag(event,false)" ondrop="handleDrop(event)">
-            <input type="file" id="f_receipt_file" accept="application/pdf" onchange="handleFileSelect(this)">
-            <div id="uploadLabel">Drop PDF here or click to browse</div>
+          <label>Receipts &amp; documents — any file type, multiple allowed</label>
+          <div class="upload-zone" id="receiptZone"
+            onclick="document.getElementById('f_receipts').click()"
+            ondragover="handleDrag(event,'receiptZone',true)"
+            ondragleave="handleDrag(event,'receiptZone',false)"
+            ondrop="handleDrop(event,'receipts')">
+            <input type="file" id="f_receipts" multiple onchange="handleFileSelect(this,'receipts')">
+            <div>Drop files here or click to browse — receipts, invoices, warranties…</div>
           </div>
-          <div id="existingReceipt" style="display:none; font-size:11px; color:var(--text-muted); margin-top:4px;"></div>
+          <div class="file-chips" id="receiptChips"></div>
         </div>
       </div>
+
+      <!-- PHOTOS -->
+      <div class="form-row full">
+        <div class="form-group">
+          <label>Photos — any file type, multiple allowed</label>
+          <div class="upload-zone" id="photoZone"
+            onclick="document.getElementById('f_photos').click()"
+            ondragover="handleDrag(event,'photoZone',true)"
+            ondragleave="handleDrag(event,'photoZone',false)"
+            ondrop="handleDrop(event,'photos')">
+            <input type="file" id="f_photos" multiple onchange="handleFileSelect(this,'photos')">
+            <div>Drop photos here or click to browse</div>
+          </div>
+          <div class="file-chips" id="photoChips"></div>
+        </div>
+      </div>
+
     </div>
     <div class="modal-footer">
       <button class="btn" onclick="closeModal('itemModal')">Cancel</button>
@@ -383,7 +405,7 @@ tr:hover td { background: #fafaf7; }
       <div style="margin-bottom:1.25rem">
         <div class="step"><span class="step-num">1</span><span>Create a GitHub repo and enable GitHub Pages from Settings → Pages → Deploy from branch <code style="background:var(--bg);padding:1px 5px;border-radius:3px;font-size:12px">main</code>.</span></div>
         <div class="step"><span class="step-num">2</span><span>Create a Personal Access Token at <a href="https://github.com/settings/tokens/new" target="_blank" style="color:var(--accent)">github.com/settings/tokens/new</a> — select <strong>Classic</strong>, tick <code style="background:var(--bg);padding:1px 5px;border-radius:3px;font-size:12px">repo</code> scope only.</span></div>
-        <div class="step"><span class="step-num">3</span><span>Upload this <code style="background:var(--bg);padding:1px 5px;border-radius:3px;font-size:12px">index.html</code> to the root of your repo, then fill in the fields below.</span></div>
+        <div class="step"><span class="step-num">3</span><span>Upload <code style="background:var(--bg);padding:1px 5px;border-radius:3px;font-size:12px">index.html</code> to the root of your repo, then fill in the fields below.</span></div>
       </div>
       <div class="form-row full" style="margin-bottom:10px">
         <div class="form-group">
@@ -421,7 +443,7 @@ tr:hover td { background: #fafaf7; }
       <button class="btn btn-ghost btn-sm" onclick="closeModal('locModal')">✕</button>
     </div>
     <div class="modal-body">
-      <p style="font-size:12px;color:var(--text-muted);margin-bottom:1rem">These appear as quick-pick suggestions in the location field. You can still type anything freely.</p>
+      <p style="font-size:12px;color:var(--text-muted);margin-bottom:1rem">These appear as quick-pick suggestions. You can still type anything freely.</p>
       <div style="display:flex;gap:8px;margin-bottom:1rem">
         <input type="text" id="newLocInput" placeholder="Add new location…" style="flex:1" onkeydown="if(event.key==='Enter')addLocation()">
         <button class="btn btn-primary btn-sm" onclick="addLocation()">Add</button>
@@ -438,10 +460,14 @@ tr:hover td { background: #fafaf7; }
 // ─── CONFIG ───────────────────────────────────────────────────────────────────
 let cfg = JSON.parse(localStorage.getItem('inv_cfg') || '{}');
 let db  = [];
-let pendingFile = null;
 let editId = null;
 let sortCol = 'name', sortAsc = true, page = 1;
 const PER = 20;
+
+// Pending files: { receipts: [{file, name}], photos: [{file, name}] }
+let pending = { receipts: [], photos: [] };
+// Existing files kept from edit: { receipts: [path], photos: [path] }
+let existing = { receipts: [], photos: [] };
 
 const DEFAULT_LOCATIONS = [
   'US Box A','US Box B','US Box C','US Box D','US Box E',
@@ -455,13 +481,8 @@ function updateLocDatalist() {
 }
 
 const BADGE = {
-  'OK':                 'b-ok',
-  'In need of repair':  'b-repair',
-  'In suitcase':        'b-suitcase',
-  'In closet':          'b-closet',
-  'In storage':         'b-storage',
-  'Lent out':           'b-lent',
-  'Sold':               'b-sold',
+  'OK':'b-ok','In need of repair':'b-repair','In suitcase':'b-suitcase',
+  'In closet':'b-closet','In storage':'b-storage','Lent out':'b-lent','Sold':'b-sold'
 };
 
 // ─── GITHUB API ───────────────────────────────────────────────────────────────
@@ -473,26 +494,19 @@ async function ghGet(path) {
   if (!r.ok) throw new Error(`GitHub ${r.status}: ${r.statusText}`);
   return r.json();
 }
-
 async function ghPut(path, body) {
   const r = await fetch(`${BASE}${path}`, {
     method: 'PUT',
-    headers: {
-      Authorization: `token ${cfg.token}`,
-      Accept: 'application/vnd.github.v3+json',
-      'Content-Type': 'application/json'
-    },
+    headers: { Authorization: `token ${cfg.token}`, Accept: 'application/vnd.github.v3+json', 'Content-Type': 'application/json' },
     body: JSON.stringify(body)
   });
   if (!r.ok) { const e = await r.json(); throw new Error(e.message || r.statusText); }
   return r.json();
 }
-
 async function getFileSha(path) {
   try { const d = await ghGet(`/repos/${cfg.user}/${cfg.repo}/contents/${path}`); return d.sha; }
   catch { return null; }
 }
-
 async function writeFile(path, content, message, isBinary = false) {
   const sha = await getFileSha(path);
   const encoded = isBinary ? content : btoa(unescape(encodeURIComponent(content)));
@@ -527,15 +541,15 @@ async function saveDB(message = 'Update inventory') {
   } catch (e) { setStatus('error: ' + e.message); }
 }
 
-async function uploadReceipt(itemId, itemName, file) {
-  const ext = file.name.split('.').pop();
-  const path = `receipts/${itemId}.${ext}`;
+async function uploadFile(itemId, folder, file) {
+  const safeName = file.name.replace(/[^a-zA-Z0-9._-]/g, '_');
+  const path = `${folder}/${itemId}_${safeName}`;
   const ab = await file.arrayBuffer();
   const bytes = new Uint8Array(ab);
   let binary = '';
   bytes.forEach(b => binary += String.fromCharCode(b));
   const b64 = btoa(binary);
-  await writeFile(path, b64, `Add receipt for ${itemName}`, true);
+  await writeFile(path, b64, `Add ${folder.slice(0,-1)}: ${file.name}`, true);
   return path;
 }
 
@@ -549,36 +563,49 @@ function filtered() {
     if (st && i.status !== st) return false;
     if (q && ![i.name,i.category,i.location,i.description,i.tags].join(' ').toLowerCase().includes(q)) return false;
     return true;
-  }).sort((a, b) => {
-    let av = a[sortCol] || '', bv = b[sortCol] || '';
-    if (sortCol === 'price') { av = parseFloat(av)||0; bv = parseFloat(bv)||0; return sortAsc ? av-bv : bv-av; }
-    return sortAsc ? String(av).localeCompare(String(bv)) : String(bv).localeCompare(String(av));
+  }).sort((a,b) => {
+    let av = a[sortCol]||'', bv = b[sortCol]||'';
+    if (sortCol==='price') { av=parseFloat(av)||0; bv=parseFloat(bv)||0; return sortAsc?av-bv:bv-av; }
+    return sortAsc?String(av).localeCompare(String(bv)):String(bv).localeCompare(String(av));
   });
 }
 
-function sortBy(col) { if (sortCol === col) sortAsc = !sortAsc; else { sortCol = col; sortAsc = true; } render(); }
+function sortBy(col) { if(sortCol===col) sortAsc=!sortAsc; else{sortCol=col;sortAsc=true;} render(); }
+
+function fileLabel(path) {
+  const name = path.split('/').pop().replace(/^[a-z0-9]+_/, '');
+  const ext = name.split('.').pop().toLowerCase();
+  const icon = ['jpg','jpeg','png','gif','webp','heic'].includes(ext) ? '🖼' :
+               ['pdf'].includes(ext) ? '📄' : '📎';
+  return `${icon} ${name}`;
+}
 
 function render() {
   const rows = filtered();
   const total = rows.length;
-  const pages = Math.max(1, Math.ceil(total / PER));
+  const pages = Math.max(1, Math.ceil(total/PER));
   if (page > pages) page = 1;
   const slice = rows.slice((page-1)*PER, page*PER);
 
   const tbody = document.getElementById('tbody');
   if (!slice.length) {
-    tbody.innerHTML = `<tr><td colspan="8"><div class="empty">${db.length ? 'No results.' : (!cfg.token ? 'Configure GitHub first (⚙ config), then add items.' : 'No items yet.')}<p>${db.length ? '' : (!cfg.token ? '' : 'Click + add item to get started.')}</p></div></td></tr>`;
+    tbody.innerHTML = `<tr><td colspan="9"><div class="empty">${db.length?'No results.':(cfg.token?'No items yet. Click + add item to get started.':'Configure GitHub first (⚙ config).')}</div></td></tr>`;
   } else {
     tbody.innerHTML = slice.map(i => {
       const price = i.price ? `${i.currency||'CHF'} ${parseFloat(i.price).toFixed(2)}` : '—';
       const badge = `<span class="badge ${BADGE[i.status]||'b-ok'}">${i.status||'OK'}</span>`;
-      const receipt = i.receipt
-        ? `<a class="receipt-link" href="https://raw.githubusercontent.com/${cfg.user}/${cfg.repo}/main/${i.receipt}" target="_blank">PDF ↗</a>`
-        : '<span style="color:var(--text-muted);font-size:11px">—</span>';
       const nameCell = i.link
         ? `<a href="${i.link}" target="_blank" style="color:var(--text);font-weight:500;text-decoration:none;border-bottom:1px solid var(--border)">${esc(i.name)}</a>`
         : `<span style="font-weight:500">${esc(i.name)}</span>`;
       const tags = i.tags ? `<div style="font-size:10px;color:var(--text-muted);font-family:var(--mono);margin-top:2px">${esc(i.tags)}</div>` : '';
+
+      const allFiles = [...(i.receipts||[]), ...(i.photos||[])];
+      // legacy single receipt
+      if (i.receipt && !allFiles.includes(i.receipt)) allFiles.unshift(i.receipt);
+      const filesCell = allFiles.length
+        ? `<div class="files-cell">${allFiles.map(p=>`<a class="file-link" href="https://raw.githubusercontent.com/${cfg.user}/${cfg.repo}/main/${p}" target="_blank">${fileLabel(p)}</a>`).join('')}</div>`
+        : '<span style="color:var(--text-muted);font-size:11px">—</span>';
+
       return `<tr>
         <td class="col-name">${nameCell}${tags}</td>
         <td class="col-cat">${esc(i.category||'—')}</td>
@@ -586,7 +613,8 @@ function render() {
         <td class="col-price">${price}</td>
         <td class="col-loc">${esc(i.location||'—')}</td>
         <td class="col-date">${i.date||'—'}</td>
-        <td class="col-receipt">${receipt}</td>
+        <td class="col-date">${i.updatedAt ? new Date(i.updatedAt).toLocaleDateString('en-GB',{day:'2-digit',month:'short',year:'numeric'}) : '—'}</td>
+        <td class="col-files">${filesCell}</td>
         <td class="col-actions">
           <button class="btn btn-sm" onclick="openModal('${i.id}')">edit</button>
           <button class="btn btn-sm btn-danger" onclick="deleteItem('${i.id}')">del</button>
@@ -595,18 +623,15 @@ function render() {
     }).join('');
   }
 
-  // stats
-  const totalVal = db.reduce((s,i) => s + (parseFloat(i.price)||0), 0);
-  const repairN = db.filter(i => i.status === 'In need of repair').length;
-  const lentN   = db.filter(i => i.status === 'Lent out').length;
+  const repairN = db.filter(i=>i.status==='In need of repair').length;
+  const lentN   = db.filter(i=>i.status==='Lent out').length;
   document.getElementById('statsBar').innerHTML = [
     ['items', db.length],
     ['need repair', repairN],
     ['lent out', lentN],
     ['categories', new Set(db.map(i=>i.category).filter(Boolean)).size],
-  ].map(([l,v]) => `<div class="stat"><div class="stat-label">${l}</div><div class="stat-val">${v}</div></div>`).join('');
+  ].map(([l,v])=>`<div class="stat"><div class="stat-label">${l}</div><div class="stat-val">${v}</div></div>`).join('');
 
-  // category filter + datalist
   const cats = [...new Set(db.map(i=>i.category).filter(Boolean))].sort();
   const catSel = document.getElementById('filterCat');
   const prev = catSel.value;
@@ -614,7 +639,6 @@ function render() {
   const catList = document.getElementById('catList');
   if (catList) catList.innerHTML = cats.map(c=>`<option value="${esc(c)}">`).join('');
 
-  // pager
   const pager = document.getElementById('pager');
   pager.innerHTML = total > PER
     ? `<span>${(page-1)*PER+1}–${Math.min(page*PER,total)} of ${total}</span>
@@ -623,38 +647,101 @@ function render() {
     : '';
 }
 
-function goPage(p) { page = p; render(); }
+function goPage(p) { page=p; render(); }
 function esc(s) { return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+
+// ─── FILE HANDLING ────────────────────────────────────────────────────────────
+function handleDrag(e, zoneId, on) {
+  e.preventDefault();
+  document.getElementById(zoneId).classList.toggle('drag', on);
+}
+function handleDrop(e, type) {
+  e.preventDefault();
+  const zoneId = type === 'receipts' ? 'receiptZone' : 'photoZone';
+  document.getElementById(zoneId).classList.remove('drag');
+  addPendingFiles(type, Array.from(e.dataTransfer.files));
+}
+function handleFileSelect(input, type) {
+  addPendingFiles(type, Array.from(input.files));
+  input.value = '';
+}
+function addPendingFiles(type, files) {
+  files.forEach(f => {
+    if (!pending[type].find(p => p.name === f.name)) {
+      pending[type].push({ file: f, name: f.name });
+    }
+  });
+  renderChips();
+}
+function removePending(type, name) {
+  pending[type] = pending[type].filter(p => p.name !== name);
+  renderChips();
+}
+function removeExisting(type, path) {
+  existing[type] = existing[type].filter(p => p !== path);
+  renderChips();
+}
+
+function renderChips() {
+  // receipts
+  const rc = document.getElementById('receiptChips');
+  rc.innerHTML =
+    existing.receipts.map(p => `
+      <div class="chip existing">
+        <a href="https://raw.githubusercontent.com/${cfg.user}/${cfg.repo}/main/${p}" target="_blank">${fileLabel(p)}</a>
+        <button onclick="removeExisting('receipts','${p}')" title="Remove">×</button>
+      </div>`).join('') +
+    pending.receipts.map(p => `
+      <div class="chip">
+        <span title="${esc(p.name)}">${esc(p.name)}</span>
+        <button onclick="removePending('receipts','${esc(p.name)}')" title="Remove">×</button>
+      </div>`).join('');
+
+  // photos
+  const pc = document.getElementById('photoChips');
+  pc.innerHTML =
+    existing.photos.map(p => `
+      <div class="chip existing">
+        <a href="https://raw.githubusercontent.com/${cfg.user}/${cfg.repo}/main/${p}" target="_blank">${fileLabel(p)}</a>
+        <button onclick="removeExisting('photos','${p}')" title="Remove">×</button>
+      </div>`).join('') +
+    pending.photos.map(p => `
+      <div class="chip">
+        <span title="${esc(p.name)}">${esc(p.name)}</span>
+        <button onclick="removePending('photos','${esc(p.name)}')" title="Remove">×</button>
+      </div>`).join('');
+
+  document.getElementById('receiptZone').classList.toggle('has-file', existing.receipts.length+pending.receipts.length > 0);
+  document.getElementById('photoZone').classList.toggle('has-file', existing.photos.length+pending.photos.length > 0);
+}
 
 // ─── MODAL ────────────────────────────────────────────────────────────────────
 function openModal(id) {
   editId = id || null;
-  pendingFile = null;
+  pending = { receipts: [], photos: [] };
+  existing = { receipts: [], photos: [] };
+
   document.getElementById('modalTitle').textContent = id ? 'Edit item' : 'Add item';
-  const fields = {name:'',cat:'',status:'OK',price:'',currency:'CHF',date:'',loc:'',desc:'',link:'',tags:''};
-  const i = id ? db.find(x => x.id === id) : {};
-  if (i) {
-    Object.assign(fields, {
-      name:i.name||'', cat:i.category||'', status:i.status||'OK',
-      price:i.price||'', currency:i.currency||'CHF', date:i.date||'', loc:i.location||'',
-      desc:i.description||'', link:i.link||'', tags:i.tags||''
-    });
-  }
+  const item = id ? db.find(x=>x.id===id) : {};
+  const fields = {
+    name: item.name||'', cat: item.category||'', status: item.status||'OK',
+    price: item.price||'', currency: item.currency||'CHF',
+    date: item.date||'', loc: item.location||'',
+    desc: item.description||'', link: item.link||'', tags: item.tags||''
+  };
   for (const [k,v] of Object.entries(fields)) {
-    const el = document.getElementById(`f_${k}`);
-    if (el) el.value = v;
+    const el = document.getElementById(`f_${k}`); if (el) el.value = v;
   }
+
+  // Populate existing files
+  if (id && item) {
+    existing.receipts = [...(item.receipts||[])];
+    if (item.receipt && !existing.receipts.includes(item.receipt)) existing.receipts.unshift(item.receipt);
+    existing.photos = [...(item.photos||[])];
+  }
+
   updateLocDatalist();
-  const uploadLabel = document.getElementById('uploadLabel');
-  const zone = document.getElementById('uploadZone');
-  const existing = document.getElementById('existingReceipt');
-  zone.classList.remove('has-file');
-  uploadLabel.textContent = 'Drop PDF here or click to browse';
-  document.getElementById('f_receipt_file').value = '';
-  if (id && i && i.receipt) {
-    existing.style.display = 'block';
-    existing.innerHTML = `Current: <a class="receipt-link" href="https://raw.githubusercontent.com/${cfg.user}/${cfg.repo}/main/${i.receipt}" target="_blank">${i.receipt.split('/').pop()}</a> — upload new to replace`;
-  } else { existing.style.display = 'none'; }
+  renderChips();
   openOverlay('itemModal');
 }
 
@@ -662,28 +749,23 @@ function closeModal(id) { document.getElementById(id).classList.remove('open'); 
 function openOverlay(id) { document.getElementById(id).classList.add('open'); }
 
 function openSetup() {
-  document.getElementById('cfg_user').value = cfg.user || '';
-  document.getElementById('cfg_repo').value = cfg.repo || '';
-  document.getElementById('cfg_token').value = cfg.token || '';
+  document.getElementById('cfg_user').value = cfg.user||'';
+  document.getElementById('cfg_repo').value = cfg.repo||'';
+  document.getElementById('cfg_token').value = cfg.token||'';
   document.getElementById('cfg_error').style.display = 'none';
   openOverlay('setupModal');
 }
-
 async function saveConfig() {
   const user = document.getElementById('cfg_user').value.trim();
   const repo = document.getElementById('cfg_repo').value.trim();
   const token = document.getElementById('cfg_token').value.trim();
-  if (!user || !repo || !token) { showCfgError('All fields are required.'); return; }
+  if (!user||!repo||!token) { showCfgError('All fields are required.'); return; }
   cfg = { user, repo, token };
   localStorage.setItem('inv_cfg', JSON.stringify(cfg));
   closeModal('setupModal');
   await loadDB();
 }
-
-function showCfgError(msg) {
-  const el = document.getElementById('cfg_error');
-  el.textContent = msg; el.style.display = 'block';
-}
+function showCfgError(msg) { const el=document.getElementById('cfg_error'); el.textContent=msg; el.style.display='block'; }
 
 // ─── SAVE ITEM ────────────────────────────────────────────────────────────────
 async function saveItem() {
@@ -696,35 +778,49 @@ async function saveItem() {
 
   try {
     const id = editId || uid();
-    let receiptPath = editId ? (db.find(x=>x.id===editId)||{}).receipt : undefined;
 
-    if (pendingFile) {
-      setStatus('uploading receipt…');
-      receiptPath = await uploadReceipt(id, name, pendingFile);
+    // Upload pending receipts
+    const uploadedReceipts = [];
+    for (const p of pending.receipts) {
+      setStatus(`uploading ${p.name}…`);
+      const path = await uploadFile(id, 'receipts', p.file);
+      uploadedReceipts.push(path);
     }
 
+    // Upload pending photos
+    const uploadedPhotos = [];
+    for (const p of pending.photos) {
+      setStatus(`uploading ${p.name}…`);
+      const path = await uploadFile(id, 'photos', p.file);
+      uploadedPhotos.push(path);
+    }
+
+    const now = new Date().toISOString();
     const item = {
       id,
       name,
-      category: document.getElementById('f_cat').value.trim(),
-      status:   document.getElementById('f_status').value,
-      price:    document.getElementById('f_price').value,
-      currency: document.getElementById('f_currency').value,
-      date:     document.getElementById('f_date').value,
-      location: document.getElementById('f_loc').value.trim(),
+      category:    document.getElementById('f_cat').value.trim(),
+      status:      document.getElementById('f_status').value,
+      price:       document.getElementById('f_price').value,
+      currency:    document.getElementById('f_currency').value,
+      date:        document.getElementById('f_date').value,
+      location:    document.getElementById('f_loc').value.trim(),
       description: document.getElementById('f_desc').value.trim(),
-      link:     document.getElementById('f_link').value.trim(),
-      tags:     document.getElementById('f_tags').value.trim(),
-      receipt:  receiptPath || null,
+      link:        document.getElementById('f_link').value.trim(),
+      tags:        document.getElementById('f_tags').value.trim(),
+      receipts:    [...existing.receipts, ...uploadedReceipts],
+      photos:      [...existing.photos, ...uploadedPhotos],
+      createdAt:   editId ? (db.find(x=>x.id===editId)||{}).createdAt || now : now,
+      updatedAt:   now,
     };
 
-    if (editId) { const idx = db.findIndex(x=>x.id===editId); if (idx>-1) db[idx]=item; }
+    if (editId) { const idx=db.findIndex(x=>x.id===editId); if(idx>-1) db[idx]=item; }
     else db.push(item);
 
     await saveDB(editId ? `Edit: ${name}` : `Add: ${name}`);
     closeModal('itemModal');
     render();
-  } catch (e) {
+  } catch(e) {
     alert('Error: ' + e.message);
     setStatus('error');
   } finally {
@@ -740,58 +836,24 @@ async function deleteItem(id) {
   render();
 }
 
-// ─── FILE HANDLING ────────────────────────────────────────────────────────────
-function handleFileSelect(input) {
-  if (input.files[0]) setPendingFile(input.files[0]);
-}
-function handleDrag(e, on) {
-  e.preventDefault();
-  document.getElementById('uploadZone').classList.toggle('drag', on);
-}
-function handleDrop(e) {
-  e.preventDefault();
-  document.getElementById('uploadZone').classList.remove('drag');
-  const f = e.dataTransfer.files[0];
-  if (f && f.type === 'application/pdf') setPendingFile(f);
-  else alert('Please drop a PDF file.');
-}
-function setPendingFile(f) {
-  pendingFile = f;
-  const zone = document.getElementById('uploadZone');
-  document.getElementById('uploadLabel').textContent = `📄 ${f.name} (${(f.size/1024).toFixed(0)} KB)`;
-  zone.classList.add('has-file');
-}
-
 // ─── LOCATION MANAGER ────────────────────────────────────────────────────────
-function openLocManager() {
-  renderLocList();
-  openOverlay('locModal');
-}
-
+function openLocManager() { renderLocList(); openOverlay('locModal'); }
 function renderLocList() {
-  const el = document.getElementById('locList_edit');
-  el.innerHTML = savedLocations.map((l, i) => `
+  document.getElementById('locList_edit').innerHTML = savedLocations.map((l,i)=>`
     <div style="display:flex;align-items:center;gap:8px;padding:6px 10px;background:var(--bg);border-radius:var(--radius);border:1px solid var(--border)">
       <span style="flex:1;font-size:13px">${esc(l)}</span>
       <button class="btn btn-sm btn-danger" onclick="removeLocation(${i})">remove</button>
     </div>`).join('');
 }
-
 function addLocation() {
   const input = document.getElementById('newLocInput');
   const val = input.value.trim();
-  if (!val) return;
-  if (savedLocations.includes(val)) { input.value=''; return; }
+  if (!val || savedLocations.includes(val)) { input.value=''; return; }
   savedLocations.push(val);
   input.value = '';
   renderLocList();
 }
-
-function removeLocation(idx) {
-  savedLocations.splice(idx, 1);
-  renderLocList();
-}
-
+function removeLocation(idx) { savedLocations.splice(idx,1); renderLocList(); }
 function saveLocations() {
   localStorage.setItem('inv_locations', JSON.stringify(savedLocations));
   updateLocDatalist();
@@ -800,20 +862,16 @@ function saveLocations() {
 
 // ─── UTILS ───────────────────────────────────────────────────────────────────
 function setStatus(msg) { document.getElementById('sync-status').textContent = msg; }
-
-// close overlays on bg click
 document.querySelectorAll('.modal-overlay').forEach(el => {
-  el.addEventListener('click', e => { if (e.target === el) el.classList.remove('open'); });
+  el.addEventListener('click', e => { if(e.target===el) el.classList.remove('open'); });
 });
 
 // ─── INIT ─────────────────────────────────────────────────────────────────────
 if (!cfg.token) {
-  render();
-  updateLocDatalist();
+  render(); updateLocDatalist();
   setTimeout(() => openSetup(), 400);
 } else {
-  loadDB();
-  updateLocDatalist();
+  loadDB(); updateLocDatalist();
 }
 </script>
 </body>
