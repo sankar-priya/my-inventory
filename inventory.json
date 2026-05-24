@@ -216,5 +216,22 @@
     "photos": [],
     "createdAt": "2026-05-24T12:48:59.880Z",
     "updatedAt": "2026-05-24T12:48:59.880Z"
+  },
+  {
+    "id": "mpjs0yp3pb82",
+    "name": "Striped bikini",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Ski bag",
+    "description": "Solid & Striped Bikini Size M",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [],
+    "createdAt": "2026-05-24T12:51:40.071Z",
+    "updatedAt": "2026-05-24T12:51:40.071Z"
   }
 ]
