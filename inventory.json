@@ -498,5 +498,24 @@
     ],
     "createdAt": "2026-05-24T17:13:13.526Z",
     "updatedAt": "2026-05-24T17:13:13.526Z"
+  },
+  {
+    "id": "mpk1m7inxis6",
+    "name": "Reformation Red Black floral dress",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Plastic Box 1",
+    "description": "Black mini dress with short sleeves and floral red gradient on skirt. Size 8. Keyhole back.",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpk1m7inxis6_IMG_1474.HEIC"
+    ],
+    "createdAt": "2026-05-24T17:20:10.656Z",
+    "updatedAt": "2026-05-24T17:20:10.656Z"
   }
 ]
