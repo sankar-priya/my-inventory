@@ -48,9 +48,12 @@
     "link": "",
     "tags": "",
     "receipts": [],
-    "photos": [],
+    "photos": [
+      "photos/mpjqwq3dcnwc_IMG_1431.HEIC",
+      "photos/mpjqwq3dcnwc_IMG_1432.HEIC"
+    ],
     "createdAt": "2026-05-24T12:20:22.682Z",
-    "updatedAt": "2026-05-24T12:20:22.682Z"
+    "updatedAt": "2026-05-24T12:27:58.763Z"
   },
   {
     "id": "mpjqyk5p4z78",
@@ -135,8 +138,10 @@
     "receipts": [
       "receipts/mpjr3snvhegi_Ski_pant.pdf"
     ],
-    "photos": [],
+    "photos": [
+      "photos/mpjr3snvhegi_IMG_1449.HEIC"
+    ],
     "createdAt": "2026-05-24T12:25:54.128Z",
-    "updatedAt": "2026-05-24T12:25:54.128Z"
+    "updatedAt": "2026-05-24T12:26:42.998Z"
   }
 ]
