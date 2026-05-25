@@ -884,5 +884,43 @@
     ],
     "createdAt": "2026-05-25T12:25:28.948Z",
     "updatedAt": "2026-05-25T12:25:28.948Z"
+  },
+  {
+    "id": "mpl6jprmn2sd",
+    "name": "Liechtenstein Hat",
+    "category": "Hat",
+    "status": "OK",
+    "price": "20",
+    "currency": "CHF",
+    "date": "",
+    "location": "James",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpl6jprmn2sd_IMG_9482.HEIC"
+    ],
+    "createdAt": "2026-05-25T12:26:04.484Z",
+    "updatedAt": "2026-05-25T12:26:04.484Z"
+  },
+  {
+    "id": "mpl6lbhcaq95",
+    "name": "Greenport Hat",
+    "category": "Hat",
+    "status": "OK",
+    "price": "20",
+    "currency": "USD",
+    "date": "",
+    "location": "James",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpl6lbhcaq95_IMG_9483.HEIC"
+    ],
+    "createdAt": "2026-05-25T12:27:21.214Z",
+    "updatedAt": "2026-05-25T12:27:21.214Z"
   }
 ]
