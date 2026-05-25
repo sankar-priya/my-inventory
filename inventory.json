@@ -732,5 +732,43 @@
     ],
     "createdAt": "2026-05-25T12:18:50.422Z",
     "updatedAt": "2026-05-25T12:18:50.422Z"
+  },
+  {
+    "id": "mpl6bgud4l5z",
+    "name": "Green monaco car collection hat",
+    "category": "Hat",
+    "status": "OK",
+    "price": "25",
+    "currency": "EUR",
+    "date": "",
+    "location": "",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpl6bgud4l5z_IMG_9480.HEIC"
+    ],
+    "createdAt": "2026-05-25T12:19:41.518Z",
+    "updatedAt": "2026-05-25T12:19:41.518Z"
+  },
+  {
+    "id": "mpl6c3jz5jl4",
+    "name": "Black monaco hat",
+    "category": "Hat",
+    "status": "OK",
+    "price": "20",
+    "currency": "EUR",
+    "date": "",
+    "location": "James",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpl6c3jz5jl4_IMG_9480.HEIC"
+    ],
+    "createdAt": "2026-05-25T12:20:22.944Z",
+    "updatedAt": "2026-05-25T12:20:22.944Z"
   }
 ]
