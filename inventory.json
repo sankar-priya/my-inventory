@@ -692,5 +692,26 @@
     "photos": [],
     "createdAt": "2026-05-25T09:31:00.032Z",
     "updatedAt": "2026-05-25T09:31:00.032Z"
+  },
+  {
+    "id": "mpl5n8w7p7zg",
+    "name": "Burberry Wool Coat",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "843.78",
+    "currency": "USD",
+    "date": "2017-01-07",
+    "location": "James",
+    "description": "Short Double Wool Twill Trench Coat\nSize: 02\nColour: BLACK\nArticle: 39656311",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mpl5n8w7p7zg_burberry_wool_coat.pdf"
+    ],
+    "photos": [
+      "photos/mpl5n8w7p7zg_IMG_9479.HEIC"
+    ],
+    "createdAt": "2026-05-25T12:00:51.107Z",
+    "updatedAt": "2026-05-25T12:00:51.107Z"
   }
 ]
