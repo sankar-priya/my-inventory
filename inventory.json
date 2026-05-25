@@ -673,5 +673,24 @@
     ],
     "createdAt": "2026-05-25T06:08:38.738Z",
     "updatedAt": "2026-05-25T06:08:38.738Z"
+  },
+  {
+    "id": "mpl0aobgx0tl",
+    "name": "Parka",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "775",
+    "currency": "USD",
+    "date": "2016-02-13",
+    "location": "James",
+    "description": "Kensington Parka\n61|Black|S\n\norder CGUS_00057515",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mpl0aobgx0tl_Canada_Gosoe.pdf"
+    ],
+    "photos": [],
+    "createdAt": "2026-05-25T09:31:00.032Z",
+    "updatedAt": "2026-05-25T09:31:00.032Z"
   }
 ]
