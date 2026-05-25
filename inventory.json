@@ -1036,5 +1036,43 @@
     ],
     "createdAt": "2026-05-25T12:31:25.406Z",
     "updatedAt": "2026-05-25T12:31:25.406Z"
+  },
+  {
+    "id": "mpl6rb7jnikt",
+    "name": "Jungfraujoch hat",
+    "category": "Hat",
+    "status": "OK",
+    "price": "30",
+    "currency": "CHF",
+    "date": "",
+    "location": "James",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpl6rb7jnikt_IMG_9484.HEIC"
+    ],
+    "createdAt": "2026-05-25T12:32:05.123Z",
+    "updatedAt": "2026-05-25T12:32:05.123Z"
+  },
+  {
+    "id": "mpl6s3n6xabv",
+    "name": "Reina Sofia colorful hat",
+    "category": "Hat",
+    "status": "OK",
+    "price": "30",
+    "currency": "EUR",
+    "date": "",
+    "location": "James",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpl6s3n6xabv_IMG_9484.HEIC"
+    ],
+    "createdAt": "2026-05-25T12:32:39.578Z",
+    "updatedAt": "2026-05-25T12:32:39.578Z"
   }
 ]
