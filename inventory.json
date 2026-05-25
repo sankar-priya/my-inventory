@@ -960,5 +960,43 @@
     ],
     "createdAt": "2026-05-25T12:28:33.171Z",
     "updatedAt": "2026-05-25T12:28:33.171Z"
+  },
+  {
+    "id": "mpl6nk44rfxt",
+    "name": "Black Dartmouth Wearers of the Green Hat",
+    "category": "Hat",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "James",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpl6nk44rfxt_IMG_9483.HEIC"
+    ],
+    "createdAt": "2026-05-25T12:29:12.990Z",
+    "updatedAt": "2026-05-25T12:29:12.990Z"
+  },
+  {
+    "id": "mpl6odtjmgym",
+    "name": "Hofbrauhaus Hat",
+    "category": "Hat",
+    "status": "OK",
+    "price": "20",
+    "currency": "EUR",
+    "date": "",
+    "location": "James",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpl6odtjmgym_IMG_9483.HEIC"
+    ],
+    "createdAt": "2026-05-25T12:29:47.001Z",
+    "updatedAt": "2026-05-25T12:29:47.001Z"
   }
 ]
