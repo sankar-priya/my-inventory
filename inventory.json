@@ -1074,5 +1074,24 @@
     ],
     "createdAt": "2026-05-25T12:32:39.578Z",
     "updatedAt": "2026-05-25T12:32:39.578Z"
+  },
+  {
+    "id": "mpl6tpxqpop2",
+    "name": "Valtteri Bottas Alfa Romeo Bucket Hat",
+    "category": "Hat",
+    "status": "OK",
+    "price": "45",
+    "currency": "USD",
+    "date": "",
+    "location": "James",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpl6tpxqpop2_IMG_9484.HEIC"
+    ],
+    "createdAt": "2026-05-25T12:33:53.364Z",
+    "updatedAt": "2026-05-25T12:33:53.364Z"
   }
 ]
