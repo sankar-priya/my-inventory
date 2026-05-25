@@ -384,7 +384,7 @@
   {
     "id": "mpjt3pd33g49",
     "name": "Hat Sudbar",
-    "category": "Clothing",
+    "category": "Hat",
     "status": "OK",
     "price": "20",
     "currency": "CHF",
@@ -398,7 +398,7 @@
       "photos/mpjt3pd33g49_IMG_1459.HEIC"
     ],
     "createdAt": "2026-05-24T13:22:03.299Z",
-    "updatedAt": "2026-05-24T17:10:14.982Z"
+    "updatedAt": "2026-05-25T12:01:44.147Z"
   },
   {
     "id": "mpjt4t60z1a2",
