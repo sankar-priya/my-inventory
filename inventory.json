@@ -365,7 +365,7 @@
   {
     "id": "mpjt1pd6ywja",
     "name": "Hat Watches & Wonders",
-    "category": "Clothing",
+    "category": "Hat",
     "status": "OK",
     "price": "25",
     "currency": "CHF",
@@ -379,7 +379,7 @@
       "photos/mpjt1pd6ywja_IMG_1459.HEIC"
     ],
     "createdAt": "2026-05-24T13:20:39.456Z",
-    "updatedAt": "2026-05-24T13:20:39.456Z"
+    "updatedAt": "2026-05-25T12:01:51.669Z"
   },
   {
     "id": "mpjt3pd33g49",
@@ -713,5 +713,24 @@
     ],
     "createdAt": "2026-05-25T12:00:51.107Z",
     "updatedAt": "2026-05-25T12:00:51.107Z"
+  },
+  {
+    "id": "mpl6ad0k4uya",
+    "name": "White Porsche Baseball Cap",
+    "category": "Hat",
+    "status": "OK",
+    "price": "25",
+    "currency": "EUR",
+    "date": "",
+    "location": "James",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpl6ad0k4uya_IMG_9480.HEIC"
+    ],
+    "createdAt": "2026-05-25T12:18:50.422Z",
+    "updatedAt": "2026-05-25T12:18:50.422Z"
   }
 ]
