@@ -654,5 +654,24 @@
     ],
     "createdAt": "2026-05-24T17:57:30.093Z",
     "updatedAt": "2026-05-24T17:57:30.093Z"
+  },
+  {
+    "id": "mpkt2gntavgj",
+    "name": "Watch Winder",
+    "category": "Misc",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "2026-05-07",
+    "location": "Plastic Box 1",
+    "description": "",
+    "link": "https://www.galaxus.ch/en/s8/product/uten-watch-winder-2x-watch-winders-18354503",
+    "tags": "gift",
+    "receipts": [],
+    "photos": [
+      "photos/mpkt2gntavgj_IMG_1484.HEIC"
+    ],
+    "createdAt": "2026-05-25T06:08:38.738Z",
+    "updatedAt": "2026-05-25T06:08:38.738Z"
   }
 ]
