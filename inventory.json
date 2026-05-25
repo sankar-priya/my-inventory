@@ -998,5 +998,43 @@
     ],
     "createdAt": "2026-05-25T12:29:47.001Z",
     "updatedAt": "2026-05-25T12:29:47.001Z"
+  },
+  {
+    "id": "mpl6pnqsi98p",
+    "name": "Green Leather Cappadocia Hat",
+    "category": "Hat",
+    "status": "OK",
+    "price": "10",
+    "currency": "EUR",
+    "date": "",
+    "location": "James",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpl6pnqsi98p_IMG_9484.HEIC"
+    ],
+    "createdAt": "2026-05-25T12:30:43.285Z",
+    "updatedAt": "2026-05-25T12:30:43.285Z"
+  },
+  {
+    "id": "mpl6qdzq9n70",
+    "name": "Reflective Lululemon run hat",
+    "category": "Hat",
+    "status": "OK",
+    "price": "45",
+    "currency": "USD",
+    "date": "",
+    "location": "James",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpl6qdzq9n70_IMG_9484.HEIC"
+    ],
+    "createdAt": "2026-05-25T12:31:25.406Z",
+    "updatedAt": "2026-05-25T12:31:25.406Z"
   }
 ]
