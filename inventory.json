@@ -846,5 +846,43 @@
     ],
     "createdAt": "2026-05-25T12:24:18.249Z",
     "updatedAt": "2026-05-25T12:24:18.249Z"
+  },
+  {
+    "id": "mpl6i4qisc8o",
+    "name": "Breitling Hat",
+    "category": "Hat",
+    "status": "OK",
+    "price": "35",
+    "currency": "CHF",
+    "date": "",
+    "location": "James",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpl6i4qisc8o_IMG_9482.HEIC"
+    ],
+    "createdAt": "2026-05-25T12:24:53.866Z",
+    "updatedAt": "2026-05-25T12:24:53.866Z"
+  },
+  {
+    "id": "mpl6iw77e19n",
+    "name": "Black Sylt Hat",
+    "category": "Hat",
+    "status": "OK",
+    "price": "20",
+    "currency": "EUR",
+    "date": "",
+    "location": "James",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpl6iw77e19n_IMG_9482.HEIC"
+    ],
+    "createdAt": "2026-05-25T12:25:28.948Z",
+    "updatedAt": "2026-05-25T12:25:28.948Z"
   }
 ]
