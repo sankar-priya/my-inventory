@@ -741,7 +741,7 @@
     "price": "25",
     "currency": "EUR",
     "date": "",
-    "location": "",
+    "location": "James",
     "description": "",
     "link": "",
     "tags": "",
@@ -750,7 +750,7 @@
       "photos/mpl6bgud4l5z_IMG_9480.HEIC"
     ],
     "createdAt": "2026-05-25T12:19:41.518Z",
-    "updatedAt": "2026-05-25T12:19:41.518Z"
+    "updatedAt": "2026-05-25T12:20:42.750Z"
   },
   {
     "id": "mpl6c3jz5jl4",
@@ -770,5 +770,24 @@
     ],
     "createdAt": "2026-05-25T12:20:22.944Z",
     "updatedAt": "2026-05-25T12:20:22.944Z"
+  },
+  {
+    "id": "mpl6dl9aik8l",
+    "name": "Red Gstaad Hat",
+    "category": "Hat",
+    "status": "OK",
+    "price": "30",
+    "currency": "CHF",
+    "date": "",
+    "location": "James",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpl6dl9aik8l_IMG_9480.HEIC"
+    ],
+    "createdAt": "2026-05-25T12:21:24.946Z",
+    "updatedAt": "2026-05-25T12:21:24.946Z"
   }
 ]
