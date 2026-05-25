@@ -789,5 +789,43 @@
     ],
     "createdAt": "2026-05-25T12:21:24.946Z",
     "updatedAt": "2026-05-25T12:21:24.946Z"
+  },
+  {
+    "id": "mpl6een6tb9n",
+    "name": "Tropical Singapore hat",
+    "category": "Hat",
+    "status": "OK",
+    "price": "25",
+    "currency": "SGD",
+    "date": "",
+    "location": "James",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpl6een6tb9n_IMG_9480.HEIC"
+    ],
+    "createdAt": "2026-05-25T12:22:03.466Z",
+    "updatedAt": "2026-05-25T12:22:03.466Z"
+  },
+  {
+    "id": "mpl6fr6g3v0j",
+    "name": "Chianti Hat Black",
+    "category": "Hat",
+    "status": "OK",
+    "price": "20",
+    "currency": "EUR",
+    "date": "",
+    "location": "James",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpl6fr6g3v0j_IMG_9482.HEIC"
+    ],
+    "createdAt": "2026-05-25T12:23:00.004Z",
+    "updatedAt": "2026-05-25T12:23:00.004Z"
   }
 ]
