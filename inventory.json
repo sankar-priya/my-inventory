@@ -922,5 +922,43 @@
     ],
     "createdAt": "2026-05-25T12:27:21.214Z",
     "updatedAt": "2026-05-25T12:27:21.214Z"
+  },
+  {
+    "id": "mpl6lz8e1jmj",
+    "name": "Freiburg Hat",
+    "category": "Hat",
+    "status": "OK",
+    "price": "10",
+    "currency": "EUR",
+    "date": "",
+    "location": "James",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpl6lz8e1jmj_IMG_9483.HEIC"
+    ],
+    "createdAt": "2026-05-25T12:27:56.637Z",
+    "updatedAt": "2026-05-25T12:27:56.637Z"
+  },
+  {
+    "id": "mpl6mu153w12",
+    "name": "Black Liechtenstein hat large logo",
+    "category": "Hat",
+    "status": "OK",
+    "price": "20",
+    "currency": "CHF",
+    "date": "",
+    "location": "James",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpl6mu153w12_IMG_9483.HEIC"
+    ],
+    "createdAt": "2026-05-25T12:28:33.171Z",
+    "updatedAt": "2026-05-25T12:28:33.171Z"
   }
 ]
