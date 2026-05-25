@@ -827,5 +827,24 @@
     ],
     "createdAt": "2026-05-25T12:23:00.004Z",
     "updatedAt": "2026-05-25T12:23:00.004Z"
+  },
+  {
+    "id": "mpl6hd42nnld",
+    "name": "All Blacks Hat",
+    "category": "Hat",
+    "status": "OK",
+    "price": "30",
+    "currency": "NZD",
+    "date": "",
+    "location": "James",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpl6hd42nnld_IMG_9482.HEIC"
+    ],
+    "createdAt": "2026-05-25T12:24:18.249Z",
+    "updatedAt": "2026-05-25T12:24:18.249Z"
   }
 ]
