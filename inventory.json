@@ -1283,5 +1283,24 @@
     ],
     "createdAt": "2026-05-26T07:58:21.516Z",
     "updatedAt": "2026-05-26T07:58:21.516Z"
+  },
+  {
+    "id": "mpmzvf58gwlz",
+    "name": "J Crew Wool Coat",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "100",
+    "currency": "USD",
+    "date": "",
+    "location": "Blue suitcase",
+    "description": "Size 6 Women's Classic Overcoat",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpmzvf58gwlz_IMG_1501.HEIC"
+    ],
+    "createdAt": "2026-05-26T18:54:39.700Z",
+    "updatedAt": "2026-05-26T18:54:39.700Z"
   }
 ]
