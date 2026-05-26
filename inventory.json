@@ -1323,5 +1323,43 @@
     ],
     "createdAt": "2026-05-26T18:56:22.093Z",
     "updatedAt": "2026-05-26T18:56:22.093Z"
+  },
+  {
+    "id": "mpmzy68rdfva",
+    "name": "Dirndl Blouse",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "100",
+    "currency": "EUR",
+    "date": "",
+    "location": "Plastic Box 1",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpmzy68rdfva_IMG_1505.HEIC"
+    ],
+    "createdAt": "2026-05-26T18:56:48.107Z",
+    "updatedAt": "2026-05-26T18:56:48.107Z"
+  },
+  {
+    "id": "mpn0iu5kv8rx",
+    "name": "Grey lululemon Towel",
+    "category": "Accessories",
+    "status": "OK",
+    "price": "45",
+    "currency": "CHF",
+    "date": "",
+    "location": "Plastic Box 1",
+    "description": "",
+    "link": "https://www.eu.lululemon.com/en-ch/p/the-towel/prod1410047.html?dwvar_prod1410047_color=0001",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpn0iu5kv8rx_IMG_1506.HEIC"
+    ],
+    "createdAt": "2026-05-26T19:12:52.239Z",
+    "updatedAt": "2026-05-26T19:12:52.239Z"
   }
 ]
