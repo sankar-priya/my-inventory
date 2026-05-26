@@ -1242,5 +1242,26 @@
     ],
     "createdAt": "2026-05-26T07:52:32.250Z",
     "updatedAt": "2026-05-26T07:52:32.250Z"
+  },
+  {
+    "id": "mpmc9rpwxzlk",
+    "name": "Burberry Quilted Jacket Blue",
+    "category": "Clothing",
+    "status": "In need of repair",
+    "price": "595",
+    "currency": "USD",
+    "date": "2017-12-22",
+    "location": "Blue suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mpmc9rpwxzlk_Burberry_Jacket.pdf"
+    ],
+    "photos": [
+      "photos/mpmc9rpwxzlk_IMG_1497.HEIC"
+    ],
+    "createdAt": "2026-05-26T07:53:59.943Z",
+    "updatedAt": "2026-05-26T07:53:59.943Z"
   }
 ]
