@@ -1179,5 +1179,26 @@
     ],
     "createdAt": "2026-05-26T07:45:07.400Z",
     "updatedAt": "2026-05-26T07:45:07.400Z"
+  },
+  {
+    "id": "mpmc1f2c21x6",
+    "name": "Pink Tennis Dress",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "64.65",
+    "currency": "USD",
+    "date": "2022-07-30",
+    "location": "Blue suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mpmc1f2c21x6_pink_tennis_dress.pdf"
+    ],
+    "photos": [
+      "photos/mpmc1f2c21x6_IMG_1494.HEIC"
+    ],
+    "createdAt": "2026-05-26T07:47:30.965Z",
+    "updatedAt": "2026-05-26T07:47:30.965Z"
   }
 ]
