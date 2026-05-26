@@ -1023,19 +1023,21 @@
     "name": "Reflective Lululemon run hat",
     "category": "Hat",
     "status": "OK",
-    "price": "45",
+    "price": "42.46",
     "currency": "USD",
-    "date": "",
+    "date": "2017-02-24",
     "location": "James",
     "description": "",
     "link": "",
     "tags": "",
-    "receipts": [],
+    "receipts": [
+      "receipts/mpl6qdzq9n70_lulu_hat.pdf"
+    ],
     "photos": [
       "photos/mpl6qdzq9n70_IMG_9484.HEIC"
     ],
     "createdAt": "2026-05-25T12:31:25.406Z",
-    "updatedAt": "2026-05-25T12:31:25.406Z"
+    "updatedAt": "2026-05-26T07:38:49.136Z"
   },
   {
     "id": "mpl6rb7jnikt",
