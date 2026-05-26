@@ -1361,5 +1361,24 @@
     ],
     "createdAt": "2026-05-26T19:12:52.239Z",
     "updatedAt": "2026-05-26T19:12:52.239Z"
+  },
+  {
+    "id": "mpn0kh7j93gl",
+    "name": "RL Polo Sweater Green Cotton",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "235",
+    "currency": "CHF",
+    "date": "",
+    "location": "Plastic Box 1",
+    "description": "Men's Size M",
+    "link": "https://www.ralphlauren.ch/de/rundhalspullover-aus-baumwolle-3616412648326.html?utm_medium=paidshopping",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpn0kh7j93gl_IMG_1507.HEIC"
+    ],
+    "createdAt": "2026-05-26T19:14:09.107Z",
+    "updatedAt": "2026-05-26T19:14:09.107Z"
   }
 ]
