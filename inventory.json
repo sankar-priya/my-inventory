@@ -1302,5 +1302,26 @@
     ],
     "createdAt": "2026-05-26T18:54:39.700Z",
     "updatedAt": "2026-05-26T18:54:39.700Z"
+  },
+  {
+    "id": "mpmzxl6hweru",
+    "name": "Helly Hansen Rain Jacket",
+    "category": "",
+    "status": "OK",
+    "price": "69.92",
+    "currency": "USD",
+    "date": "2023-10-19",
+    "location": "Blue suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mpmzxl6hweru_Helly_Hansen.pdf"
+    ],
+    "photos": [
+      "photos/mpmzxl6hweru_IMG_1502.HEIC"
+    ],
+    "createdAt": "2026-05-26T18:56:22.093Z",
+    "updatedAt": "2026-05-26T18:56:22.093Z"
   }
 ]
