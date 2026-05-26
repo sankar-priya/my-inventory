@@ -1139,5 +1139,24 @@
     ],
     "createdAt": "2026-05-26T07:40:15.460Z",
     "updatedAt": "2026-05-26T07:40:15.460Z"
+  },
+  {
+    "id": "mpmbvxv7m5tk",
+    "name": "Equinox Rain Jacket",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "150",
+    "currency": "USD",
+    "date": "",
+    "location": "Blue suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpmbvxv7m5tk_IMG_1492.HEIC"
+    ],
+    "createdAt": "2026-05-26T07:43:13.210Z",
+    "updatedAt": "2026-05-26T07:43:13.210Z"
   }
 ]
