@@ -1117,5 +1117,27 @@
     ],
     "createdAt": "2026-05-26T07:35:21.770Z",
     "updatedAt": "2026-05-26T07:35:21.770Z"
+  },
+  {
+    "id": "mpmbs0vax6ht",
+    "name": "Reflective lulu leggings",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "149",
+    "currency": "USD",
+    "date": "2017-07-16",
+    "location": "Blue suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mpmbs0vax6ht_lulu_reflective_leggings.pdf"
+    ],
+    "photos": [
+      "photos/mpmbs0vax6ht_IMG_1489.HEIC",
+      "photos/mpmbs0vax6ht_IMG_1490.HEIC"
+    ],
+    "createdAt": "2026-05-26T07:40:15.460Z",
+    "updatedAt": "2026-05-26T07:40:15.460Z"
   }
 ]
