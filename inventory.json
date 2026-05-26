@@ -1263,5 +1263,25 @@
     ],
     "createdAt": "2026-05-26T07:53:59.943Z",
     "updatedAt": "2026-05-26T07:53:59.943Z"
+  },
+  {
+    "id": "mpmcfcwxvvaj",
+    "name": "Dirndl Teal",
+    "category": "",
+    "status": "OK",
+    "price": "800",
+    "currency": "EUR",
+    "date": "",
+    "location": "Plastic Box 1",
+    "description": "",
+    "link": "https://www.lodenfrey.ch/en/LODENFREY-Muenchen-1842-Long-linen-dirndl-with-apron.html",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpmcfcwxvvaj_IMG_1498.HEIC",
+      "photos/mpmcfcwxvvaj_IMG_1499.HEIC"
+    ],
+    "createdAt": "2026-05-26T07:58:21.516Z",
+    "updatedAt": "2026-05-26T07:58:21.516Z"
   }
 ]
