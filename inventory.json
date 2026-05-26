@@ -1093,5 +1093,27 @@
     ],
     "createdAt": "2026-05-25T12:33:53.364Z",
     "updatedAt": "2026-05-25T12:33:53.364Z"
+  },
+  {
+    "id": "mpmblq93xfqv",
+    "name": "Stuart Weitzman high boots",
+    "category": "Clothing",
+    "status": "In need of repair",
+    "price": "422.39",
+    "currency": "USD",
+    "date": "2019-11-27",
+    "location": "Blue suitcase",
+    "description": "Stuart Weitzman Women's Reserve Tall Boots, Black Nappa/Stretch Gabardine, 7 Medium US\nStuart Weitzman Women's Reserve Boot,Black,7 M US\n\nNeed cobbler to take care of leather",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mpmblq93xfqv_Stuart_Weitzman_boots.pdf"
+    ],
+    "photos": [
+      "photos/mpmblq93xfqv_IMG_1487.HEIC",
+      "photos/mpmblq93xfqv_IMG_1488.HEIC"
+    ],
+    "createdAt": "2026-05-26T07:35:21.770Z",
+    "updatedAt": "2026-05-26T07:35:21.770Z"
   }
 ]
