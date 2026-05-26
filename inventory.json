@@ -1158,5 +1158,26 @@
     ],
     "createdAt": "2026-05-26T07:43:13.210Z",
     "updatedAt": "2026-05-26T07:43:13.210Z"
+  },
+  {
+    "id": "mpmbycxxtr4f",
+    "name": "Lorna Jane Shorts Blue",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "14.01",
+    "currency": "USD",
+    "date": "2018-10-23",
+    "location": "Blue suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mpmbycxxtr4f_Lorna_Jane_Shorts.pdf"
+    ],
+    "photos": [
+      "photos/mpmbycxxtr4f_IMG_1493.HEIC"
+    ],
+    "createdAt": "2026-05-26T07:45:07.400Z",
+    "updatedAt": "2026-05-26T07:45:07.400Z"
   }
 ]
