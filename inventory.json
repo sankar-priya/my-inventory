@@ -1221,5 +1221,26 @@
     ],
     "createdAt": "2026-05-26T07:49:22.464Z",
     "updatedAt": "2026-05-26T07:49:22.464Z"
+  },
+  {
+    "id": "mpmc7vl30j66",
+    "name": "Fur trim gloves",
+    "category": "Accessories",
+    "status": "OK",
+    "price": "51.60",
+    "currency": "USD",
+    "date": "2018-10-11",
+    "location": "Blue suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mpmc7vl30j66_Fur_gloves.pdf"
+    ],
+    "photos": [
+      "photos/mpmc7vl30j66_IMG_1496.HEIC"
+    ],
+    "createdAt": "2026-05-26T07:52:32.250Z",
+    "updatedAt": "2026-05-26T07:52:32.250Z"
   }
 ]
