@@ -1439,5 +1439,26 @@
     ],
     "createdAt": "2026-05-27T16:32:19.827Z",
     "updatedAt": "2026-05-27T16:32:19.827Z"
+  },
+  {
+    "id": "mpogy8ys55wb",
+    "name": "Theory Jatinn Grey",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "115",
+    "currency": "CHF",
+    "date": "2023-11-20",
+    "location": "Blue suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mpogy8ys55wb_theory.pdf"
+    ],
+    "photos": [
+      "photos/mpogy8ys55wb_IMG_1514.HEIC"
+    ],
+    "createdAt": "2026-05-27T19:40:33.042Z",
+    "updatedAt": "2026-05-27T19:40:33.042Z"
   }
 ]
