@@ -1420,5 +1420,24 @@
     ],
     "createdAt": "2026-05-27T16:31:10.354Z",
     "updatedAt": "2026-05-27T16:31:10.354Z"
+  },
+  {
+    "id": "mpoa88a9wktr",
+    "name": "Grey lululemon tank",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "58",
+    "currency": "USD",
+    "date": "",
+    "location": "Plastic Box 1",
+    "description": "",
+    "link": "https://shop.lululemon.com/p/women-tanks/Swiftly-Tech-Racerback-2/_/prod9750459?color=0572",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpoa88a9wktr_IMG_1512.HEIC"
+    ],
+    "createdAt": "2026-05-27T16:32:19.827Z",
+    "updatedAt": "2026-05-27T16:32:19.827Z"
   }
 ]
