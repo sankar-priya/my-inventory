@@ -1586,5 +1586,26 @@
     ],
     "createdAt": "2026-05-27T19:53:02.263Z",
     "updatedAt": "2026-05-27T19:53:02.263Z"
+  },
+  {
+    "id": "mpohh78pj4av",
+    "name": "Reformation Black Work Dress",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "109",
+    "currency": "EUR",
+    "date": "2025-08-19",
+    "location": "Blue suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mpohh78pj4av_reformation.pdf"
+    ],
+    "photos": [
+      "photos/mpohh78pj4av_IMG_1519.HEIC"
+    ],
+    "createdAt": "2026-05-27T19:55:17.014Z",
+    "updatedAt": "2026-05-27T19:55:17.014Z"
   }
 ]
