@@ -1544,5 +1544,26 @@
     ],
     "createdAt": "2026-05-27T19:49:30.304Z",
     "updatedAt": "2026-05-27T19:49:30.304Z"
+  },
+  {
+    "id": "mpohce6jggyr",
+    "name": "Reformation Red lula dres",
+    "category": "",
+    "status": "OK",
+    "price": "125",
+    "currency": "CHF",
+    "date": "2024-12-29",
+    "location": "Plastic Box 1",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mpohce6jggyr_ref.pdf"
+    ],
+    "photos": [
+      "photos/mpohce6jggyr_IMG_1522.HEIC"
+    ],
+    "createdAt": "2026-05-27T19:51:33.101Z",
+    "updatedAt": "2026-05-27T19:51:33.101Z"
   }
 ]
