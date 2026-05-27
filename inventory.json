@@ -1460,5 +1460,26 @@
     ],
     "createdAt": "2026-05-27T19:40:33.042Z",
     "updatedAt": "2026-05-27T19:40:33.042Z"
+  },
+  {
+    "id": "mpogzorgzxtf",
+    "name": "Theory Navy Belted Sheath",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "135",
+    "currency": "CHF",
+    "date": "2023-11-20",
+    "location": "Blue suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mpogzorgzxtf_theory.pdf"
+    ],
+    "photos": [
+      "photos/mpogzorgzxtf_IMG_1521.HEIC"
+    ],
+    "createdAt": "2026-05-27T19:41:39.617Z",
+    "updatedAt": "2026-05-27T19:41:39.617Z"
   }
 ]
