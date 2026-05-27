@@ -1401,5 +1401,24 @@
     ],
     "createdAt": "2026-05-27T11:54:44.241Z",
     "updatedAt": "2026-05-27T11:54:56.097Z"
+  },
+  {
+    "id": "mpoa6qsc2wz7",
+    "name": "Nike tank black",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Plastic Box 1",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpoa6qsc2wz7_IMG_1511.HEIC"
+    ],
+    "createdAt": "2026-05-27T16:31:10.354Z",
+    "updatedAt": "2026-05-27T16:31:10.354Z"
   }
 ]
