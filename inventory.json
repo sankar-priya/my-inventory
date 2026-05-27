@@ -1565,5 +1565,26 @@
     ],
     "createdAt": "2026-05-27T19:51:33.101Z",
     "updatedAt": "2026-05-27T19:51:33.101Z"
+  },
+  {
+    "id": "mpohebdbln8a",
+    "name": "Theory Black Jatinn",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "61.13",
+    "currency": "USD",
+    "date": "2022-06-20",
+    "location": "Blue suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mpohebdbln8a_theory.pdf"
+    ],
+    "photos": [
+      "photos/mpohebdbln8a_IMG_1516.HEIC"
+    ],
+    "createdAt": "2026-05-27T19:53:02.263Z",
+    "updatedAt": "2026-05-27T19:53:02.263Z"
   }
 ]
