@@ -1523,5 +1523,26 @@
     ],
     "createdAt": "2026-05-27T19:48:00.416Z",
     "updatedAt": "2026-05-27T19:48:00.416Z"
+  },
+  {
+    "id": "mpoh9rorhkwy",
+    "name": "mm la fleur grey dress",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "95.40",
+    "currency": "USD",
+    "date": "2022-11-25",
+    "location": "Blue suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mpoh9rorhkwy_mm_la_fleur.pdf"
+    ],
+    "photos": [
+      "photos/mpoh9rorhkwy_IMG_1515.HEIC"
+    ],
+    "createdAt": "2026-05-27T19:49:30.304Z",
+    "updatedAt": "2026-05-27T19:49:30.304Z"
   }
 ]
