@@ -1481,5 +1481,26 @@
     ],
     "createdAt": "2026-05-27T19:41:39.617Z",
     "updatedAt": "2026-05-27T19:41:39.617Z"
+  },
+  {
+    "id": "mpoh3bpsnsm5",
+    "name": "Theory Grey Ponte Sheath",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "114",
+    "currency": "USD",
+    "date": "2022-11-26",
+    "location": "Blue suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mpoh3bpsnsm5_theory.pdf"
+    ],
+    "photos": [
+      "photos/mpoh3bpsnsm5_IMG_1518.HEIC"
+    ],
+    "createdAt": "2026-05-27T19:44:29.502Z",
+    "updatedAt": "2026-05-27T19:44:29.502Z"
   }
 ]
