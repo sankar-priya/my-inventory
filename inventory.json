@@ -1502,5 +1502,26 @@
     ],
     "createdAt": "2026-05-27T19:44:29.502Z",
     "updatedAt": "2026-05-27T19:44:29.502Z"
+  },
+  {
+    "id": "mpoh7u89byq5",
+    "name": "Theory jatinn blue",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "98",
+    "currency": "USD",
+    "date": "2022-04-14",
+    "location": "Blue suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mpoh7u89byq5_theory.pdf"
+    ],
+    "photos": [
+      "photos/mpoh7u89byq5_IMG_1517.HEIC"
+    ],
+    "createdAt": "2026-05-27T19:48:00.416Z",
+    "updatedAt": "2026-05-27T19:48:00.416Z"
   }
 ]
