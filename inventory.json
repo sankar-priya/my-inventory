@@ -1380,5 +1380,26 @@
     ],
     "createdAt": "2026-05-26T19:14:09.107Z",
     "updatedAt": "2026-05-26T19:14:09.107Z"
+  },
+  {
+    "id": "mpo0avorfn3o",
+    "name": "Bottas Calendar",
+    "category": "Misc",
+    "status": "OK",
+    "price": "28",
+    "currency": "CHF",
+    "date": "2023-11-14",
+    "location": "Plastic Box 1",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mpo0avorfn3o_Bottas_Cal.pdf"
+    ],
+    "photos": [
+      "photos/mpo0avorfn3o_IMG_1509.HEIC"
+    ],
+    "createdAt": "2026-05-27T11:54:44.241Z",
+    "updatedAt": "2026-05-27T11:54:56.097Z"
   }
 ]
