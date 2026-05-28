@@ -1689,5 +1689,24 @@
     ],
     "createdAt": "2026-05-28T17:21:37.756Z",
     "updatedAt": "2026-05-28T17:21:37.756Z"
+  },
+  {
+    "id": "mppri3rpj4x5",
+    "name": "Sandro Navy Dress",
+    "category": "",
+    "status": "OK",
+    "price": "82.10",
+    "currency": "USD",
+    "date": "2022-02-09",
+    "location": "Blue suitcase",
+    "description": "Sandro Paris Navy Reine Crochet Collar Dress Sz 3",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mppri3rpj4x5_IMG_1531.HEIC"
+    ],
+    "createdAt": "2026-05-28T17:23:40.024Z",
+    "updatedAt": "2026-05-28T17:23:40.024Z"
   }
 ]
