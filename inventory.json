@@ -1670,5 +1670,24 @@
     ],
     "createdAt": "2026-05-28T06:41:03.991Z",
     "updatedAt": "2026-05-28T06:41:03.991Z"
+  },
+  {
+    "id": "mpprfh4ueum7",
+    "name": "HSG Patagonia",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "150",
+    "currency": "CHF",
+    "date": "",
+    "location": "Blue suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpprfh4ueum7_IMG_1530.HEIC"
+    ],
+    "createdAt": "2026-05-28T17:21:37.756Z",
+    "updatedAt": "2026-05-28T17:21:37.756Z"
   }
 ]
