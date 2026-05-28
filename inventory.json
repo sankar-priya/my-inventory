@@ -1729,5 +1729,26 @@
     ],
     "createdAt": "2026-05-28T18:10:35.750Z",
     "updatedAt": "2026-05-28T18:10:35.750Z"
+  },
+  {
+    "id": "mppt90tgmc71",
+    "name": "Reformation Blue graduation dress",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "109",
+    "currency": "EUR",
+    "date": "2025-08-27",
+    "location": "Blue suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mppt90tgmc71_ref_.pdf"
+    ],
+    "photos": [
+      "photos/mppt90tgmc71_IMG_1536.HEIC"
+    ],
+    "createdAt": "2026-05-28T18:12:38.118Z",
+    "updatedAt": "2026-05-28T18:12:38.118Z"
   }
 ]
