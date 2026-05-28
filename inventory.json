@@ -1708,5 +1708,26 @@
     ],
     "createdAt": "2026-05-28T17:23:40.024Z",
     "updatedAt": "2026-05-28T17:23:40.024Z"
+  },
+  {
+    "id": "mppt6dyn5ps6",
+    "name": "Reformation Sparkle Dress",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "29.40",
+    "currency": "USD",
+    "date": "2020-12-17",
+    "location": "Blue suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mppt6dyn5ps6_Reformation_order.pdf"
+    ],
+    "photos": [
+      "photos/mppt6dyn5ps6_IMG_1537.HEIC"
+    ],
+    "createdAt": "2026-05-28T18:10:35.750Z",
+    "updatedAt": "2026-05-28T18:10:35.750Z"
   }
 ]
