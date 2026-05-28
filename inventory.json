@@ -1268,7 +1268,7 @@
     "id": "mpmcfcwxvvaj",
     "name": "Dirndl Teal",
     "category": "",
-    "status": "OK",
+    "status": "In need of repair",
     "price": "800",
     "currency": "EUR",
     "date": "",
@@ -1282,7 +1282,7 @@
       "photos/mpmcfcwxvvaj_IMG_1499.HEIC"
     ],
     "createdAt": "2026-05-26T07:58:21.516Z",
-    "updatedAt": "2026-05-26T07:58:21.516Z"
+    "updatedAt": "2026-05-28T06:34:32.655Z"
   },
   {
     "id": "mpmzvf58gwlz",
@@ -1649,5 +1649,26 @@
     ],
     "createdAt": "2026-05-28T06:34:04.519Z",
     "updatedAt": "2026-05-28T06:34:04.519Z"
+  },
+  {
+    "id": "mpp4jodthgrk",
+    "name": "MM LaFleur blazer",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "121.90",
+    "currency": "USD",
+    "date": "2021-11-01",
+    "location": "Blue suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mpp4jodthgrk_mm_la_fleur.pdf"
+    ],
+    "photos": [
+      "photos/mpp4jodthgrk_IMG_1524.HEIC"
+    ],
+    "createdAt": "2026-05-28T06:41:03.991Z",
+    "updatedAt": "2026-05-28T06:41:03.991Z"
   }
 ]
