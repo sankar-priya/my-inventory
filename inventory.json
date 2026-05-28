@@ -1752,8 +1752,8 @@
     "updatedAt": "2026-05-28T18:12:38.118Z"
   },
   {
-    "id": "mpptbg3rgr66",
-    "name": "White pearl dress",
+    "id": "mpptds28a943",
+    "name": "White Pearl Dress",
     "category": "Clothing",
     "status": "OK",
     "price": "168",
@@ -1764,12 +1764,12 @@
     "link": "",
     "tags": "",
     "receipts": [
-      "receipts/mpptbg3rgr66_GG_dress.pdf"
+      "receipts/mpptds28a943_GG_dress.pdf"
     ],
     "photos": [
-      "photos/mpptbg3rgr66_IMG_1535.HEIC"
+      "photos/mpptds28a943_IMG_1535.HEIC"
     ],
-    "createdAt": "2026-05-28T18:14:30.956Z",
-    "updatedAt": "2026-05-28T18:14:30.956Z"
+    "createdAt": "2026-05-28T18:16:19.503Z",
+    "updatedAt": "2026-05-28T18:16:19.503Z"
   }
 ]
