@@ -1628,5 +1628,26 @@
     ],
     "createdAt": "2026-05-28T06:32:30.287Z",
     "updatedAt": "2026-05-28T06:32:30.287Z"
+  },
+  {
+    "id": "mpp4ap7hvf9a",
+    "name": "Fur Earmuffs",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "39.60",
+    "currency": "USD",
+    "date": "2018-10-11",
+    "location": "Blue suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mpp4ap7hvf9a_fur_earmuffs.pdf"
+    ],
+    "photos": [
+      "photos/mpp4ap7hvf9a_IMG_1526.HEIC"
+    ],
+    "createdAt": "2026-05-28T06:34:04.519Z",
+    "updatedAt": "2026-05-28T06:34:04.519Z"
   }
 ]
