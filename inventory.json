@@ -1750,5 +1750,26 @@
     ],
     "createdAt": "2026-05-28T18:12:38.118Z",
     "updatedAt": "2026-05-28T18:12:38.118Z"
+  },
+  {
+    "id": "mpptbg3rgr66",
+    "name": "White pearl dress",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "168",
+    "currency": "USD",
+    "date": "2019-05-21",
+    "location": "Blue suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mpptbg3rgr66_GG_dress.pdf"
+    ],
+    "photos": [
+      "photos/mpptbg3rgr66_IMG_1535.HEIC"
+    ],
+    "createdAt": "2026-05-28T18:14:30.956Z",
+    "updatedAt": "2026-05-28T18:14:30.956Z"
   }
 ]
