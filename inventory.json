@@ -1609,24 +1609,24 @@
     "updatedAt": "2026-05-27T19:55:17.014Z"
   },
   {
-    "id": "mpohj2g332mm",
-    "name": "Black Halo Gypsy Rose Sheath",
+    "id": "mpp48o794cwz",
+    "name": "Barbour Jacket",
     "category": "Clothing",
-    "status": "In need of repair",
-    "price": "153.91",
+    "status": "OK",
+    "price": "306.75",
     "currency": "USD",
-    "date": "2018-12-24",
+    "date": "2017-08-05",
     "location": "Blue suitcase",
-    "description": "",
+    "description": "Monogrammed \nWaxed Fall 2025",
     "link": "",
     "tags": "",
     "receipts": [
-      "receipts/mpohj2g332mm_black_halo.pdf"
+      "receipts/mpp48o794cwz_Barbour.pdf"
     ],
     "photos": [
-      "photos/mpohj2g332mm_IMG_1520.HEIC"
+      "photos/mpp48o794cwz_IMG_1527.HEIC"
     ],
-    "createdAt": "2026-05-27T19:56:43.221Z",
-    "updatedAt": "2026-05-27T19:56:43.221Z"
+    "createdAt": "2026-05-28T06:32:30.287Z",
+    "updatedAt": "2026-05-28T06:32:30.287Z"
   }
 ]
