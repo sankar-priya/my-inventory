@@ -1811,5 +1811,26 @@
     ],
     "createdAt": "2026-05-30T08:00:42.585Z",
     "updatedAt": "2026-05-30T08:00:42.585Z"
+  },
+  {
+    "id": "mps2c8f5rij0",
+    "name": "Theory Grey Knit Dress",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "69",
+    "currency": "USD",
+    "date": "2022-11-26",
+    "location": "Blue suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mps2c8f5rij0_theory_grey_knit.pdf"
+    ],
+    "photos": [
+      "photos/mps2c8f5rij0_IMG_1548.HEIC"
+    ],
+    "createdAt": "2026-05-30T08:02:36.503Z",
+    "updatedAt": "2026-05-30T08:02:36.503Z"
   }
 ]
