@@ -1734,11 +1734,11 @@
     "id": "mppt90tgmc71",
     "name": "Reformation Blue graduation dress",
     "category": "Clothing",
-    "status": "OK",
+    "status": "Lent out",
     "price": "109",
     "currency": "EUR",
     "date": "2025-08-27",
-    "location": "Blue suitcase",
+    "location": "Tessi",
     "description": "",
     "link": "",
     "tags": "",
@@ -1749,7 +1749,7 @@
       "photos/mppt90tgmc71_IMG_1536.HEIC"
     ],
     "createdAt": "2026-05-28T18:12:38.118Z",
-    "updatedAt": "2026-05-28T18:12:38.118Z"
+    "updatedAt": "2026-05-30T07:12:03.953Z"
   },
   {
     "id": "mpptds28a943",
