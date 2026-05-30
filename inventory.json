@@ -1893,5 +1893,47 @@
     ],
     "createdAt": "2026-05-30T08:10:55.315Z",
     "updatedAt": "2026-05-30T08:10:55.315Z"
+  },
+  {
+    "id": "mps2nrmxyn3y",
+    "name": "Long sleeved black lululemon top",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "78",
+    "currency": "USD",
+    "date": "2018-02-03",
+    "location": "Blue suitcase",
+    "description": "",
+    "link": "https://shop.lululemon.com/p/tops-long-sleeve/Swiftly-Tech-LS-2/_/prod9750543?color=73808",
+    "tags": "",
+    "receipts": [
+      "receipts/mps2nrmxyn3y_lululemon.pdf"
+    ],
+    "photos": [
+      "photos/mps2nrmxyn3y_IMG_1552.HEIC"
+    ],
+    "createdAt": "2026-05-30T08:11:34.196Z",
+    "updatedAt": "2026-05-30T08:11:34.196Z"
+  },
+  {
+    "id": "mps2tgmpfqgk",
+    "name": "Lululemon grey define jacket",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "118",
+    "currency": "USD",
+    "date": "2018-02-03",
+    "location": "Blue suitcase",
+    "description": "",
+    "link": "https://shop.lululemon.com/p/jackets-and-hoodies-jackets/Define-Jacket/_/prod5020054?color=0001",
+    "tags": "",
+    "receipts": [
+      "receipts/mps2tgmpfqgk_lululemon.pdf"
+    ],
+    "photos": [
+      "photos/mps2tgmpfqgk_IMG_1559.HEIC"
+    ],
+    "createdAt": "2026-05-30T08:15:59.930Z",
+    "updatedAt": "2026-05-30T08:15:59.930Z"
   }
 ]
