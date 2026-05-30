@@ -1771,5 +1771,26 @@
     ],
     "createdAt": "2026-05-28T18:16:19.503Z",
     "updatedAt": "2026-05-28T18:16:19.503Z"
+  },
+  {
+    "id": "mps24t65p1sv",
+    "name": "Barbour Wrap",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "67.84",
+    "currency": "USD",
+    "date": "2022-01-25",
+    "location": "Blue suitcase",
+    "description": "STAFFIN TARTAN SERAPE",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mps24t65p1sv_barbour_wrap.pdf"
+    ],
+    "photos": [
+      "photos/mps24t65p1sv_IMG_1546.HEIC"
+    ],
+    "createdAt": "2026-05-30T07:56:49.808Z",
+    "updatedAt": "2026-05-30T07:56:49.808Z"
   }
 ]
