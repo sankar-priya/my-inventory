@@ -1792,5 +1792,24 @@
     ],
     "createdAt": "2026-05-30T07:56:49.808Z",
     "updatedAt": "2026-05-30T07:56:49.808Z"
+  },
+  {
+    "id": "mps29ueq1gj7",
+    "name": "Patagonia Fleece muff",
+    "category": "Accessories",
+    "status": "OK",
+    "price": "29",
+    "currency": "CHF",
+    "date": "",
+    "location": "Blue suitcase",
+    "description": "",
+    "link": "https://www.sportmania.ch/de/patagonia-micro-dtm-fleece-nackenwarmer-schwarz.html?gad_source=1&gad_campaignid=265593848&gclid=Cj0KCQjwlerQBhDMARIsAB16H-X6oe8UfRqip71z1oqHM4ubLKYDjik8BH2aUMp2YA5cuB-3PoKKygkaAhtHEALw_wcB",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mps29ueq1gj7_IMG_1547.HEIC"
+    ],
+    "createdAt": "2026-05-30T08:00:42.585Z",
+    "updatedAt": "2026-05-30T08:00:42.585Z"
   }
 ]
