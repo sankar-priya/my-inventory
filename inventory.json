@@ -1935,5 +1935,49 @@
     ],
     "createdAt": "2026-05-30T08:15:59.930Z",
     "updatedAt": "2026-05-30T08:15:59.930Z"
+  },
+  {
+    "id": "mps2udu1w78h",
+    "name": "Ferragamo loafers",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Blue suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mps2udu1w78h_IMG_1553.HEIC",
+      "photos/mps2udu1w78h_IMG_1556.HEIC",
+      "photos/mps2udu1w78h_IMG_1555.HEIC",
+      "photos/mps2udu1w78h_IMG_1554.HEIC",
+      "photos/mps2udu1w78h_IMG_1557.HEIC"
+    ],
+    "createdAt": "2026-05-30T08:16:49.856Z",
+    "updatedAt": "2026-05-30T08:16:49.856Z"
+  },
+  {
+    "id": "mps2xw249ss2",
+    "name": "Kooples black embellished dress",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "73.10",
+    "currency": "USD",
+    "date": "2019-04-20",
+    "location": "Blue suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mps2xw249ss2_kooples.pdf"
+    ],
+    "photos": [
+      "photos/mps2xw249ss2_IMG_1558.HEIC"
+    ],
+    "createdAt": "2026-05-30T08:19:25.823Z",
+    "updatedAt": "2026-05-30T08:19:25.823Z"
   }
 ]
