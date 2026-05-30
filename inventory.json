@@ -1853,5 +1853,45 @@
     ],
     "createdAt": "2026-05-30T08:05:53.069Z",
     "updatedAt": "2026-05-30T08:05:53.069Z"
+  },
+  {
+    "id": "mps2ha2h21w1",
+    "name": "Vince blue silk top",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Blue suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mps2ha2h21w1_IMG_1550.HEIC"
+    ],
+    "createdAt": "2026-05-30T08:06:29.346Z",
+    "updatedAt": "2026-05-30T08:06:29.346Z"
+  },
+  {
+    "id": "mps2mxrw1hk1",
+    "name": "Long sleeved grey lululemon top",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "78",
+    "currency": "USD",
+    "date": "2018-02-03",
+    "location": "Blue suitcase",
+    "description": "",
+    "link": "https://shop.lululemon.com/p/tops-long-sleeve/Swiftly-Tech-LS-2/_/prod9750543?color=73808",
+    "tags": "",
+    "receipts": [
+      "receipts/mps2mxrw1hk1_lululemon.pdf"
+    ],
+    "photos": [
+      "photos/mps2mxrw1hk1_IMG_1551.HEIC"
+    ],
+    "createdAt": "2026-05-30T08:10:55.315Z",
+    "updatedAt": "2026-05-30T08:10:55.315Z"
   }
 ]
