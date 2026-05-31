@@ -2157,5 +2157,26 @@
     ],
     "createdAt": "2026-05-31T16:42:23.564Z",
     "updatedAt": "2026-05-31T16:42:23.564Z"
+  },
+  {
+    "id": "mpu0f9gczct1",
+    "name": "Hiking boots Merrell",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "81",
+    "currency": "CHF",
+    "date": "",
+    "location": "Blue suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mpu0f9gczct1_hiking_shoe.pdf"
+    ],
+    "photos": [
+      "photos/mpu0f9gczct1_IMG_1588.HEIC"
+    ],
+    "createdAt": "2026-05-31T16:44:30.036Z",
+    "updatedAt": "2026-05-31T16:44:30.036Z"
   }
 ]
