@@ -2138,5 +2138,24 @@
     ],
     "createdAt": "2026-05-31T16:27:02.987Z",
     "updatedAt": "2026-05-31T16:27:02.987Z"
+  },
+  {
+    "id": "mpu0cktn1efq",
+    "name": "Brown leather belt",
+    "category": "Accessories",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Blue suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpu0cktn1efq_IMG_1587.HEIC"
+    ],
+    "createdAt": "2026-05-31T16:42:23.564Z",
+    "updatedAt": "2026-05-31T16:42:23.564Z"
   }
 ]
