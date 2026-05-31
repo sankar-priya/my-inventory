@@ -1981,27 +1981,27 @@
     "updatedAt": "2026-05-30T08:19:25.823Z"
   },
   {
-    "id": "mptz4mkay35b",
-    "name": "Hermes Jaguar Quetzal scarf 90cm silk",
+    "id": "mptz322y6gkz",
+    "name": "Hermes Jaguar Quetzal 90cm scarf",
     "category": "Accessories",
     "status": "OK",
     "price": "660",
     "currency": "EUR",
     "date": "",
-    "location": "Large Backpack",
+    "location": "Large backpack",
     "description": "",
     "link": "",
     "tags": "",
     "receipts": [],
     "photos": [
-      "photos/mptz4mkay35b_IMG_1578.HEIC",
-      "photos/mptz4mkay35b_IMG_1579.HEIC"
+      "photos/mptz322y6gkz_IMG_1578.HEIC",
+      "photos/mptz322y6gkz_IMG_1579.HEIC"
     ],
-    "createdAt": "2026-05-31T16:08:15.011Z",
-    "updatedAt": "2026-05-31T16:08:15.011Z"
+    "createdAt": "2026-05-31T16:07:01.923Z",
+    "updatedAt": "2026-05-31T16:07:01.923Z"
   },
   {
-    "id": "mptz9qi2rhnq",
+    "id": "mptz7lpp4alv",
     "name": "Casablanca silk scarf",
     "category": "Accessories",
     "status": "OK",
@@ -2013,12 +2013,31 @@
     "link": "",
     "tags": "",
     "receipts": [
-      "receipts/mptz9qi2rhnq_casablanca.pdf"
+      "receipts/mptz7lpp4alv_casablanca.pdf"
     ],
     "photos": [
-      "photos/mptz9qi2rhnq_IMG_1580.HEIC"
+      "photos/mptz7lpp4alv_IMG_1580.HEIC"
     ],
-    "createdAt": "2026-05-31T16:12:13.598Z",
-    "updatedAt": "2026-05-31T16:12:13.598Z"
+    "createdAt": "2026-05-31T16:10:34.160Z",
+    "updatedAt": "2026-05-31T16:10:34.160Z"
+  },
+  {
+    "id": "mptzbi2y111d",
+    "name": "Venice silk scarf",
+    "category": "Accessories",
+    "status": "OK",
+    "price": "20",
+    "currency": "EUR",
+    "date": "",
+    "location": "Large Backpack",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mptzbi2y111d_IMG_1581.HEIC"
+    ],
+    "createdAt": "2026-05-31T16:13:33.342Z",
+    "updatedAt": "2026-05-31T16:13:33.342Z"
   }
 ]
