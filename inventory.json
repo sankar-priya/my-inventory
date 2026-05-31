@@ -2117,5 +2117,26 @@
     ],
     "createdAt": "2026-05-31T16:24:41.649Z",
     "updatedAt": "2026-05-31T16:24:41.649Z"
+  },
+  {
+    "id": "mptzstqwwa2j",
+    "name": "Lululemon fanny pack",
+    "category": "Accessories",
+    "status": "OK",
+    "price": "40.28",
+    "currency": "USD",
+    "date": "2022-12-03",
+    "location": "Blue suitcase",
+    "description": "",
+    "link": "https://shop.lululemon.com/p/bags/Everywhere-Belt-Bag/_/prod8900747?color=73450",
+    "tags": "",
+    "receipts": [
+      "receipts/mptzstqwwa2j_lulu_bag.pdf"
+    ],
+    "photos": [
+      "photos/mptzstqwwa2j_IMG_1586.HEIC"
+    ],
+    "createdAt": "2026-05-31T16:27:02.987Z",
+    "updatedAt": "2026-05-31T16:27:02.987Z"
   }
 ]
