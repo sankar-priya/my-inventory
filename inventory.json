@@ -2077,5 +2077,24 @@
     ],
     "createdAt": "2026-05-31T16:17:30.464Z",
     "updatedAt": "2026-05-31T16:17:30.464Z"
+  },
+  {
+    "id": "mptzl1ln7hjo",
+    "name": "Dior 2-in-1 purse belt grey 30 montaigne",
+    "category": "Accessories",
+    "status": "OK",
+    "price": "2000",
+    "currency": "USD",
+    "date": "",
+    "location": "Large Backpack",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mptzl1ln7hjo_IMG_1584.HEIC"
+    ],
+    "createdAt": "2026-05-31T16:20:58.435Z",
+    "updatedAt": "2026-05-31T16:20:58.435Z"
   }
 ]
