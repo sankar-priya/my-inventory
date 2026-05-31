@@ -2058,5 +2058,24 @@
     ],
     "createdAt": "2026-05-31T16:15:37.114Z",
     "updatedAt": "2026-05-31T16:15:37.114Z"
+  },
+  {
+    "id": "mptzgl11s503",
+    "name": "HSG silk scarf",
+    "category": "Accessories",
+    "status": "OK",
+    "price": "95",
+    "currency": "CHF",
+    "date": "",
+    "location": "Large Backpack",
+    "description": "",
+    "link": "https://hsgshop.ch/products/seidenschal-hsg-architektur?_pos=1&_sid=e5bc7cb00&_ss=r",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mptzgl11s503_IMG_1583.HEIC"
+    ],
+    "createdAt": "2026-05-31T16:17:30.464Z",
+    "updatedAt": "2026-05-31T16:17:30.464Z"
   }
 ]
