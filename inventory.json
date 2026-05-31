@@ -2039,5 +2039,24 @@
     ],
     "createdAt": "2026-05-31T16:13:33.342Z",
     "updatedAt": "2026-05-31T16:13:33.342Z"
+  },
+  {
+    "id": "mptze5kyyxup",
+    "name": "Large Grand Seiko scarf",
+    "category": "Accessories",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Large Backpack",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mptze5kyyxup_IMG_1582.HEIC"
+    ],
+    "createdAt": "2026-05-31T16:15:37.114Z",
+    "updatedAt": "2026-05-31T16:15:37.114Z"
   }
 ]
