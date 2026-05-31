@@ -1979,5 +1979,25 @@
     ],
     "createdAt": "2026-05-30T08:19:25.823Z",
     "updatedAt": "2026-05-30T08:19:25.823Z"
+  },
+  {
+    "id": "mptz322y6gkz",
+    "name": "Hermes Jaguar Quetzal 90cm scarf",
+    "category": "Accessories",
+    "status": "OK",
+    "price": "660",
+    "currency": "EUR",
+    "date": "",
+    "location": "Large backpack",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mptz322y6gkz_IMG_1578.HEIC",
+      "photos/mptz322y6gkz_IMG_1579.HEIC"
+    ],
+    "createdAt": "2026-05-31T16:07:01.923Z",
+    "updatedAt": "2026-05-31T16:07:01.923Z"
   }
 ]
