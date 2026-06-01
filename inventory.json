@@ -2745,5 +2745,26 @@
     ],
     "createdAt": "2026-06-01T18:33:23.089Z",
     "updatedAt": "2026-06-01T18:33:34.755Z"
+  },
+  {
+    "id": "mpvjtf6k8w4p",
+    "name": "Eddie Bauer Black Hiking Shorts",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "64.99",
+    "currency": "USD",
+    "date": "2022-05-02",
+    "location": "Plastic Box 2",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mpvjtf6k8w4p_black_shorts.pdf"
+    ],
+    "photos": [
+      "photos/mpvjtf6k8w4p_IMG_1620.HEIC"
+    ],
+    "createdAt": "2026-06-01T18:35:09.405Z",
+    "updatedAt": "2026-06-01T18:35:09.405Z"
   }
 ]
