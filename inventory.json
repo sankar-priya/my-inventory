@@ -2665,5 +2665,26 @@
     ],
     "createdAt": "2026-06-01T18:26:58.013Z",
     "updatedAt": "2026-06-01T18:26:58.013Z"
+  },
+  {
+    "id": "mpvjjrue7p5z",
+    "name": "Reformation White top",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "44.40",
+    "currency": "USD",
+    "date": "2020-12-17",
+    "location": "Plastic Box 2",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mpvjjrue7p5z_Reformation_order.pdf"
+    ],
+    "photos": [
+      "photos/mpvjjrue7p5z_IMG_1617.HEIC"
+    ],
+    "createdAt": "2026-06-01T18:27:41.019Z",
+    "updatedAt": "2026-06-01T18:27:41.019Z"
   }
 ]
