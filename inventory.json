@@ -2950,5 +2950,24 @@
     ],
     "createdAt": "2026-06-01T21:02:55.348Z",
     "updatedAt": "2026-06-01T21:02:55.348Z"
+  },
+  {
+    "id": "mpvp4s76xhsx",
+    "name": "Dartmouth Crewneck",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "59.99",
+    "currency": "USD",
+    "date": "",
+    "location": "Plastic Box 2",
+    "description": "",
+    "link": "https://www.dartmouthcoop.com/dartmouth-mid-weight-tackle-twill-sweatshirt/",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpvp4s76xhsx_IMG_1634.HEIC"
+    ],
+    "createdAt": "2026-06-01T21:03:55.965Z",
+    "updatedAt": "2026-06-01T21:03:55.965Z"
   }
 ]
