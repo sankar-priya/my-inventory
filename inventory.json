@@ -2349,5 +2349,24 @@
     ],
     "createdAt": "2026-06-01T17:15:38.879Z",
     "updatedAt": "2026-06-01T17:15:38.879Z"
+  },
+  {
+    "id": "mpvh15pgpkaz",
+    "name": "Leuchtturm Blue Dotted A5 book Planner 2023",
+    "category": "Books",
+    "status": "OK",
+    "price": "29.9",
+    "currency": "CHF",
+    "date": "",
+    "location": "Plastic Box 2",
+    "description": "",
+    "link": "https://www.leuchtturm1917.ch/notizbuch-medium-a5-hardcover-251-nummerierte-seiten-indigo-dotted.html",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpvh15pgpkaz_IMG_1598.HEIC"
+    ],
+    "createdAt": "2026-06-01T17:17:10.222Z",
+    "updatedAt": "2026-06-01T17:17:10.222Z"
   }
 ]
