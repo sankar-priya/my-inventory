@@ -2829,5 +2829,27 @@
     ],
     "createdAt": "2026-06-01T18:54:30.652Z",
     "updatedAt": "2026-06-01T18:54:43.019Z"
+  },
+  {
+    "id": "mpvkjsju1oyr",
+    "name": "Kindle + Case",
+    "category": "Electronics",
+    "status": "OK",
+    "price": "105.87",
+    "currency": "USD",
+    "date": "2018-07-17",
+    "location": "Large Backpack",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mpvkjsju1oyr_Kindle_and_cover.pdf"
+    ],
+    "photos": [
+      "photos/mpvkjsju1oyr_IMG_1626.HEIC",
+      "photos/mpvkjsju1oyr_IMG_1625.HEIC"
+    ],
+    "createdAt": "2026-06-01T18:55:43.300Z",
+    "updatedAt": "2026-06-01T18:55:43.300Z"
   }
 ]
