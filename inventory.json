@@ -2889,5 +2889,24 @@
     ],
     "createdAt": "2026-06-01T20:56:40.183Z",
     "updatedAt": "2026-06-01T20:56:40.183Z"
+  },
+  {
+    "id": "mpvow1a9gxom",
+    "name": "Reformation Blue short sleeve viscose dress",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Plastic Box 2",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpvow1a9gxom_IMG_1631.HEIC"
+    ],
+    "createdAt": "2026-06-01T20:57:07.487Z",
+    "updatedAt": "2026-06-01T20:57:45.424Z"
   }
 ]
