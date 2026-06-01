@@ -2490,5 +2490,26 @@
     ],
     "createdAt": "2026-06-01T17:35:55.565Z",
     "updatedAt": "2026-06-01T17:35:55.565Z"
+  },
+  {
+    "id": "mpvhtcaws3vd",
+    "name": "Gymshark green set",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "45.96",
+    "currency": "USD",
+    "date": "2023-05-30",
+    "location": "Plastic Box 2",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mpvhtcaws3vd_gymshark.pdf"
+    ],
+    "photos": [
+      "photos/mpvhtcaws3vd_IMG_1606.HEIC"
+    ],
+    "createdAt": "2026-06-01T17:39:06.878Z",
+    "updatedAt": "2026-06-01T17:39:06.878Z"
   }
 ]
