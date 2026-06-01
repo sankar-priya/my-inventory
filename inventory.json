@@ -2686,5 +2686,24 @@
     ],
     "createdAt": "2026-06-01T18:27:41.019Z",
     "updatedAt": "2026-06-01T18:27:41.019Z"
+  },
+  {
+    "id": "mpvjmfgzy3dl",
+    "name": "COS mini skirt black",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "145",
+    "currency": "CHF",
+    "date": "",
+    "location": "Plastic Box 2",
+    "description": "",
+    "link": "https://www.cos.com/en-ch/women/womenswear/skirts/shortskirts/product/textured-mini-skirt-dark-grey-1326276001",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpvjmfgzy3dl_IMG_1616.HEIC"
+    ],
+    "createdAt": "2026-06-01T18:29:41.954Z",
+    "updatedAt": "2026-06-01T18:29:41.954Z"
   }
 ]
