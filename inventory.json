@@ -2530,5 +2530,24 @@
     ],
     "createdAt": "2026-06-01T18:04:21.732Z",
     "updatedAt": "2026-06-01T18:04:21.732Z"
+  },
+  {
+    "id": "mpvirp3yrdbw",
+    "name": "Dartmouth pennant",
+    "category": "Misc",
+    "status": "OK",
+    "price": "16",
+    "currency": "USD",
+    "date": "",
+    "location": "Plastic Box 2",
+    "description": "",
+    "link": "https://www.dartmouthcoop.com/dartmouth-pennant-medium/",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpvirp3yrdbw_IMG_1608.HEIC"
+    ],
+    "createdAt": "2026-06-01T18:05:48.700Z",
+    "updatedAt": "2026-06-01T18:05:48.700Z"
   }
 ]
