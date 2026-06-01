@@ -2433,8 +2433,8 @@
     "updatedAt": "2026-06-01T17:24:39.163Z"
   },
   {
-    "id": "mpvhbio8ixig",
-    "name": "Nuremberg Weinachtsmarkt Mug",
+    "id": "mpvhnikl9woo",
+    "name": "Nuremberg Xmas mug",
     "category": "Misc",
     "status": "OK",
     "price": "5",
@@ -2446,30 +2446,9 @@
     "tags": "",
     "receipts": [],
     "photos": [
-      "photos/mpvhbio8ixig_IMG_1603.HEIC"
+      "photos/mpvhnikl9woo_IMG_1603.HEIC"
     ],
-    "createdAt": "2026-06-01T17:25:14.540Z",
-    "updatedAt": "2026-06-01T17:25:14.540Z"
-  },
-  {
-    "id": "mpvhcocjl8he",
-    "name": "Embrace Ambition Tory Burch Shirt",
-    "category": "Clothing",
-    "status": "OK",
-    "price": "68",
-    "currency": "USD",
-    "date": "2017-09-22",
-    "location": "Plastic Box 2",
-    "description": "",
-    "link": "",
-    "tags": "",
-    "receipts": [
-      "receipts/mpvhcocjl8he_Embrace_Ambition_shirt.pdf"
-    ],
-    "photos": [
-      "photos/mpvhcocjl8he_IMG_1604.HEIC"
-    ],
-    "createdAt": "2026-06-01T17:26:09.859Z",
-    "updatedAt": "2026-06-01T17:26:09.859Z"
+    "createdAt": "2026-06-01T17:34:33.234Z",
+    "updatedAt": "2026-06-01T17:34:33.234Z"
   }
 ]
