@@ -2450,5 +2450,45 @@
     ],
     "createdAt": "2026-06-01T17:34:33.234Z",
     "updatedAt": "2026-06-01T17:34:33.234Z"
+  },
+  {
+    "id": "mpvhol3lvje7",
+    "name": "Ambitious shirt Tory Burch",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "68",
+    "currency": "USD",
+    "date": "2017-09-22",
+    "location": "Plastic Box 2",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mpvhol3lvje7_Embrace_Ambition_shirt.pdf"
+    ],
+    "photos": [
+      "photos/mpvhol3lvje7_IMG_1604.HEIC"
+    ],
+    "createdAt": "2026-06-01T17:35:25.316Z",
+    "updatedAt": "2026-06-01T17:35:25.316Z"
+  },
+  {
+    "id": "mpvhp9mxsnph",
+    "name": "Wiener Kaffeesiedersball espresso cup and saucer",
+    "category": "Misc",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Plastic Box 2",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpvhp9mxsnph_IMG_1605.HEIC"
+    ],
+    "createdAt": "2026-06-01T17:35:55.565Z",
+    "updatedAt": "2026-06-01T17:35:55.565Z"
   }
 ]
