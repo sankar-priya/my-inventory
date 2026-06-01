@@ -2870,5 +2870,24 @@
     ],
     "createdAt": "2026-06-01T20:56:07.510Z",
     "updatedAt": "2026-06-01T20:56:07.510Z"
+  },
+  {
+    "id": "mpvovft3mq0h",
+    "name": "LIlly Pulitzer embellished blue top",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "78",
+    "currency": "USD",
+    "date": "",
+    "location": "Plastic Box 2",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpvovft3mq0h_IMG_1630.HEIC"
+    ],
+    "createdAt": "2026-06-01T20:56:40.183Z",
+    "updatedAt": "2026-06-01T20:56:40.183Z"
   }
 ]
