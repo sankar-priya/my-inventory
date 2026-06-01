@@ -2785,5 +2785,28 @@
     ],
     "createdAt": "2026-06-01T18:52:28.315Z",
     "updatedAt": "2026-06-01T18:52:28.315Z"
+  },
+  {
+    "id": "mpvkh368vbg9",
+    "name": "Bose Headphones",
+    "category": "Electronics",
+    "status": "OK",
+    "price": "383",
+    "currency": "USD",
+    "date": "2019-02-11",
+    "location": "Large Backpack",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mpvkh368vbg9_bose_headphones.pdf",
+      "receipts/mpvkh368vbg9_bose_ear_pads.pdf"
+    ],
+    "photos": [
+      "photos/mpvkh368vbg9_IMG_1622.HEIC",
+      "photos/mpvkh368vbg9_IMG_1623.HEIC"
+    ],
+    "createdAt": "2026-06-01T18:53:38.426Z",
+    "updatedAt": "2026-06-01T18:53:38.426Z"
   }
 ]
