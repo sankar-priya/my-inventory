@@ -2292,5 +2292,24 @@
     ],
     "createdAt": "2026-06-01T17:12:12.225Z",
     "updatedAt": "2026-06-01T17:12:12.225Z"
+  },
+  {
+    "id": "mpvgwdtiuetb",
+    "name": "Die Leiden des jungen Werther book",
+    "category": "Books",
+    "status": "OK",
+    "price": "5.90",
+    "currency": "CHF",
+    "date": "",
+    "location": "Plastic Box 2",
+    "description": "",
+    "link": "https://www.orellfuessli.ch/shop/home/artikeldetails/A1000371138?ProvID=15323997&gad_source=1&gad_campaignid=17420263822&gclid=Cj0KCQjw2_TQBhCnARIsAF3-XhyDRVtjwlnVV5fThQIQ_gNl3vef3XbCP83m9LnP3DwFwoUFSXpLyDIaAoSFEALw_wcB",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpvgwdtiuetb_IMG_1596.HEIC"
+    ],
+    "createdAt": "2026-06-01T17:13:28.444Z",
+    "updatedAt": "2026-06-01T17:13:28.444Z"
   }
 ]
