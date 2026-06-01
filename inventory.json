@@ -2389,5 +2389,26 @@
     ],
     "createdAt": "2026-06-01T17:18:25.263Z",
     "updatedAt": "2026-06-01T17:18:25.263Z"
+  },
+  {
+    "id": "mpvh9jzg008z",
+    "name": "Minimale Animale Bikini",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "105",
+    "currency": "USD",
+    "date": "2020-05-15",
+    "location": "Plastic Box 2",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mpvh9jzg008z_minimale_animale.pdf"
+    ],
+    "photos": [
+      "photos/mpvh9jzg008z_IMG_1601.HEIC"
+    ],
+    "createdAt": "2026-06-01T17:23:44.409Z",
+    "updatedAt": "2026-06-01T17:23:44.409Z"
   }
 ]
