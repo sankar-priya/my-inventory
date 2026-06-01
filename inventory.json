@@ -2197,5 +2197,24 @@
     ],
     "createdAt": "2026-06-01T17:05:58.348Z",
     "updatedAt": "2026-06-01T17:05:58.348Z"
+  },
+  {
+    "id": "mpvgneli3zpm",
+    "name": "Hamilton Khaki Field Mechanical 38mm box",
+    "category": "Misc",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Plastic Box 2",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpvgneli3zpm_IMG_1591.HEIC"
+    ],
+    "createdAt": "2026-06-01T17:06:28.350Z",
+    "updatedAt": "2026-06-01T17:06:28.350Z"
   }
 ]
