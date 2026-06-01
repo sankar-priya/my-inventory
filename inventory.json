@@ -2625,5 +2625,24 @@
     ],
     "createdAt": "2026-06-01T18:09:47.158Z",
     "updatedAt": "2026-06-01T18:09:47.158Z"
+  },
+  {
+    "id": "mpvj0es5m71r",
+    "name": "Charles Leclerc Tshirt",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Plastic Box 2",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpvj0es5m71r_IMG_1614.HEIC"
+    ],
+    "createdAt": "2026-06-01T18:12:35.414Z",
+    "updatedAt": "2026-06-01T18:12:35.414Z"
   }
 ]
