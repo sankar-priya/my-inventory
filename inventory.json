@@ -2931,8 +2931,8 @@
     "updatedAt": "2026-06-01T21:00:27.757Z"
   },
   {
-    "id": "mpvp1h4plzju",
-    "name": "Levi jean Shorts",
+    "id": "mpvp3g8wxxpr",
+    "name": "Levi Denim Shorts",
     "category": "Clothing",
     "status": "OK",
     "price": "34.65",
@@ -2943,12 +2943,12 @@
     "link": "",
     "tags": "",
     "receipts": [
-      "receipts/mpvp1h4plzju_Jean_shorts.pdf"
+      "receipts/mpvp3g8wxxpr_Jean_shorts.pdf"
     ],
     "photos": [
-      "photos/mpvp1h4plzju_IMG_1633.HEIC"
+      "photos/mpvp3g8wxxpr_IMG_1633.HEIC"
     ],
-    "createdAt": "2026-06-01T21:01:24.757Z",
-    "updatedAt": "2026-06-01T21:01:49.740Z"
+    "createdAt": "2026-06-01T21:02:55.348Z",
+    "updatedAt": "2026-06-01T21:02:55.348Z"
   }
 ]
