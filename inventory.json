@@ -2705,5 +2705,26 @@
     ],
     "createdAt": "2026-06-01T18:29:41.954Z",
     "updatedAt": "2026-06-01T18:29:41.954Z"
+  },
+  {
+    "id": "mpvjnz5pj4is",
+    "name": "Reformation black silk mini",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "139",
+    "currency": "CHF",
+    "date": "2024-08-22",
+    "location": "Plastic Box 2",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mpvjnz5pj4is_ref_black_silk.pdf"
+    ],
+    "photos": [
+      "photos/mpvjnz5pj4is_IMG_1618.HEIC"
+    ],
+    "createdAt": "2026-06-01T18:30:55.925Z",
+    "updatedAt": "2026-06-01T18:30:55.925Z"
   }
 ]
