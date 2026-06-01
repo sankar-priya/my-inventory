@@ -2766,5 +2766,24 @@
     ],
     "createdAt": "2026-06-01T18:36:23.967Z",
     "updatedAt": "2026-06-01T18:36:23.967Z"
+  },
+  {
+    "id": "mpvkfpiqqa87",
+    "name": "Replica Charles Leclerc Car",
+    "category": "Misc",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Plastic Box 2",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpvkfpiqqa87_IMG_1621.HEIC"
+    ],
+    "createdAt": "2026-06-01T18:52:28.315Z",
+    "updatedAt": "2026-06-01T18:52:28.315Z"
   }
 ]
