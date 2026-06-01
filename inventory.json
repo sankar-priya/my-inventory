@@ -2908,5 +2908,26 @@
     ],
     "createdAt": "2026-06-01T20:58:19.931Z",
     "updatedAt": "2026-06-01T20:59:24.174Z"
+  },
+  {
+    "id": "mpvp003fbsj7",
+    "name": "Lululemon White Tennis Dress",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "104.94",
+    "currency": "CHF",
+    "date": "2022-08-08",
+    "location": "Plastic Box 2",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mpvp003fbsj7_lululemon_order.pdf"
+    ],
+    "photos": [
+      "photos/mpvp003fbsj7_IMG_1632.HEIC"
+    ],
+    "createdAt": "2026-06-01T21:00:15.754Z",
+    "updatedAt": "2026-06-01T21:00:27.757Z"
   }
 ]
