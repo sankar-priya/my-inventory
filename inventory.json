@@ -2808,5 +2808,26 @@
     ],
     "createdAt": "2026-06-01T18:53:38.426Z",
     "updatedAt": "2026-06-01T18:53:38.426Z"
+  },
+  {
+    "id": "mpvkib4n5veb",
+    "name": "Bose Speaker",
+    "category": "Electronics",
+    "status": "OK",
+    "price": "109",
+    "currency": "USD",
+    "date": "2017-11-23",
+    "location": "Large Backpack",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mpvkib4n5veb_bose_speaker.pdf"
+    ],
+    "photos": [
+      "photos/mpvkib4n5veb_IMG_1624.HEIC"
+    ],
+    "createdAt": "2026-06-01T18:54:30.652Z",
+    "updatedAt": "2026-06-01T18:54:43.019Z"
   }
 ]
