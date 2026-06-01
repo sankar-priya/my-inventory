@@ -2726,5 +2726,45 @@
     ],
     "createdAt": "2026-06-01T18:30:55.925Z",
     "updatedAt": "2026-06-01T18:30:55.925Z"
+  },
+  {
+    "id": "mpvjohlfipwn",
+    "name": "Chloe Black Silk Tank",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Plastic Box 2",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpvjohlfipwn_IMG_1619.HEIC"
+    ],
+    "createdAt": "2026-06-01T18:31:18.310Z",
+    "updatedAt": "2026-06-01T18:31:18.310Z"
+  },
+  {
+    "id": "mpvjq1cfcg0g",
+    "name": "Eddie Bauer black hiking shorts",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "64.99",
+    "currency": "USD",
+    "date": "2022-05-02",
+    "location": "Plastic Box 2",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mpvjq1cfcg0g_black_shorts.pdf"
+    ],
+    "photos": [
+      "photos/mpvjq1cfcg0g_IMG_1620.HEIC"
+    ],
+    "createdAt": "2026-06-01T18:32:31.892Z",
+    "updatedAt": "2026-06-01T18:32:31.892Z"
   }
 ]
