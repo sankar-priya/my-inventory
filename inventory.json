@@ -2851,5 +2851,24 @@
     ],
     "createdAt": "2026-06-01T18:56:53.395Z",
     "updatedAt": "2026-06-01T18:56:53.395Z"
+  },
+  {
+    "id": "mpvouqpe2r7m",
+    "name": "Reformation Crimini dress green",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "148",
+    "currency": "USD",
+    "date": "",
+    "location": "Plastic Box 2",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpvouqpe2r7m_IMG_1628.HEIC"
+    ],
+    "createdAt": "2026-06-01T20:56:07.510Z",
+    "updatedAt": "2026-06-01T20:56:07.510Z"
   }
 ]
