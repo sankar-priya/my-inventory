@@ -2606,5 +2606,24 @@
     ],
     "createdAt": "2026-06-01T18:08:13.900Z",
     "updatedAt": "2026-06-01T18:08:13.900Z"
+  },
+  {
+    "id": "mpviwtni6wn8",
+    "name": "Dartmouth tiny mug ornament",
+    "category": "Misc",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Plastic Box 2",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpviwtni6wn8_IMG_1613.HEIC"
+    ],
+    "createdAt": "2026-06-01T18:09:47.158Z",
+    "updatedAt": "2026-06-01T18:09:47.158Z"
   }
 ]
