@@ -2972,7 +2972,7 @@
   },
   {
     "id": "mpvp6ik1x0qy",
-    "name": "Grey Cotton Shaker Sweater 525 America",
+    "name": "Grey Cotton Adeline Sweater 525 America",
     "category": "Clothing",
     "status": "OK",
     "price": "99",
@@ -2980,13 +2980,34 @@
     "date": "",
     "location": "Plastic Box 2",
     "description": "",
-    "link": "https://www.525america.com/products/jane-crewneck-shaker-stitch-cotton-sweater-heather-grey?variant=46978228814076",
+    "link": "https://www.525america.com/products/adeline-cropped-cotton-sweater-blue-heron",
     "tags": "",
     "receipts": [],
     "photos": [
       "photos/mpvp6ik1x0qy_IMG_1635.HEIC"
     ],
     "createdAt": "2026-06-01T21:05:17.020Z",
-    "updatedAt": "2026-06-01T21:05:17.020Z"
+    "updatedAt": "2026-06-01T21:06:08.922Z"
+  },
+  {
+    "id": "mpvp8o021h4c",
+    "name": "BCBG light blue top",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "85.51",
+    "currency": "USD",
+    "date": "2018-04-15",
+    "location": "Plastic Box 2",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mpvp8o021h4c_bcbg_top.pdf"
+    ],
+    "photos": [
+      "photos/mpvp8o021h4c_IMG_1637.HEIC"
+    ],
+    "createdAt": "2026-06-01T21:06:59.296Z",
+    "updatedAt": "2026-06-01T21:06:59.296Z"
   }
 ]
