@@ -2216,5 +2216,43 @@
     ],
     "createdAt": "2026-06-01T17:06:28.350Z",
     "updatedAt": "2026-06-01T17:06:28.350Z"
+  },
+  {
+    "id": "mpvgnznc7f34",
+    "name": "Rolex Magazine",
+    "category": "Misc",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Plastic Box 2",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpvgnznc7f34_IMG_1592.HEIC"
+    ],
+    "createdAt": "2026-06-01T17:06:55.836Z",
+    "updatedAt": "2026-06-01T17:06:55.836Z"
+  },
+  {
+    "id": "mpvgqc2o5d2g",
+    "name": "Der Zauberberg book",
+    "category": "Books",
+    "status": "OK",
+    "price": "19.70",
+    "currency": "CHF",
+    "date": "",
+    "location": "Plastic Box 2",
+    "description": "",
+    "link": "https://www.galaxus.ch/en/s18/product/der-zauberberg-german-thomas-mann-2017-fiction-2400805?offertype=retail&offerid=406802&utm_source=google&utm_medium=cpc&utm_campaign=PMax%3A+PROD_CH_SSC_Cluster_7%28C%29&campaignid=20448036879&adtype=pla&adgroupid=&adid=&dgCidg=Cj0KCQjw2_TQBhCnARIsAF3-XhyoZ09uOrDPuum7RxXQzDmfvaMgvQfj6rBf2O35OTMtiBAKDZNw6QMaAvqoEALw_wcB&dgCidg=Cj0KCQjw2_TQBhCnARIsAF3-XhyoZ09uOrDPuum7RxXQzDmfvaMgvQfj6rBf2O35OTMtiBAKDZNw6QMaAvqoEALw_wcB&gclsrc=aw.ds&gad_source=1&gad_campaignid=19973634931&gclid=Cj0KCQjw2_TQBhCnARIsAF3-XhyoZ09uOrDPuum7RxXQzDmfvaMgvQfj6rBf2O35OTMtiBAKDZNw6QMaAvqoEALw_wcB",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpvgqc2o5d2g_IMG_1593.HEIC"
+    ],
+    "createdAt": "2026-06-01T17:08:44.996Z",
+    "updatedAt": "2026-06-01T17:08:44.996Z"
   }
 ]
