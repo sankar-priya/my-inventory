@@ -2282,7 +2282,7 @@
     "price": "22",
     "currency": "USD",
     "date": "",
-    "location": "",
+    "location": "Plastic Box 2",
     "description": "",
     "link": "https://www.amazon.com/Istanbul-Eats-Exploring-Culinary-Backstreets/dp/B0054EGP3S",
     "tags": "",
@@ -2291,7 +2291,7 @@
       "photos/mpvguruz6vf1_IMG_1595.HEIC"
     ],
     "createdAt": "2026-06-01T17:12:12.225Z",
-    "updatedAt": "2026-06-01T17:12:12.225Z"
+    "updatedAt": "2026-06-01T17:13:40.592Z"
   },
   {
     "id": "mpvgwdtiuetb",
@@ -2311,5 +2311,43 @@
     ],
     "createdAt": "2026-06-01T17:13:28.444Z",
     "updatedAt": "2026-06-01T17:13:28.444Z"
+  },
+  {
+    "id": "mpvgxdtt3n8y",
+    "name": "Two switzerland shot glasses",
+    "category": "Misc",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Plastic Box 2",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpvgxdtt3n8y_IMG_1600.HEIC"
+    ],
+    "createdAt": "2026-06-01T17:14:14.096Z",
+    "updatedAt": "2026-06-01T17:14:14.096Z"
+  },
+  {
+    "id": "mpvgz71zhywj",
+    "name": "Leuchtturm Red Dotted A5 book - school notes",
+    "category": "Books",
+    "status": "OK",
+    "price": "29.90",
+    "currency": "CHF",
+    "date": "",
+    "location": "Plastic Box 2",
+    "description": "",
+    "link": "https://www.leuchtturm1917.ch/notizbuch-medium-a5-hardcover-251-nummerierte-seiten-port-red-dotted.html?ref=AdWords&gad_source=1&gad_campaignid=17671281057&gclid=Cj0KCQjw2_TQBhCnARIsAF3-XhyevgC48YIACCORrsVPkx3TVBsvJLvh7fHbjnVWS6cuhnPje4TlwzgaApavEALw_wcB",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpvgz71zhywj_IMG_1597.HEIC"
+    ],
+    "createdAt": "2026-06-01T17:15:38.879Z",
+    "updatedAt": "2026-06-01T17:15:38.879Z"
   }
 ]
