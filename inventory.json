@@ -2587,5 +2587,24 @@
     ],
     "createdAt": "2026-06-01T18:07:03.212Z",
     "updatedAt": "2026-06-01T18:07:03.212Z"
+  },
+  {
+    "id": "mpviut924k36",
+    "name": "Cappadocia Magnet",
+    "category": "Misc",
+    "status": "OK",
+    "price": "5",
+    "currency": "EUR",
+    "date": "",
+    "location": "Plastic Box 2",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpviut924k36_IMG_1612.HEIC"
+    ],
+    "createdAt": "2026-06-01T18:08:13.900Z",
+    "updatedAt": "2026-06-01T18:08:13.900Z"
   }
 ]
