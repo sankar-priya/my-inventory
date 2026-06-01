@@ -2178,5 +2178,24 @@
     ],
     "createdAt": "2026-05-31T16:44:30.036Z",
     "updatedAt": "2026-05-31T16:44:30.036Z"
+  },
+  {
+    "id": "mpvgmr45ti2s",
+    "name": "Karl Fazer Mug",
+    "category": "Misc",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Plastic Box 2",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpvgmr45ti2s_IMG_1590.HEIC"
+    ],
+    "createdAt": "2026-06-01T17:05:58.348Z",
+    "updatedAt": "2026-06-01T17:05:58.348Z"
   }
 ]
