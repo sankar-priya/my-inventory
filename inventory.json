@@ -2511,5 +2511,24 @@
     ],
     "createdAt": "2026-06-01T17:39:06.878Z",
     "updatedAt": "2026-06-01T17:39:06.878Z"
+  },
+  {
+    "id": "mpvipujlesgd",
+    "name": "Glasgow whiskey flask and shots set",
+    "category": "Misc",
+    "status": "OK",
+    "price": "25",
+    "currency": "EUR",
+    "date": "",
+    "location": "Plastic Box 2",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpvipujlesgd_IMG_1607.HEIC"
+    ],
+    "createdAt": "2026-06-01T18:04:21.732Z",
+    "updatedAt": "2026-06-01T18:04:21.732Z"
   }
 ]
