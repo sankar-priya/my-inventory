@@ -2549,5 +2549,43 @@
     ],
     "createdAt": "2026-06-01T18:05:48.700Z",
     "updatedAt": "2026-06-01T18:05:48.700Z"
+  },
+  {
+    "id": "mpvisosppilc",
+    "name": "Handpainted Ashtray Turkey",
+    "category": "Misc",
+    "status": "OK",
+    "price": "45",
+    "currency": "EUR",
+    "date": "",
+    "location": "Plastic Box 2",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpvisosppilc_IMG_1609.HEIC"
+    ],
+    "createdAt": "2026-06-01T18:06:34.447Z",
+    "updatedAt": "2026-06-01T18:06:34.447Z"
+  },
+  {
+    "id": "mpvitb2jmt6s",
+    "name": "Berlin Wall Magnet",
+    "category": "Misc",
+    "status": "OK",
+    "price": "10",
+    "currency": "EUR",
+    "date": "",
+    "location": "Plastic Box 2",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpvitb2jmt6s_IMG_1610.HEIC"
+    ],
+    "createdAt": "2026-06-01T18:07:03.212Z",
+    "updatedAt": "2026-06-01T18:07:03.212Z"
   }
 ]
