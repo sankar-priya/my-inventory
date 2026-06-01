@@ -3009,5 +3009,24 @@
     ],
     "createdAt": "2026-06-01T21:09:18.130Z",
     "updatedAt": "2026-06-01T21:09:18.130Z"
+  },
+  {
+    "id": "mpvpcaehb65w",
+    "name": "Blue Cotton Lobster Embroidered Sweater J Crew",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Plastic Box 2",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpvpcaehb65w_IMG_1638.HEIC"
+    ],
+    "createdAt": "2026-06-01T21:09:46.315Z",
+    "updatedAt": "2026-06-01T21:10:22.755Z"
   }
 ]
