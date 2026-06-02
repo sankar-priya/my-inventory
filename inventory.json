@@ -3190,5 +3190,26 @@
     ],
     "createdAt": "2026-06-02T20:12:20.473Z",
     "updatedAt": "2026-06-02T20:12:20.473Z"
+  },
+  {
+    "id": "mpx2r31vrm9v",
+    "name": "Lululemon Fleece Leggings",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "89",
+    "currency": "USD",
+    "date": "2022-01-08",
+    "location": "Grey suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mpx2r31vrm9v_lululemon.pdf"
+    ],
+    "photos": [
+      "photos/mpx2r31vrm9v_IMG_1650.HEIC"
+    ],
+    "createdAt": "2026-06-02T20:13:01.437Z",
+    "updatedAt": "2026-06-02T20:13:01.437Z"
   }
 ]
