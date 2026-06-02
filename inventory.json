@@ -3169,5 +3169,47 @@
     ],
     "createdAt": "2026-06-02T20:09:03.976Z",
     "updatedAt": "2026-06-02T20:09:03.976Z"
+  },
+  {
+    "id": "mpx2mrn0izxu",
+    "name": "Ralph Lauren Cotton US Flag White Crewneck",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "148",
+    "currency": "USD",
+    "date": "2018-12-21",
+    "location": "Grey suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mpx2mrn0izxu_Ralph_Lauren_.pdf"
+    ],
+    "photos": [
+      "photos/mpx2mrn0izxu_IMG_1646.HEIC"
+    ],
+    "createdAt": "2026-06-02T20:09:38.690Z",
+    "updatedAt": "2026-06-02T20:09:38.690Z"
+  },
+  {
+    "id": "mpx2opfy7bmt",
+    "name": "Lululemon Fleece Leggings",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "89",
+    "currency": "USD",
+    "date": "2022-01-08",
+    "location": "Grey suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mpx2opfy7bmt_lululemon.pdf"
+    ],
+    "photos": [
+      "photos/mpx2opfy7bmt_IMG_1650.HEIC"
+    ],
+    "createdAt": "2026-06-02T20:11:10.661Z",
+    "updatedAt": "2026-06-02T20:11:10.661Z"
   }
 ]
