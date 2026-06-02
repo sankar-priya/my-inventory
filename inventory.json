@@ -3047,5 +3047,26 @@
     ],
     "createdAt": "2026-06-02T19:59:44.372Z",
     "updatedAt": "2026-06-02T19:59:44.372Z"
+  },
+  {
+    "id": "mpx2bov4fg8m",
+    "name": "Reformation White Linen Short",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "44",
+    "currency": "EUR",
+    "date": "2025-08-27",
+    "location": "Grey suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mpx2bov4fg8m_ref_.pdf"
+    ],
+    "photos": [
+      "photos/mpx2bov4fg8m_IMG_1640.HEIC"
+    ],
+    "createdAt": "2026-06-02T20:01:01.775Z",
+    "updatedAt": "2026-06-02T20:01:01.775Z"
   }
 ]
