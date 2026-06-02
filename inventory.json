@@ -3106,5 +3106,26 @@
     ],
     "createdAt": "2026-06-02T20:03:20.467Z",
     "updatedAt": "2026-06-02T20:03:20.467Z"
+  },
+  {
+    "id": "mpx2h4z8f5wx",
+    "name": "Hillflint Cotton Dartmouth Green",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "95",
+    "currency": "USD",
+    "date": "2018-04-22",
+    "location": "Grey suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mpx2h4z8f5wx_hillflint.pdf"
+    ],
+    "photos": [
+      "photos/mpx2h4z8f5wx_IMG_1645.HEIC"
+    ],
+    "createdAt": "2026-06-02T20:05:15.706Z",
+    "updatedAt": "2026-06-02T20:05:15.706Z"
   }
 ]
