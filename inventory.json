@@ -3127,5 +3127,26 @@
     ],
     "createdAt": "2026-06-02T20:06:26.276Z",
     "updatedAt": "2026-06-02T20:06:26.276Z"
+  },
+  {
+    "id": "mpx2k7bfz4l5",
+    "name": "Sparkly Maxi Black",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "35.81",
+    "currency": "CHF",
+    "date": "2025-11-04",
+    "location": "Grey suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mpx2k7bfz4l5_sparkly_maxi.pdf"
+    ],
+    "photos": [
+      "photos/mpx2k7bfz4l5_IMG_1647.HEIC"
+    ],
+    "createdAt": "2026-06-02T20:07:38.634Z",
+    "updatedAt": "2026-06-02T20:07:38.634Z"
   }
 ]
