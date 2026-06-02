@@ -3211,5 +3211,24 @@
     ],
     "createdAt": "2026-06-02T20:13:01.437Z",
     "updatedAt": "2026-06-02T20:13:01.437Z"
+  },
+  {
+    "id": "mpx2tdufzr3r",
+    "name": "Uniqlo Cotton Short Sleeve Sweater Black",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "40",
+    "currency": "EUR",
+    "date": "",
+    "location": "Grey suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpx2tdufzr3r_IMG_1652.HEIC"
+    ],
+    "createdAt": "2026-06-02T20:14:45.176Z",
+    "updatedAt": "2026-06-02T20:14:45.176Z"
   }
 ]
