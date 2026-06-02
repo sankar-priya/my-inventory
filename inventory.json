@@ -3251,5 +3251,26 @@
     ],
     "createdAt": "2026-06-02T20:18:50.109Z",
     "updatedAt": "2026-06-02T20:18:50.109Z"
+  },
+  {
+    "id": "mpx2zdfgmxxq",
+    "name": "Quince Burgundy Silk gown",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "130",
+    "currency": "USD",
+    "date": "2024-11-06",
+    "location": "Grey suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mpx2zdfgmxxq_quince.pdf"
+    ],
+    "photos": [
+      "photos/mpx2zdfgmxxq_IMG_1656.HEIC"
+    ],
+    "createdAt": "2026-06-02T20:19:26.281Z",
+    "updatedAt": "2026-06-02T20:19:26.281Z"
   }
 ]
