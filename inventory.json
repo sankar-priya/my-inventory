@@ -3272,5 +3272,24 @@
     ],
     "createdAt": "2026-06-02T20:19:26.281Z",
     "updatedAt": "2026-06-02T20:19:26.281Z"
+  },
+  {
+    "id": "mpx34d30u6hg",
+    "name": "Jcrew Cashmere Tee",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "128",
+    "currency": "USD",
+    "date": "",
+    "location": "Grey suitcase",
+    "description": "",
+    "link": "https://www.jcrew.com/p/womens/categories/clothing/sweaters/crewneck/cashmere-shrunken-t-shirt/CA082?display=standard&fit=Classic&color_name=black&colorProductCode=CA082",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpx34d30u6hg_IMG_1653.HEIC"
+    ],
+    "createdAt": "2026-06-02T20:23:17.201Z",
+    "updatedAt": "2026-06-02T20:23:17.201Z"
   }
 ]
