@@ -3068,5 +3068,24 @@
     ],
     "createdAt": "2026-06-02T20:01:01.775Z",
     "updatedAt": "2026-06-02T20:01:01.775Z"
+  },
+  {
+    "id": "mpx2e46mv09r",
+    "name": "Zara Black Velvet Dress",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "40",
+    "currency": "EUR",
+    "date": "",
+    "location": "Grey suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpx2e46mv09r_IMG_1643.HEIC"
+    ],
+    "createdAt": "2026-06-02T20:02:52.594Z",
+    "updatedAt": "2026-06-02T20:02:52.594Z"
   }
 ]
