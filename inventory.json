@@ -3087,5 +3087,24 @@
     ],
     "createdAt": "2026-06-02T20:02:52.594Z",
     "updatedAt": "2026-06-02T20:02:52.594Z"
+  },
+  {
+    "id": "mpx2epd4ffi1",
+    "name": "Jcrew Pleather Skirt",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "80",
+    "currency": "USD",
+    "date": "",
+    "location": "Grey suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpx2epd4ffi1_IMG_1644.HEIC"
+    ],
+    "createdAt": "2026-06-02T20:03:20.467Z",
+    "updatedAt": "2026-06-02T20:03:20.467Z"
   }
 ]
