@@ -3230,5 +3230,26 @@
     ],
     "createdAt": "2026-06-02T20:14:45.176Z",
     "updatedAt": "2026-06-02T20:14:45.176Z"
+  },
+  {
+    "id": "mpx2yl78bzue",
+    "name": "Quince Black Cotton Sweater",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "50",
+    "currency": "USD",
+    "date": "2024-11-06",
+    "location": "Grey suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mpx2yl78bzue_quince.pdf"
+    ],
+    "photos": [
+      "photos/mpx2yl78bzue_IMG_1651.HEIC"
+    ],
+    "createdAt": "2026-06-02T20:18:50.109Z",
+    "updatedAt": "2026-06-02T20:18:50.109Z"
   }
 ]
