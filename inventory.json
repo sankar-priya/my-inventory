@@ -3291,5 +3291,24 @@
     ],
     "createdAt": "2026-06-02T20:23:17.201Z",
     "updatedAt": "2026-06-02T20:23:17.201Z"
+  },
+  {
+    "id": "mpx36zsn0z8p",
+    "name": "Vince light blue silk slip dress",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Grey suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpx36zsn0z8p_IMG_1654.HEIC"
+    ],
+    "createdAt": "2026-06-02T20:25:20.634Z",
+    "updatedAt": "2026-06-02T20:25:20.634Z"
   }
 ]
