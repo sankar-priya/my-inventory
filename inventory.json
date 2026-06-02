@@ -3028,5 +3028,24 @@
     ],
     "createdAt": "2026-06-01T21:09:46.315Z",
     "updatedAt": "2026-06-01T21:10:22.755Z"
+  },
+  {
+    "id": "mpx2a3157oqm",
+    "name": "Cocktail pourer",
+    "category": "Misc",
+    "status": "OK",
+    "price": "15",
+    "currency": "CHF",
+    "date": "",
+    "location": "Plastic Box 2",
+    "description": "Globus",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpx2a3157oqm_IMG_1639.HEIC"
+    ],
+    "createdAt": "2026-06-02T19:59:44.372Z",
+    "updatedAt": "2026-06-02T19:59:44.372Z"
   }
 ]
