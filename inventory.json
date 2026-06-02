@@ -3331,5 +3331,24 @@
     ],
     "createdAt": "2026-06-02T20:28:23.858Z",
     "updatedAt": "2026-06-02T20:28:42.043Z"
+  },
+  {
+    "id": "mpx3dw5uddj8",
+    "name": "Delsey Grey Suitcase",
+    "category": "Luggage",
+    "status": "OK",
+    "price": "162.17",
+    "currency": "USD",
+    "date": "2023-07-23",
+    "location": "CH flat",
+    "description": "",
+    "link": "https://www.amazon.com/dp/B01ELN68IO?ref_=ppx_printOD_title_dt_b_fed_asin_title_0_0&th=1",
+    "tags": "",
+    "receipts": [
+      "receipts/mpx3dw5uddj8_delsey.pdf"
+    ],
+    "photos": [],
+    "createdAt": "2026-06-02T20:30:41.284Z",
+    "updatedAt": "2026-06-02T20:30:41.284Z"
   }
 ]
