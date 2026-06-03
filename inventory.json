@@ -3333,22 +3333,22 @@
     "updatedAt": "2026-06-02T20:28:42.043Z"
   },
   {
-    "id": "mpx3dw5uddj8",
-    "name": "Delsey Grey Suitcase",
-    "category": "Luggage",
+    "id": "mpxpg4g23clm",
+    "name": "Ohrid Print",
+    "category": "Art",
     "status": "OK",
-    "price": "162.17",
-    "currency": "USD",
-    "date": "2023-07-23",
-    "location": "CH flat",
+    "price": "10",
+    "currency": "EUR",
+    "date": "",
+    "location": "Large Backpack",
     "description": "",
-    "link": "https://www.amazon.com/dp/B01ELN68IO?ref_=ppx_printOD_title_dt_b_fed_asin_title_0_0&th=1",
+    "link": "",
     "tags": "",
-    "receipts": [
-      "receipts/mpx3dw5uddj8_delsey.pdf"
+    "receipts": [],
+    "photos": [
+      "photos/mpxpg4g23clm_IMG_1658.HEIC"
     ],
-    "photos": [],
-    "createdAt": "2026-06-02T20:30:41.284Z",
-    "updatedAt": "2026-06-02T20:30:41.284Z"
+    "createdAt": "2026-06-03T06:48:18.201Z",
+    "updatedAt": "2026-06-03T06:48:18.201Z"
   }
 ]
