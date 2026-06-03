@@ -3350,5 +3350,24 @@
     ],
     "createdAt": "2026-06-03T06:48:18.201Z",
     "updatedAt": "2026-06-03T06:48:18.201Z"
+  },
+  {
+    "id": "mpxpgrvlg232",
+    "name": "Filigree Peacock Magnet",
+    "category": "Art",
+    "status": "OK",
+    "price": "10",
+    "currency": "EUR",
+    "date": "",
+    "location": "Large Backpack",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpxpgrvlg232_IMG_1659.HEIC"
+    ],
+    "createdAt": "2026-06-03T06:48:47.246Z",
+    "updatedAt": "2026-06-03T06:48:47.246Z"
   }
 ]
