@@ -3371,7 +3371,7 @@
     "updatedAt": "2026-06-03T06:48:47.246Z"
   },
   {
-    "id": "mpxphbv473cm",
+    "id": "mpxpjncnlrbt",
     "name": "Prints from Malta 2x",
     "category": "Art",
     "status": "OK",
@@ -3384,28 +3384,9 @@
     "tags": "",
     "receipts": [],
     "photos": [
-      "photos/mpxphbv473cm_IMG_1660.HEIC"
+      "photos/mpxpjncnlrbt_IMG_1660.HEIC"
     ],
-    "createdAt": "2026-06-03T06:49:13.606Z",
-    "updatedAt": "2026-06-03T06:49:13.606Z"
-  },
-  {
-    "id": "mpxpi5o85her",
-    "name": "Art print Albania",
-    "category": "Art",
-    "status": "OK",
-    "price": "20",
-    "currency": "EUR",
-    "date": "",
-    "location": "Large Backpack",
-    "description": "",
-    "link": "",
-    "tags": "",
-    "receipts": [],
-    "photos": [
-      "photos/mpxpi5o85her_IMG_1661.HEIC"
-    ],
-    "createdAt": "2026-06-03T06:49:52.512Z",
-    "updatedAt": "2026-06-03T06:49:52.512Z"
+    "createdAt": "2026-06-03T06:51:02.013Z",
+    "updatedAt": "2026-06-03T06:51:02.013Z"
   }
 ]
