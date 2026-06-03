@@ -3407,5 +3407,24 @@
     ],
     "createdAt": "2026-06-03T06:53:24.653Z",
     "updatedAt": "2026-06-03T06:53:24.653Z"
+  },
+  {
+    "id": "mpxpn67u5emx",
+    "name": "Swiss woodframed sketch",
+    "category": "Art",
+    "status": "OK",
+    "price": "25",
+    "currency": "CHF",
+    "date": "",
+    "location": "Plastic Box 2",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mpxpn67u5emx_IMG_1662.HEIC"
+    ],
+    "createdAt": "2026-06-03T06:53:46.267Z",
+    "updatedAt": "2026-06-03T06:54:07.499Z"
   }
 ]
