@@ -3488,5 +3488,24 @@
     ],
     "createdAt": "2026-06-21T21:07:57.170Z",
     "updatedAt": "2026-06-21T21:07:57.170Z"
+  },
+  {
+    "id": "mqoa42aj32h8",
+    "name": "Luxembourg baseball cap",
+    "category": "Hat",
+    "status": "OK",
+    "price": "10",
+    "currency": "EUR",
+    "date": "2026-06-17",
+    "location": "Ski bag",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mqoa42aj32h8_IMG_2109.HEIC"
+    ],
+    "createdAt": "2026-06-21T21:08:48.523Z",
+    "updatedAt": "2026-06-21T21:08:48.523Z"
   }
 ]
