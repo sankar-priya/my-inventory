@@ -1267,22 +1267,24 @@
   {
     "id": "mpmcfcwxvvaj",
     "name": "Dirndl Teal",
-    "category": "",
+    "category": "Clothing",
     "status": "In need of repair",
-    "price": "800",
+    "price": "649",
     "currency": "EUR",
-    "date": "",
+    "date": "2025-10-02",
     "location": "Plastic Box 1",
     "description": "",
     "link": "https://www.lodenfrey.ch/en/LODENFREY-Muenchen-1842-Long-linen-dirndl-with-apron.html",
     "tags": "",
-    "receipts": [],
+    "receipts": [
+      "receipts/mpmcfcwxvvaj_IMG_2111.HEIC"
+    ],
     "photos": [
       "photos/mpmcfcwxvvaj_IMG_1498.HEIC",
       "photos/mpmcfcwxvvaj_IMG_1499.HEIC"
     ],
     "createdAt": "2026-05-26T07:58:21.516Z",
-    "updatedAt": "2026-05-28T06:34:32.655Z"
+    "updatedAt": "2026-06-21T21:04:17.010Z"
   },
   {
     "id": "mpmzvf58gwlz",
@@ -1343,7 +1345,7 @@
       "photos/mpmzy68rdfva_IMG_1505.HEIC"
     ],
     "createdAt": "2026-05-26T18:56:48.107Z",
-    "updatedAt": "2026-06-21T21:02:40.748Z"
+    "updatedAt": "2026-06-21T21:03:35.331Z"
   },
   {
     "id": "mpn0iu5kv8rx",
