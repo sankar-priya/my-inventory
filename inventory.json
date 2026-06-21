@@ -3443,5 +3443,27 @@
     "photos": [],
     "createdAt": "2026-06-21T18:18:41.610Z",
     "updatedAt": "2026-06-21T18:18:41.610Z"
+  },
+  {
+    "id": "mqo9tyibrvxb",
+    "name": "Sentimental Cards and photos",
+    "category": "Documents",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Plastic Box 2",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mqo9tyibrvxb_IMG_2112.HEIC",
+      "photos/mqo9tyibrvxb_IMG_2116.HEIC",
+      "photos/mqo9tyibrvxb_IMG_2115.HEIC",
+      "photos/mqo9tyibrvxb_IMG_2113.HEIC"
+    ],
+    "createdAt": "2026-06-21T21:01:07.946Z",
+    "updatedAt": "2026-06-21T21:01:07.946Z"
   }
 ]
