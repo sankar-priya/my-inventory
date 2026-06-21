@@ -1329,19 +1329,21 @@
     "name": "Dirndl Blouse",
     "category": "Clothing",
     "status": "OK",
-    "price": "100",
+    "price": "159",
     "currency": "EUR",
     "date": "",
     "location": "Plastic Box 1",
     "description": "",
     "link": "",
     "tags": "",
-    "receipts": [],
+    "receipts": [
+      "receipts/mpmzy68rdfva_IMG_2111.HEIC"
+    ],
     "photos": [
       "photos/mpmzy68rdfva_IMG_1505.HEIC"
     ],
     "createdAt": "2026-05-26T18:56:48.107Z",
-    "updatedAt": "2026-05-26T18:56:48.107Z"
+    "updatedAt": "2026-06-21T21:02:40.748Z"
   },
   {
     "id": "mpn0iu5kv8rx",
