@@ -3426,5 +3426,22 @@
     ],
     "createdAt": "2026-06-03T06:53:46.267Z",
     "updatedAt": "2026-06-03T06:54:07.499Z"
+  },
+  {
+    "id": "mqo41dfu41yj",
+    "name": "Chequebook",
+    "category": "Documents",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Large Backpack",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [],
+    "createdAt": "2026-06-21T18:18:41.610Z",
+    "updatedAt": "2026-06-21T18:18:41.610Z"
   }
 ]
