@@ -3469,5 +3469,24 @@
     ],
     "createdAt": "2026-06-21T21:01:07.946Z",
     "updatedAt": "2026-06-21T21:01:07.946Z"
+  },
+  {
+    "id": "mqoa2zhrg8ia",
+    "name": "Shakespeare & Co tote bag",
+    "category": "Accessories",
+    "status": "OK",
+    "price": "20",
+    "currency": "EUR",
+    "date": "2026-06-19",
+    "location": "Ski bag",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mqoa2zhrg8ia_IMG_2103.HEIC"
+    ],
+    "createdAt": "2026-06-21T21:07:57.170Z",
+    "updatedAt": "2026-06-21T21:07:57.170Z"
   }
 ]
