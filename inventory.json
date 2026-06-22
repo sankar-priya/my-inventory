@@ -3562,5 +3562,24 @@
     "photos": [],
     "createdAt": "2026-06-22T17:58:17.941Z",
     "updatedAt": "2026-06-22T17:58:17.941Z"
+  },
+  {
+    "id": "mqpirsexxvij",
+    "name": "Monaco Black plastic souvenir tote",
+    "category": "Accessories",
+    "status": "OK",
+    "price": "10",
+    "currency": "EUR",
+    "date": "",
+    "location": "",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mqpirsexxvij_IMG_2121.HEIC"
+    ],
+    "createdAt": "2026-06-22T17:58:58.685Z",
+    "updatedAt": "2026-06-22T18:02:26.538Z"
   }
 ]
