@@ -3685,5 +3685,26 @@
     ],
     "createdAt": "2026-06-22T18:21:32.531Z",
     "updatedAt": "2026-06-22T18:21:32.531Z"
+  },
+  {
+    "id": "mqpjmjebi7t6",
+    "name": "Jcrew cashmere socks",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "12.80",
+    "currency": "USD",
+    "date": "2022-12-24",
+    "location": "Ski bag",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mqpjmjebi7t6_jcrew.pdf"
+    ],
+    "photos": [
+      "photos/mqpjmjebi7t6_IMG_2107.HEIC"
+    ],
+    "createdAt": "2026-06-22T18:22:53.935Z",
+    "updatedAt": "2026-06-22T18:22:53.935Z"
   }
 ]
