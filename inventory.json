@@ -3507,5 +3507,24 @@
     ],
     "createdAt": "2026-06-21T21:08:48.523Z",
     "updatedAt": "2026-06-21T21:08:48.523Z"
+  },
+  {
+    "id": "mqpigtt68r2p",
+    "name": "Academic Surf Club Drawstring tote bag",
+    "category": "Accessories",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Ski bag",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mqpigtt68r2p_IMG_2124.HEIC"
+    ],
+    "createdAt": "2026-06-22T17:50:26.162Z",
+    "updatedAt": "2026-06-22T17:50:26.162Z"
   }
 ]
