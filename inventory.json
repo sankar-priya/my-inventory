@@ -3581,5 +3581,24 @@
     ],
     "createdAt": "2026-06-22T18:02:53.900Z",
     "updatedAt": "2026-06-22T18:10:14.960Z"
+  },
+  {
+    "id": "mqpj96xli6fh",
+    "name": "Large Dartmouth Tote bag",
+    "category": "Accessories",
+    "status": "OK",
+    "price": "60",
+    "currency": "USD",
+    "date": "",
+    "location": "Plastic Box 1",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mqpj96xli6fh_IMG_2120.HEIC"
+    ],
+    "createdAt": "2026-06-22T18:12:29.398Z",
+    "updatedAt": "2026-06-22T18:12:29.398Z"
   }
 ]
