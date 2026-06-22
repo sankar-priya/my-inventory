@@ -1308,7 +1308,7 @@
   {
     "id": "mpmzxl6hweru",
     "name": "Helly Hansen Rain Jacket",
-    "category": "Clothing",
+    "category": "",
     "status": "OK",
     "price": "69.92",
     "currency": "USD",
@@ -1324,7 +1324,7 @@
       "photos/mpmzxl6hweru_IMG_1502.HEIC"
     ],
     "createdAt": "2026-05-26T18:56:22.093Z",
-    "updatedAt": "2026-06-22T17:56:40.987Z"
+    "updatedAt": "2026-05-26T18:56:22.093Z"
   },
   {
     "id": "mpmzy68rdfva",
@@ -1552,8 +1552,8 @@
   {
     "id": "mpohce6jggyr",
     "name": "Reformation Red lula dres",
-    "category": "Clothing",
-    "status": "In need of repair",
+    "category": "",
+    "status": "OK",
     "price": "125",
     "currency": "CHF",
     "date": "2024-12-29",
@@ -1568,7 +1568,7 @@
       "photos/mpohce6jggyr_IMG_1522.HEIC"
     ],
     "createdAt": "2026-05-27T19:51:33.101Z",
-    "updatedAt": "2026-06-22T17:57:05.105Z"
+    "updatedAt": "2026-05-27T19:51:33.101Z"
   },
   {
     "id": "mpohebdbln8a",
@@ -3545,5 +3545,22 @@
     ],
     "createdAt": "2026-06-22T17:53:12.130Z",
     "updatedAt": "2026-06-22T17:53:12.130Z"
+  },
+  {
+    "id": "mqpiqzx1ixgt",
+    "name": "HSG Alumni tote bag",
+    "category": "Accessories",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Ski bag",
+    "description": "",
+    "link": "",
+    "tags": "gift",
+    "receipts": [],
+    "photos": [],
+    "createdAt": "2026-06-22T17:58:17.941Z",
+    "updatedAt": "2026-06-22T17:58:17.941Z"
   }
 ]
