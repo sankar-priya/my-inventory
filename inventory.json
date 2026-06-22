@@ -3528,8 +3528,8 @@
     "updatedAt": "2026-06-22T17:50:26.162Z"
   },
   {
-    "id": "mqpihkadalfq",
-    "name": "Berlin museumsinsel tote bag",
+    "id": "mqpikdx8uu2l",
+    "name": "Berlin Museumsinsel tote bag",
     "category": "Accessories",
     "status": "OK",
     "price": "10",
@@ -3541,28 +3541,9 @@
     "tags": "",
     "receipts": [],
     "photos": [
-      "photos/mqpihkadalfq_IMG_2123.HEIC"
+      "photos/mqpikdx8uu2l_IMG_2123.HEIC"
     ],
-    "createdAt": "2026-06-22T17:51:00.463Z",
-    "updatedAt": "2026-06-22T17:51:19.865Z"
-  },
-  {
-    "id": "mqpiiil38h31",
-    "name": "HSG Alumni Tote Bag",
-    "category": "Accessories",
-    "status": "OK",
-    "price": "",
-    "currency": "CHF",
-    "date": "",
-    "location": "Ski bag",
-    "description": "",
-    "link": "",
-    "tags": "",
-    "receipts": [],
-    "photos": [
-      "photos/mqpiiil38h31_IMG_2122.HEIC"
-    ],
-    "createdAt": "2026-06-22T17:51:44.809Z",
-    "updatedAt": "2026-06-22T17:51:44.809Z"
+    "createdAt": "2026-06-22T17:53:12.130Z",
+    "updatedAt": "2026-06-22T17:53:12.130Z"
   }
 ]
