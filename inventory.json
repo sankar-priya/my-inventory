@@ -2213,13 +2213,13 @@
     "location": "Plastic Box 2",
     "description": "",
     "link": "",
-    "tags": "",
+    "tags": "gift",
     "receipts": [],
     "photos": [
       "photos/mpvgneli3zpm_IMG_1591.HEIC"
     ],
     "createdAt": "2026-06-01T17:06:28.350Z",
-    "updatedAt": "2026-06-01T17:06:28.350Z"
+    "updatedAt": "2026-06-22T17:55:43.235Z"
   },
   {
     "id": "mpvgnznc7f34",
@@ -3545,24 +3545,5 @@
     ],
     "createdAt": "2026-06-22T17:53:12.130Z",
     "updatedAt": "2026-06-22T17:53:12.130Z"
-  },
-  {
-    "id": "mqpil77rh1ob",
-    "name": "HSG Alumni tote bag",
-    "category": "",
-    "status": "OK",
-    "price": "",
-    "currency": "CHF",
-    "date": "",
-    "location": "Ski bag",
-    "description": "",
-    "link": "",
-    "tags": "gift",
-    "receipts": [],
-    "photos": [
-      "photos/mqpil77rh1ob_IMG_2122.HEIC"
-    ],
-    "createdAt": "2026-06-22T17:53:49.848Z",
-    "updatedAt": "2026-06-22T17:54:21.197Z"
   }
 ]
