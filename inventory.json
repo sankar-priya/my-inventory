@@ -3643,5 +3643,26 @@
     ],
     "createdAt": "2026-06-22T18:17:38.850Z",
     "updatedAt": "2026-06-22T18:17:38.850Z"
+  },
+  {
+    "id": "mqpjithhjre7",
+    "name": "Ski liner socks",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "10",
+    "currency": "USD",
+    "date": "2023-02-03",
+    "location": "Ski bag",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mqpjithhjre7_sock_liner.pdf"
+    ],
+    "photos": [
+      "photos/mqpjithhjre7_IMG_2108.HEIC"
+    ],
+    "createdAt": "2026-06-22T18:20:00.570Z",
+    "updatedAt": "2026-06-22T18:20:00.570Z"
   }
 ]
