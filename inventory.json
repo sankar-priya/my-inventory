@@ -3621,5 +3621,27 @@
     ],
     "createdAt": "2026-06-22T18:14:04.627Z",
     "updatedAt": "2026-06-22T18:14:04.627Z"
+  },
+  {
+    "id": "mqpjfq9x9sfw",
+    "name": "Lululemon wool socks grey",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "28",
+    "currency": "USD",
+    "date": "2018-12-31",
+    "location": "Ski bag",
+    "description": "2 PAIRS",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mqpjfq9x9sfw_lulu_socks.pdf"
+    ],
+    "photos": [
+      "photos/mqpjfq9x9sfw_IMG_2106.HEIC",
+      "photos/mqpjfq9x9sfw_IMG_2105.HEIC"
+    ],
+    "createdAt": "2026-06-22T18:17:38.850Z",
+    "updatedAt": "2026-06-22T18:17:38.850Z"
   }
 ]
