@@ -1308,7 +1308,7 @@
   {
     "id": "mpmzxl6hweru",
     "name": "Helly Hansen Rain Jacket",
-    "category": "",
+    "category": "Clothing",
     "status": "OK",
     "price": "69.92",
     "currency": "USD",
@@ -1324,7 +1324,7 @@
       "photos/mpmzxl6hweru_IMG_1502.HEIC"
     ],
     "createdAt": "2026-05-26T18:56:22.093Z",
-    "updatedAt": "2026-05-26T18:56:22.093Z"
+    "updatedAt": "2026-06-22T17:56:40.987Z"
   },
   {
     "id": "mpmzy68rdfva",
@@ -1552,8 +1552,8 @@
   {
     "id": "mpohce6jggyr",
     "name": "Reformation Red lula dres",
-    "category": "",
-    "status": "OK",
+    "category": "Clothing",
+    "status": "In need of repair",
     "price": "125",
     "currency": "CHF",
     "date": "2024-12-29",
@@ -1568,7 +1568,7 @@
       "photos/mpohce6jggyr_IMG_1522.HEIC"
     ],
     "createdAt": "2026-05-27T19:51:33.101Z",
-    "updatedAt": "2026-05-27T19:51:33.101Z"
+    "updatedAt": "2026-06-22T17:57:05.105Z"
   },
   {
     "id": "mpohebdbln8a",
