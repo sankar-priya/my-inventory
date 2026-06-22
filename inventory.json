@@ -3664,5 +3664,26 @@
     ],
     "createdAt": "2026-06-22T18:20:00.570Z",
     "updatedAt": "2026-06-22T18:20:00.570Z"
+  },
+  {
+    "id": "mqpjks7uobrc",
+    "name": "Ski socks",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "6.67",
+    "currency": "USD",
+    "date": "2020-01-14",
+    "location": "Ski bag",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mqpjks7uobrc_Ski_socks.pdf"
+    ],
+    "photos": [
+      "photos/mqpjks7uobrc_IMG_2104.HEIC"
+    ],
+    "createdAt": "2026-06-22T18:21:32.531Z",
+    "updatedAt": "2026-06-22T18:21:32.531Z"
   }
 ]
