@@ -3545,5 +3545,24 @@
     ],
     "createdAt": "2026-06-22T17:53:12.130Z",
     "updatedAt": "2026-06-22T17:53:12.130Z"
+  },
+  {
+    "id": "mqpil77rh1ob",
+    "name": "HSG Alumni tote bag",
+    "category": "",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Ski bag",
+    "description": "",
+    "link": "",
+    "tags": "gift",
+    "receipts": [],
+    "photos": [
+      "photos/mqpil77rh1ob_IMG_2122.HEIC"
+    ],
+    "createdAt": "2026-06-22T17:53:49.848Z",
+    "updatedAt": "2026-06-22T17:54:21.197Z"
   }
 ]
