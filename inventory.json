@@ -3742,5 +3742,24 @@
     "photos": [],
     "createdAt": "2026-06-23T10:12:11.703Z",
     "updatedAt": "2026-06-23T10:12:11.703Z"
+  },
+  {
+    "id": "mqqhs7rc65b5",
+    "name": "Cartier small yellow gold love ring",
+    "category": "Jewelry",
+    "status": "OK",
+    "price": "1240",
+    "currency": "USD",
+    "date": "2023-03-05",
+    "location": "Daily Wear",
+    "description": "",
+    "link": "https://www.cartier.com/en-us/jewelry/rings/love/love-ring-small-model-CRB4085000.html",
+    "tags": "",
+    "receipts": [
+      "receipts/mqqhs7rc65b5_ring.pdf"
+    ],
+    "photos": [],
+    "createdAt": "2026-06-23T10:19:03.326Z",
+    "updatedAt": "2026-06-23T10:19:03.326Z"
   }
 ]
