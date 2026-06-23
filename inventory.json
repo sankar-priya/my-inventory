@@ -3119,7 +3119,7 @@
     "price": "95",
     "currency": "CHF",
     "date": "2018-04-22",
-    "location": "",
+    "location": "Grey suitcase",
     "description": "",
     "link": "",
     "tags": "",
@@ -3130,7 +3130,7 @@
       "photos/mpx2io15vv4h_IMG_1645.HEIC"
     ],
     "createdAt": "2026-06-02T20:06:26.276Z",
-    "updatedAt": "2026-06-02T20:06:26.276Z"
+    "updatedAt": "2026-06-23T10:34:07.825Z"
   },
   {
     "id": "mpx2k7bfz4l5",
@@ -3726,7 +3726,7 @@
   },
   {
     "id": "mqqhjekoba4o",
-    "name": "VCA Carnelia Vintage Alhambra necklace",
+    "name": "VCA Carnelian yellow gold Vintage Alhambra necklace",
     "category": "Jewelry",
     "status": "OK",
     "price": "3233",
@@ -3741,7 +3741,7 @@
     ],
     "photos": [],
     "createdAt": "2026-06-23T10:12:11.703Z",
-    "updatedAt": "2026-06-23T10:12:11.703Z"
+    "updatedAt": "2026-06-23T10:33:16.481Z"
   },
   {
     "id": "mqqhs7rc65b5",
