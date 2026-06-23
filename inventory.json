@@ -3761,5 +3761,24 @@
     "photos": [],
     "createdAt": "2026-06-23T10:19:03.326Z",
     "updatedAt": "2026-06-23T10:19:03.326Z"
+  },
+  {
+    "id": "mqqi6y4299rs",
+    "name": "Platinum diamond 1.3mm eternity ring",
+    "category": "Jewelry",
+    "status": "OK",
+    "price": "445.71",
+    "currency": "USD",
+    "date": "2021-02-11",
+    "location": "Daily Wear",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mqqi6y4299rs_ring_diamond.pdf"
+    ],
+    "photos": [],
+    "createdAt": "2026-06-23T10:30:30.206Z",
+    "updatedAt": "2026-06-23T10:30:30.206Z"
   }
 ]
