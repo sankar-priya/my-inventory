@@ -3706,5 +3706,22 @@
     ],
     "createdAt": "2026-06-22T18:23:57.393Z",
     "updatedAt": "2026-06-22T18:23:57.393Z"
+  },
+  {
+    "id": "mqqhc2yksbq4",
+    "name": "Tiffany Hardwear bracelet yellow gold",
+    "category": "Jewelry",
+    "status": "OK",
+    "price": "4800",
+    "currency": "USD",
+    "date": "",
+    "location": "Daily Wear",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [],
+    "createdAt": "2026-06-23T10:06:28.604Z",
+    "updatedAt": "2026-06-23T10:06:28.604Z"
   }
 ]
