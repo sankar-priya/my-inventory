@@ -4252,5 +4252,26 @@
     ],
     "createdAt": "2026-06-24T09:33:50.675Z",
     "updatedAt": "2026-06-24T09:33:50.675Z"
+  },
+  {
+    "id": "mqrvng0o802e",
+    "name": "Reformation red shirred mimsy dress",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "78.90",
+    "currency": "CHF",
+    "date": "2025-01-06",
+    "location": "",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mqrvng0o802e_ref_red.pdf"
+    ],
+    "photos": [
+      "photos/mqrvng0o802e_IMG_2149.HEIC"
+    ],
+    "createdAt": "2026-06-24T09:35:03.580Z",
+    "updatedAt": "2026-06-24T09:35:03.580Z"
   }
 ]
