@@ -3741,9 +3741,11 @@
     "receipts": [
       "receipts/mqqhjekoba4o_INVOICE_7891793.pdf"
     ],
-    "photos": [],
+    "photos": [
+      "photos/mqqhjekoba4o_IMG_2158.HEIC"
+    ],
     "createdAt": "2026-06-23T10:12:11.703Z",
-    "updatedAt": "2026-06-23T10:12:11.703Z"
+    "updatedAt": "2026-06-24T11:37:25.320Z"
   },
   {
     "id": "mqqhs7rc65b5",
