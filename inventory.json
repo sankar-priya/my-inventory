@@ -3820,8 +3820,8 @@
     "updatedAt": "2026-06-24T08:09:55.589Z"
   },
   {
-    "id": "mqrsnzgte6j4",
-    "name": "Reformation Flor dress",
+    "id": "mqrspci6xkad",
+    "name": "Reformation Flor Dress",
     "category": "Clothing",
     "status": "OK",
     "price": "90.90",
@@ -3832,12 +3832,12 @@
     "link": "",
     "tags": "",
     "receipts": [
-      "receipts/mqrsnzgte6j4_flor.pdf"
+      "receipts/mqrspci6xkad_flor.pdf"
     ],
     "photos": [
-      "photos/mqrsnzgte6j4_IMG_2130.HEIC"
+      "photos/mqrspci6xkad_IMG_2130.HEIC"
     ],
-    "createdAt": "2026-06-24T08:11:29.681Z",
-    "updatedAt": "2026-06-24T08:11:29.681Z"
+    "createdAt": "2026-06-24T08:12:33.320Z",
+    "updatedAt": "2026-06-24T08:12:33.320Z"
   }
 ]
