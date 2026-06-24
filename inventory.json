@@ -4073,5 +4073,43 @@
     ],
     "createdAt": "2026-06-24T08:38:29.896Z",
     "updatedAt": "2026-06-24T08:38:29.896Z"
+  },
+  {
+    "id": "mqrtnc78nkgo",
+    "name": "white knit maxi dress vero moda",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "40",
+    "currency": "CHF",
+    "date": "",
+    "location": "",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mqrtnc78nkgo_IMG_2155.HEIC"
+    ],
+    "createdAt": "2026-06-24T08:38:58.095Z",
+    "updatedAt": "2026-06-24T08:38:58.095Z"
+  },
+  {
+    "id": "mqrtoijs1vbi",
+    "name": "Uniqlo silver satin skirt",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "40",
+    "currency": "EUR",
+    "date": "",
+    "location": "",
+    "description": "",
+    "link": "https://www.uniqlo.com/eu-at/en/products/E488345-000/00?colorDisplayCode=17&sizeDisplayCode=003&pldDisplayCode=020",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mqrtoijs1vbi_IMG_2154.HEIC"
+    ],
+    "createdAt": "2026-06-24T08:39:52.864Z",
+    "updatedAt": "2026-06-24T08:39:52.864Z"
   }
 ]
