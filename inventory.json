@@ -3959,5 +3959,24 @@
     ],
     "createdAt": "2026-06-24T08:28:34.723Z",
     "updatedAt": "2026-06-24T08:28:34.723Z"
+  },
+  {
+    "id": "mqrtbz4gtwvx",
+    "name": "Uniqlo airism dress cream",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "30",
+    "currency": "EUR",
+    "date": "",
+    "location": "",
+    "description": "",
+    "link": "https://www.uniqlo.com/eu-at/en/products/E482982-000/00?colorDisplayCode=38&sizeDisplayCode=003",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mqrtbz4gtwvx_IMG_2137.HEIC"
+    ],
+    "createdAt": "2026-06-24T08:30:07.906Z",
+    "updatedAt": "2026-06-24T08:30:07.906Z"
   }
 ]
