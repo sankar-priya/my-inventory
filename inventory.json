@@ -4189,5 +4189,26 @@
     ],
     "createdAt": "2026-06-24T09:25:49.091Z",
     "updatedAt": "2026-06-24T09:25:49.091Z"
+  },
+  {
+    "id": "mqrvenfee62g",
+    "name": "Lilly white lace dress",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "89",
+    "currency": "USD",
+    "date": "2017-08-29",
+    "location": "",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mqrvenfee62g_lilly.pdf"
+    ],
+    "photos": [
+      "photos/mqrvenfee62g_IMG_2146.HEIC"
+    ],
+    "createdAt": "2026-06-24T09:28:13.377Z",
+    "updatedAt": "2026-06-24T09:28:13.377Z"
   }
 ]
