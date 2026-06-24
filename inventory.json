@@ -4149,5 +4149,24 @@
     ],
     "createdAt": "2026-06-24T08:43:23.610Z",
     "updatedAt": "2026-06-24T08:43:23.610Z"
+  },
+  {
+    "id": "mqrtuhvrydqv",
+    "name": "Reformation black rou dress",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "129",
+    "currency": "CHF",
+    "date": "",
+    "location": "",
+    "description": "",
+    "link": "https://www.thereformation.com/products/rou-knit-dress/1302994.html?srsltid=AfmBOoqkYmEI2mI89efWfiUIQKEG1jeAhAzwOSKhx0dtErPs5BHhx4wY",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mqrtuhvrydqv_IMG_2144.HEIC"
+    ],
+    "createdAt": "2026-06-24T08:44:32.013Z",
+    "updatedAt": "2026-06-24T08:44:32.013Z"
   }
 ]
