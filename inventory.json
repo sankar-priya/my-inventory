@@ -4231,5 +4231,26 @@
     ],
     "createdAt": "2026-06-24T09:29:53.419Z",
     "updatedAt": "2026-06-24T09:29:53.419Z"
+  },
+  {
+    "id": "mqrvlvqc37mx",
+    "name": "Reformation long linen patterned dress",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "109",
+    "currency": "EUR",
+    "date": "2025-08-19",
+    "location": "",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mqrvlvqc37mx_ref_linen.pdf"
+    ],
+    "photos": [
+      "photos/mqrvlvqc37mx_IMG_2142.HEIC"
+    ],
+    "createdAt": "2026-06-24T09:33:50.675Z",
+    "updatedAt": "2026-06-24T09:33:50.675Z"
   }
 ]
