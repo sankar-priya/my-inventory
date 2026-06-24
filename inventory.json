@@ -3881,5 +3881,26 @@
     ],
     "createdAt": "2026-06-24T08:20:44.390Z",
     "updatedAt": "2026-06-24T08:20:44.390Z"
+  },
+  {
+    "id": "mqrt4emqy8m6",
+    "name": "Reformation Black Norton dress",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "59.40",
+    "currency": "USD",
+    "date": "2020-12-17",
+    "location": "",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mqrt4emqy8m6_Reformation_order.pdf"
+    ],
+    "photos": [
+      "photos/mqrt4emqy8m6_IMG_2148.HEIC"
+    ],
+    "createdAt": "2026-06-24T08:24:16.743Z",
+    "updatedAt": "2026-06-24T08:24:16.743Z"
   }
 ]
