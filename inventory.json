@@ -3818,5 +3818,26 @@
     ],
     "createdAt": "2026-06-24T08:09:55.589Z",
     "updatedAt": "2026-06-24T08:09:55.589Z"
+  },
+  {
+    "id": "mqrsnzgte6j4",
+    "name": "Reformation Flor dress",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "90.90",
+    "currency": "CHF",
+    "date": "2026-01-05",
+    "location": "",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mqrsnzgte6j4_flor.pdf"
+    ],
+    "photos": [
+      "photos/mqrsnzgte6j4_IMG_2130.HEIC"
+    ],
+    "createdAt": "2026-06-24T08:11:29.681Z",
+    "updatedAt": "2026-06-24T08:11:29.681Z"
   }
 ]
