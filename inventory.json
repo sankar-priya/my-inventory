@@ -3940,5 +3940,24 @@
     ],
     "createdAt": "2026-06-24T08:26:29.182Z",
     "updatedAt": "2026-06-24T08:26:29.182Z"
+  },
+  {
+    "id": "mqrt9z7krjzc",
+    "name": "Uniqlo Airism dress khaki",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "30",
+    "currency": "EUR",
+    "date": "",
+    "location": "",
+    "description": "",
+    "link": "https://www.uniqlo.com/eu-at/en/products/E482982-000/00?colorDisplayCode=38&sizeDisplayCode=003",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mqrt9z7krjzc_IMG_2135.HEIC"
+    ],
+    "createdAt": "2026-06-24T08:28:34.723Z",
+    "updatedAt": "2026-06-24T08:28:34.723Z"
   }
 ]
