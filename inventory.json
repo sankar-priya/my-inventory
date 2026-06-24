@@ -4016,5 +4016,43 @@
     ],
     "createdAt": "2026-06-24T08:33:28.039Z",
     "updatedAt": "2026-06-24T08:33:28.039Z"
+  },
+  {
+    "id": "mqrtgtlrgh3p",
+    "name": "Blue shirred sundress SC",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "45",
+    "currency": "USD",
+    "date": "",
+    "location": "",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mqrtgtlrgh3p_IMG_2138.HEIC"
+    ],
+    "createdAt": "2026-06-24T08:33:55.077Z",
+    "updatedAt": "2026-06-24T08:34:07.676Z"
+  },
+  {
+    "id": "mqrthvqgzw2q",
+    "name": "Mango white knit maxi dress",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "60",
+    "currency": "CHF",
+    "date": "",
+    "location": "",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mqrthvqgzw2q_IMG_2143.HEIC"
+    ],
+    "createdAt": "2026-06-24T08:34:43.569Z",
+    "updatedAt": "2026-06-24T08:34:43.569Z"
   }
 ]
