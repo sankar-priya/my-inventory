@@ -3902,5 +3902,24 @@
     ],
     "createdAt": "2026-06-24T08:24:16.743Z",
     "updatedAt": "2026-06-24T08:24:16.743Z"
+  },
+  {
+    "id": "mqrt6q1jqea1",
+    "name": "Uniqlo blazer black light",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "30",
+    "currency": "USD",
+    "date": "",
+    "location": "",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mqrt6q1jqea1_IMG_2133.HEIC"
+    ],
+    "createdAt": "2026-06-24T08:26:03.173Z",
+    "updatedAt": "2026-06-24T08:26:03.173Z"
   }
 ]
