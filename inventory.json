@@ -4168,5 +4168,26 @@
     ],
     "createdAt": "2026-06-24T08:44:32.013Z",
     "updatedAt": "2026-06-24T08:44:32.013Z"
+  },
+  {
+    "id": "mqrvbjmuht1n",
+    "name": "Pink linen dress jcrew",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "24.92",
+    "currency": "USD",
+    "date": "2020-08-01",
+    "location": "",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mqrvbjmuht1n_jcrew.pdf"
+    ],
+    "photos": [
+      "photos/mqrvbjmuht1n_IMG_2141.HEIC"
+    ],
+    "createdAt": "2026-06-24T09:25:49.091Z",
+    "updatedAt": "2026-06-24T09:25:49.091Z"
   }
 ]
