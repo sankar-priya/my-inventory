@@ -4111,5 +4111,24 @@
     ],
     "createdAt": "2026-06-24T08:39:52.864Z",
     "updatedAt": "2026-06-24T08:39:52.864Z"
+  },
+  {
+    "id": "mqrtp6g0yg0n",
+    "name": "Uniqlo violet satin skirt",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "40",
+    "currency": "EUR",
+    "date": "",
+    "location": "",
+    "description": "",
+    "link": "https://www.uniqlo.com/eu-at/en/products/E488345-000/00?colorDisplayCode=17&sizeDisplayCode=003&pldDisplayCode=020",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mqrtp6g0yg0n_IMG_2145.HEIC"
+    ],
+    "createdAt": "2026-06-24T08:40:23.888Z",
+    "updatedAt": "2026-06-24T08:41:03.333Z"
   }
 ]
