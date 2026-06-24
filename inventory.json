@@ -4294,5 +4294,26 @@
     ],
     "createdAt": "2026-06-24T09:37:36.643Z",
     "updatedAt": "2026-06-24T09:37:36.643Z"
+  },
+  {
+    "id": "mqrvywdrdybg",
+    "name": "Quince cream silk skirt",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "79.90",
+    "currency": "USD",
+    "date": "2024-11-06",
+    "location": "",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mqrvywdrdybg_quince.heic"
+    ],
+    "photos": [
+      "photos/mqrvywdrdybg_IMG_2150.HEIC"
+    ],
+    "createdAt": "2026-06-24T09:43:58.726Z",
+    "updatedAt": "2026-06-24T09:43:58.726Z"
   }
 ]
