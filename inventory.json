@@ -3921,5 +3921,24 @@
     ],
     "createdAt": "2026-06-24T08:26:03.173Z",
     "updatedAt": "2026-06-24T08:26:03.173Z"
+  },
+  {
+    "id": "mqrt7ack0pt4",
+    "name": "Uniqlo slip dress green",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "40",
+    "currency": "EUR",
+    "date": "",
+    "location": "",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mqrt7ack0pt4_IMG_2134.HEIC"
+    ],
+    "createdAt": "2026-06-24T08:26:29.182Z",
+    "updatedAt": "2026-06-24T08:26:29.182Z"
   }
 ]
