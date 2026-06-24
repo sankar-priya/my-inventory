@@ -4210,5 +4210,26 @@
     ],
     "createdAt": "2026-06-24T09:28:13.377Z",
     "updatedAt": "2026-06-24T09:28:13.377Z"
+  },
+  {
+    "id": "mqrvgs344rua",
+    "name": "Max studio patterned dress",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "40.94",
+    "currency": "USD",
+    "date": "2021-11-19",
+    "location": "",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mqrvgs344rua_max_studio.pdf"
+    ],
+    "photos": [
+      "photos/mqrvgs344rua_IMG_2152.HEIC"
+    ],
+    "createdAt": "2026-06-24T09:29:53.419Z",
+    "updatedAt": "2026-06-24T09:29:53.419Z"
   }
 ]
