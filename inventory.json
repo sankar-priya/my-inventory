@@ -3860,5 +3860,26 @@
     ],
     "createdAt": "2026-06-24T08:16:41.807Z",
     "updatedAt": "2026-06-24T08:16:41.807Z"
+  },
+  {
+    "id": "mqrszsfurueu",
+    "name": "Reformation Checked linen dress",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "88.8",
+    "currency": "USD",
+    "date": "2022-08-20",
+    "location": "",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mqrszsfurueu_Reformation_again.pdf"
+    ],
+    "photos": [
+      "photos/mqrszsfurueu_IMG_2147.HEIC"
+    ],
+    "createdAt": "2026-06-24T08:20:44.390Z",
+    "updatedAt": "2026-06-24T08:20:44.390Z"
   }
 ]
