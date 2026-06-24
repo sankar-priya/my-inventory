@@ -3839,5 +3839,26 @@
     ],
     "createdAt": "2026-06-24T08:12:33.320Z",
     "updatedAt": "2026-06-24T08:12:33.320Z"
+  },
+  {
+    "id": "mqrsuo62xqm5",
+    "name": "Reformation. blue casette dress",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "165",
+    "currency": "CHF",
+    "date": "2024-08-23",
+    "location": "",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mqrsuo62xqm5_casette.pdf"
+    ],
+    "photos": [
+      "photos/mqrsuo62xqm5_IMG_2131.HEIC"
+    ],
+    "createdAt": "2026-06-24T08:16:41.807Z",
+    "updatedAt": "2026-06-24T08:16:41.807Z"
   }
 ]
