@@ -4598,5 +4598,24 @@
     ],
     "createdAt": "2026-06-25T11:56:34.418Z",
     "updatedAt": "2026-06-25T11:56:34.418Z"
+  },
+  {
+    "id": "mqtg83mbo3n9",
+    "name": "Polaroid ZIP photo printer",
+    "category": "Electronics",
+    "status": "OK",
+    "price": "90",
+    "currency": "USD",
+    "date": "",
+    "location": "Large Backpack",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mqtg83mbo3n9_IMG_2182.HEIC"
+    ],
+    "createdAt": "2026-06-25T11:58:48.503Z",
+    "updatedAt": "2026-06-25T11:58:48.503Z"
   }
 ]
