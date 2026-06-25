@@ -4423,5 +4423,26 @@
     ],
     "createdAt": "2026-06-25T11:42:19.882Z",
     "updatedAt": "2026-06-25T11:42:19.882Z"
+  },
+  {
+    "id": "mqtft7haas6q",
+    "name": "Smythson notebook black",
+    "category": "Documents",
+    "status": "OK",
+    "price": "174",
+    "currency": "USD",
+    "date": "2019-05-06",
+    "location": "Large Backpack",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mqtft7haas6q_smythson.pdf"
+    ],
+    "photos": [
+      "photos/mqtft7haas6q_IMG_2180.HEIC"
+    ],
+    "createdAt": "2026-06-25T11:47:16.128Z",
+    "updatedAt": "2026-06-25T11:47:16.128Z"
   }
 ]
