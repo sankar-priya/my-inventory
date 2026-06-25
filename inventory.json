@@ -4444,5 +4444,26 @@
     ],
     "createdAt": "2026-06-25T11:47:16.128Z",
     "updatedAt": "2026-06-25T11:47:16.128Z"
+  },
+  {
+    "id": "mqtfwv8ek9p1",
+    "name": "midori 2026 hibino A6 notebook",
+    "category": "Documents",
+    "status": "OK",
+    "price": "67.99",
+    "currency": "EUR",
+    "date": "2025-12-01",
+    "location": "Large Backpack",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mqtfwv8ek9p1_hibino.pdf"
+    ],
+    "photos": [
+      "photos/mqtfwv8ek9p1_IMG_2180.HEIC"
+    ],
+    "createdAt": "2026-06-25T11:50:06.205Z",
+    "updatedAt": "2026-06-25T11:50:06.205Z"
   }
 ]
