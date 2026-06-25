@@ -4579,5 +4579,24 @@
     ],
     "createdAt": "2026-06-25T11:54:37.855Z",
     "updatedAt": "2026-06-25T11:54:37.855Z"
+  },
+  {
+    "id": "mqtg57zaej5d",
+    "name": "Cloth mask",
+    "category": "Misc",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Large Backpack",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mqtg57zaej5d_IMG_2182.HEIC"
+    ],
+    "createdAt": "2026-06-25T11:56:34.418Z",
+    "updatedAt": "2026-06-25T11:56:34.418Z"
   }
 ]
