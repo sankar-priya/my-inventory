@@ -4383,5 +4383,26 @@
     ],
     "createdAt": "2026-06-25T11:37:07.067Z",
     "updatedAt": "2026-06-25T11:37:07.067Z"
+  },
+  {
+    "id": "mqtfik3ehowh",
+    "name": "External Hard drive",
+    "category": "Electronics",
+    "status": "OK",
+    "price": "47.85",
+    "currency": "USD",
+    "date": "2020-01-14",
+    "location": "Large Backpack",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mqtfik3ehowh_hard_drive.pdf"
+    ],
+    "photos": [
+      "photos/mqtfik3ehowh_IMG_2177.HEIC"
+    ],
+    "createdAt": "2026-06-25T11:38:58.152Z",
+    "updatedAt": "2026-06-25T11:38:58.152Z"
   }
 ]
