@@ -4465,5 +4465,24 @@
     ],
     "createdAt": "2026-06-25T11:50:06.205Z",
     "updatedAt": "2026-06-25T11:50:06.205Z"
+  },
+  {
+    "id": "mqtfyqdym853",
+    "name": "OCI Card",
+    "category": "Documents",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Large Backpack",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mqtfyqdym853_IMG_2181.HEIC"
+    ],
+    "createdAt": "2026-06-25T11:51:31.822Z",
+    "updatedAt": "2026-06-25T11:51:31.822Z"
   }
 ]
