@@ -4484,5 +4484,43 @@
     ],
     "createdAt": "2026-06-25T11:51:31.822Z",
     "updatedAt": "2026-06-25T11:51:31.822Z"
+  },
+  {
+    "id": "mqtfzadfj7z9",
+    "name": "Passport expired 2014-2024",
+    "category": "Documents",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Large Backpack",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mqtfzadfj7z9_IMG_2181.HEIC"
+    ],
+    "createdAt": "2026-06-25T11:51:56.605Z",
+    "updatedAt": "2026-06-25T11:51:56.605Z"
+  },
+  {
+    "id": "mqtg022nbgtd",
+    "name": "Current passport 2024-present",
+    "category": "Documents",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Large Backpack",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mqtg022nbgtd_IMG_2181.HEIC"
+    ],
+    "createdAt": "2026-06-25T11:52:32.649Z",
+    "updatedAt": "2026-06-25T11:52:32.649Z"
   }
 ]
