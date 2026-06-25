@@ -4404,5 +4404,24 @@
     ],
     "createdAt": "2026-06-25T11:38:58.152Z",
     "updatedAt": "2026-06-25T11:38:58.152Z"
+  },
+  {
+    "id": "mqtfmx6zgp7t",
+    "name": "Goyard Zipped wallet + cards",
+    "category": "Accessories",
+    "status": "OK",
+    "price": "850",
+    "currency": "CHF",
+    "date": "",
+    "location": "Large Backpack",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mqtfmx6zgp7t_IMG_2178.HEIC"
+    ],
+    "createdAt": "2026-06-25T11:42:19.882Z",
+    "updatedAt": "2026-06-25T11:42:19.882Z"
   }
 ]
