@@ -4522,5 +4522,24 @@
     ],
     "createdAt": "2026-06-25T11:52:32.649Z",
     "updatedAt": "2026-06-25T11:52:32.649Z"
+  },
+  {
+    "id": "mqtg1eq3vyxh",
+    "name": "HSG Diploma - English and German",
+    "category": "Documents",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Large Backpack",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mqtg1eq3vyxh_IMG_2179.HEIC"
+    ],
+    "createdAt": "2026-06-25T11:53:35.575Z",
+    "updatedAt": "2026-06-25T11:53:35.575Z"
   }
 ]
