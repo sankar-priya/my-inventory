@@ -4342,5 +4342,26 @@
     ],
     "createdAt": "2026-06-24T09:47:29.674Z",
     "updatedAt": "2026-06-24T09:47:29.674Z"
+  },
+  {
+    "id": "mqtfcohs9qoi",
+    "name": "Dubai pouch - foreign currency",
+    "category": "Misc",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "",
+    "description": "720 inr\n232.02 usd\n4 pound 51 pence \nMisc bills and coins ~30usd in value",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mqtfcohs9qoi_IMG_2161.HEIC",
+      "photos/mqtfcohs9qoi_IMG_2163.HEIC",
+      "photos/mqtfcohs9qoi_IMG_2162.HEIC"
+    ],
+    "createdAt": "2026-06-25T11:34:34.676Z",
+    "updatedAt": "2026-06-25T11:34:34.676Z"
   }
 ]
