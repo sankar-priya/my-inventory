@@ -4817,5 +4817,24 @@
     ],
     "createdAt": "2026-06-26T10:40:22.469Z",
     "updatedAt": "2026-06-26T10:40:22.469Z"
+  },
+  {
+    "id": "mqusywkhk7gt",
+    "name": "Lululemon black energy bra",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "64",
+    "currency": "CHF",
+    "date": "",
+    "location": "",
+    "description": "",
+    "link": "https://www.eu.lululemon.com/en-ch/p/lululemon-energy-bra-medium-support%2C-b-d-cups-evolve/prod11870721.html?dwvar_prod11870721_color=074028",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mqusywkhk7gt_IMG_2193.HEIC"
+    ],
+    "createdAt": "2026-06-26T10:43:16.644Z",
+    "updatedAt": "2026-06-26T10:43:16.644Z"
   }
 ]
