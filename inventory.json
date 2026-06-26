@@ -5270,5 +5270,24 @@
     ],
     "createdAt": "2026-06-26T19:52:56.746Z",
     "updatedAt": "2026-06-26T19:52:56.746Z"
+  },
+  {
+    "id": "mqvcux93wb5n",
+    "name": "Silver and pearl bangle",
+    "category": "Jewelry",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Jewelry boxes",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mqvcux93wb5n_IMG_2221.HEIC"
+    ],
+    "createdAt": "2026-06-26T20:00:03.120Z",
+    "updatedAt": "2026-06-26T20:00:03.120Z"
   }
 ]
