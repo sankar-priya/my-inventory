@@ -5462,5 +5462,43 @@
     ],
     "createdAt": "2026-06-26T20:30:41.289Z",
     "updatedAt": "2026-06-26T20:30:41.289Z"
+  },
+  {
+    "id": "mqvdyz92zsnz",
+    "name": "Assorted friendship bracelets",
+    "category": "Jewelry",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Jewelry boxes",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mqvdyz92zsnz_IMG_2232.HEIC"
+    ],
+    "createdAt": "2026-06-26T20:31:11.601Z",
+    "updatedAt": "2026-06-26T20:31:11.601Z"
+  },
+  {
+    "id": "mqvdzuzt9hsc",
+    "name": "Statement Earrings x2 from Nice/Basel boutiques",
+    "category": "Jewelry",
+    "status": "OK",
+    "price": "140",
+    "currency": "CHF",
+    "date": "",
+    "location": "Jewelry boxes",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mqvdzuzt9hsc_IMG_2233.HEIC"
+    ],
+    "createdAt": "2026-06-26T20:31:52.787Z",
+    "updatedAt": "2026-06-26T20:31:52.787Z"
   }
 ]
