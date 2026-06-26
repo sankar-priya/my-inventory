@@ -5441,5 +5441,26 @@
     ],
     "createdAt": "2026-06-26T20:20:54.025Z",
     "updatedAt": "2026-06-26T20:20:54.025Z"
+  },
+  {
+    "id": "mqvdyakp9ejn",
+    "name": "David Yurman cable bangle",
+    "category": "Jewelry",
+    "status": "OK",
+    "price": "395",
+    "currency": "USD",
+    "date": "2019-02-21",
+    "location": "Jewelry boxes",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mqvdyakp9ejn_DY.pdf"
+    ],
+    "photos": [
+      "photos/mqvdyakp9ejn_IMG_2231.HEIC"
+    ],
+    "createdAt": "2026-06-26T20:30:41.289Z",
+    "updatedAt": "2026-06-26T20:30:41.289Z"
   }
 ]
