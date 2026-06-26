@@ -4756,5 +4756,26 @@
     ],
     "createdAt": "2026-06-26T10:28:16.830Z",
     "updatedAt": "2026-06-26T10:28:16.830Z"
+  },
+  {
+    "id": "mqusgyd67a1c",
+    "name": "Lululemon long leggings",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "89",
+    "currency": "USD",
+    "date": "2022-01-07",
+    "location": "",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mqusgyd67a1c_lululemon_.pdf"
+    ],
+    "photos": [
+      "photos/mqusgyd67a1c_IMG_2197.HEIC"
+    ],
+    "createdAt": "2026-06-26T10:29:22.195Z",
+    "updatedAt": "2026-06-26T10:29:22.195Z"
   }
 ]
