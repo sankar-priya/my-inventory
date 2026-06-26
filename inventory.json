@@ -5190,5 +5190,45 @@
     ],
     "createdAt": "2026-06-26T19:48:10.139Z",
     "updatedAt": "2026-06-26T19:48:10.139Z"
+  },
+  {
+    "id": "mqvcg8193ytc",
+    "name": "22k Gold Ganesh Necklace Indian",
+    "category": "Jewelry",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Jewelry boxes",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mqvcg8193ytc_IMG_2215.HEIC"
+    ],
+    "createdAt": "2026-06-26T19:48:36.956Z",
+    "updatedAt": "2026-06-26T19:48:36.956Z"
+  },
+  {
+    "id": "mqvchtdnnuez",
+    "name": "Effy Emerald Necklace",
+    "category": "Jewelry",
+    "status": "OK",
+    "price": "277.20",
+    "currency": "USD",
+    "date": "2020-08-18",
+    "location": "Jewelry boxes",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mqvchtdnnuez_effy.pdf"
+    ],
+    "photos": [
+      "photos/mqvchtdnnuez_IMG_2216.HEIC"
+    ],
+    "createdAt": "2026-06-26T19:49:53.856Z",
+    "updatedAt": "2026-06-26T19:49:53.856Z"
   }
 ]
