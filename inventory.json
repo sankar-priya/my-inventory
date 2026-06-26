@@ -4674,5 +4674,26 @@
     ],
     "createdAt": "2026-06-26T10:20:41.831Z",
     "updatedAt": "2026-06-26T10:20:41.831Z"
+  },
+  {
+    "id": "mqus6o2o2e5w",
+    "name": "Lulu align black top",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "29",
+    "currency": "USD",
+    "date": "2023-01-01",
+    "location": "",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mqus6o2o2e5w_lulu_top.pdf"
+    ],
+    "photos": [
+      "photos/mqus6o2o2e5w_IMG_2189.HEIC"
+    ],
+    "createdAt": "2026-06-26T10:21:24.706Z",
+    "updatedAt": "2026-06-26T10:21:24.706Z"
   }
 ]
