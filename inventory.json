@@ -5538,5 +5538,62 @@
     ],
     "createdAt": "2026-06-26T20:33:39.593Z",
     "updatedAt": "2026-06-26T20:33:39.593Z"
+  },
+  {
+    "id": "mqve2lw1v01t",
+    "name": "Dartmouth pin",
+    "category": "Jewelry",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Jewelry boxes",
+    "description": "",
+    "link": "",
+    "tags": "gift",
+    "receipts": [],
+    "photos": [
+      "photos/mqve2lw1v01t_IMG_2235.HEIC"
+    ],
+    "createdAt": "2026-06-26T20:34:00.894Z",
+    "updatedAt": "2026-06-26T20:34:00.894Z"
+  },
+  {
+    "id": "mqve2z8l311x",
+    "name": "Edelweiss pin",
+    "category": "Jewelry",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Jewelry boxes",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mqve2z8l311x_IMG_2235.HEIC"
+    ],
+    "createdAt": "2026-06-26T20:34:18.198Z",
+    "updatedAt": "2026-06-26T20:34:18.198Z"
+  },
+  {
+    "id": "mqve5o5ybiry",
+    "name": "Uniqlo long black packable parka",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "100",
+    "currency": "EUR",
+    "date": "",
+    "location": "Grey suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mqve5o5ybiry_IMG_2236.HEIC"
+    ],
+    "createdAt": "2026-06-26T20:36:23.825Z",
+    "updatedAt": "2026-06-26T20:36:23.825Z"
   }
 ]
