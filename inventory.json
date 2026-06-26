@@ -4617,5 +4617,24 @@
     ],
     "createdAt": "2026-06-25T11:58:48.503Z",
     "updatedAt": "2026-06-25T11:58:48.503Z"
+  },
+  {
+    "id": "mqurw1jz62e1",
+    "name": "Sheer sparkly long sleeved top",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "20",
+    "currency": "EUR",
+    "date": "",
+    "location": "",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mqurw1jz62e1_IMG_2186.HEIC"
+    ],
+    "createdAt": "2026-06-26T10:13:03.782Z",
+    "updatedAt": "2026-06-26T10:13:03.782Z"
   }
 ]
