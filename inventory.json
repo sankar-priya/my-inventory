@@ -5403,5 +5403,43 @@
     ],
     "createdAt": "2026-06-26T20:19:08.023Z",
     "updatedAt": "2026-06-26T20:19:08.023Z"
+  },
+  {
+    "id": "mqvdk6jf4jif",
+    "name": "Burberry steel watch",
+    "category": "Jewelry",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Daily Wear",
+    "description": "",
+    "link": "",
+    "tags": "gift",
+    "receipts": [],
+    "photos": [
+      "photos/mqvdk6jf4jif_IMG_2229.HEIC"
+    ],
+    "createdAt": "2026-06-26T20:19:41.218Z",
+    "updatedAt": "2026-06-26T20:19:41.218Z"
+  },
+  {
+    "id": "mqvdlqp80lmx",
+    "name": "Hamilton Khaki Field Mechanical 38mm",
+    "category": "Jewelry",
+    "status": "OK",
+    "price": "550",
+    "currency": "CHF",
+    "date": "",
+    "location": "Jewelry boxes",
+    "description": "",
+    "link": "https://www.hamiltonwatch.com/de-ch/h69439931-khaki-field-mechanical.html",
+    "tags": "gift",
+    "receipts": [],
+    "photos": [
+      "photos/mqvdlqp80lmx_IMG_2230.HEIC"
+    ],
+    "createdAt": "2026-06-26T20:20:54.025Z",
+    "updatedAt": "2026-06-26T20:20:54.025Z"
   }
 ]
