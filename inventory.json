@@ -5152,5 +5152,24 @@
     ],
     "createdAt": "2026-06-26T19:43:12.339Z",
     "updatedAt": "2026-06-26T19:43:12.339Z"
+  },
+  {
+    "id": "mqvce2hl2422",
+    "name": "Silver Indian Necklace",
+    "category": "Jewelry",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Jewelry boxes",
+    "description": "",
+    "link": "",
+    "tags": "gift",
+    "receipts": [],
+    "photos": [
+      "photos/mqvce2hl2422_IMG_2213.HEIC"
+    ],
+    "createdAt": "2026-06-26T19:46:56.848Z",
+    "updatedAt": "2026-06-26T19:46:56.848Z"
   }
 ]
