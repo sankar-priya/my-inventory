@@ -4695,5 +4695,26 @@
     ],
     "createdAt": "2026-06-26T10:21:24.706Z",
     "updatedAt": "2026-06-26T10:21:24.706Z"
+  },
+  {
+    "id": "mqus8sz56qxv",
+    "name": "Zadig and Voltaire shiny tank",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "59.99",
+    "currency": "USD",
+    "date": "2019-04-25",
+    "location": "",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mqus8sz56qxv_Order_Details.pdf"
+    ],
+    "photos": [
+      "photos/mqus8sz56qxv_IMG_2190.HEIC"
+    ],
+    "createdAt": "2026-06-26T10:23:00.871Z",
+    "updatedAt": "2026-06-26T10:23:00.871Z"
   }
 ]
