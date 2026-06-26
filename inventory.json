@@ -5076,5 +5076,24 @@
     ],
     "createdAt": "2026-06-26T19:32:23.213Z",
     "updatedAt": "2026-06-26T19:32:23.213Z"
+  },
+  {
+    "id": "mqvc2lcaqxko",
+    "name": "Uniqlo Jeans",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "40",
+    "currency": "EUR",
+    "date": "",
+    "location": "",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mqvc2lcaqxko_IMG_2207.HEIC"
+    ],
+    "createdAt": "2026-06-26T19:38:01.262Z",
+    "updatedAt": "2026-06-26T19:38:01.262Z"
   }
 ]
