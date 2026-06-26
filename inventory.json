@@ -4855,5 +4855,26 @@
     ],
     "createdAt": "2026-06-26T10:45:22.801Z",
     "updatedAt": "2026-06-26T10:45:22.801Z"
+  },
+  {
+    "id": "mqvb4qtfw3wr",
+    "name": "Cornelia James Black Tulle Opera gloves",
+    "category": "Accessories",
+    "status": "OK",
+    "price": "170.27",
+    "currency": "CHF",
+    "date": "2023-11-24",
+    "location": "Large Backpack",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mqvb4qtfw3wr_gloves.pdf"
+    ],
+    "photos": [
+      "photos/mqvb4qtfw3wr_IMG_2210.HEIC"
+    ],
+    "createdAt": "2026-06-26T19:11:44.230Z",
+    "updatedAt": "2026-06-26T19:11:44.230Z"
   }
 ]
