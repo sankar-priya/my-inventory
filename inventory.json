@@ -4893,5 +4893,26 @@
     "photos": [],
     "createdAt": "2026-06-26T19:16:30.708Z",
     "updatedAt": "2026-06-26T19:16:30.708Z"
+  },
+  {
+    "id": "mqvbcgn92j36",
+    "name": "Gorjana Pearl Necklace",
+    "category": "Jewelry",
+    "status": "OK",
+    "price": "225",
+    "currency": "USD",
+    "date": "2023-08-29",
+    "location": "Jewelry boxes",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mqvbcgn92j36_gorj.pdf"
+    ],
+    "photos": [
+      "photos/mqvbcgn92j36_IMG_2212.HEIC"
+    ],
+    "createdAt": "2026-06-26T19:17:44.179Z",
+    "updatedAt": "2026-06-26T19:17:44.179Z"
   }
 ]
