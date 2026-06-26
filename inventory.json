@@ -4777,5 +4777,26 @@
     ],
     "createdAt": "2026-06-26T10:29:22.195Z",
     "updatedAt": "2026-06-26T10:29:22.195Z"
+  },
+  {
+    "id": "mqusto73a9zj",
+    "name": "USA Fencing nike tee",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "32",
+    "currency": "USD",
+    "date": "2022-11-07",
+    "location": "",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mqusto73a9zj_Gmail_-_Your_Athlete_Performance_Solutions_Order_Confirmation___306007_.pdf"
+    ],
+    "photos": [
+      "photos/mqusto73a9zj_IMG_2196.HEIC"
+    ],
+    "createdAt": "2026-06-26T10:39:14.270Z",
+    "updatedAt": "2026-06-26T10:39:14.270Z"
   }
 ]
