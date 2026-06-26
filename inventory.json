@@ -4737,5 +4737,24 @@
     ],
     "createdAt": "2026-06-26T10:25:40.192Z",
     "updatedAt": "2026-06-26T10:25:40.192Z"
+  },
+  {
+    "id": "mqusfmh3iqr5",
+    "name": "Aritzia teal tank",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "68",
+    "currency": "USD",
+    "date": "",
+    "location": "",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mqusfmh3iqr5_IMG_2191.HEIC"
+    ],
+    "createdAt": "2026-06-26T10:28:16.830Z",
+    "updatedAt": "2026-06-26T10:28:16.830Z"
   }
 ]
