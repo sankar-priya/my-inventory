@@ -5500,5 +5500,43 @@
     ],
     "createdAt": "2026-06-26T20:31:52.787Z",
     "updatedAt": "2026-06-26T20:31:52.787Z"
+  },
+  {
+    "id": "mqve0k78q9d2",
+    "name": "Costume earrings x4",
+    "category": "Jewelry",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Jewelry boxes",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mqve0k78q9d2_IMG_2234.HEIC"
+    ],
+    "createdAt": "2026-06-26T20:32:25.250Z",
+    "updatedAt": "2026-06-26T20:32:25.250Z"
+  },
+  {
+    "id": "mqve25ey4yeq",
+    "name": "HSG pin",
+    "category": "",
+    "status": "OK",
+    "price": "12",
+    "currency": "CHF",
+    "date": "",
+    "location": "Jewelry boxes",
+    "description": "",
+    "link": "https://hsgshop.ch/products/pin?_pos=1&_sid=b56635c3b&_ss=r",
+    "tags": "gift",
+    "receipts": [],
+    "photos": [
+      "photos/mqve25ey4yeq_IMG_2235.HEIC"
+    ],
+    "createdAt": "2026-06-26T20:33:39.593Z",
+    "updatedAt": "2026-06-26T20:33:39.593Z"
   }
 ]
