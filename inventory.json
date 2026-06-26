@@ -5133,5 +5133,24 @@
     ],
     "createdAt": "2026-06-26T19:41:21.040Z",
     "updatedAt": "2026-06-26T19:41:21.040Z"
+  },
+  {
+    "id": "mqvc99c75zot",
+    "name": "Caran d'Ache MBF engraved pen",
+    "category": "Misc",
+    "status": "OK",
+    "price": "140",
+    "currency": "CHF",
+    "date": "",
+    "location": "",
+    "description": "similar to link",
+    "link": "https://hsgshop.ch/products/caran-dache-kugelschreiber",
+    "tags": "gift",
+    "receipts": [],
+    "photos": [
+      "photos/mqvc99c75zot_IMG_2209.HEIC"
+    ],
+    "createdAt": "2026-06-26T19:43:12.339Z",
+    "updatedAt": "2026-06-26T19:43:12.339Z"
   }
 ]
