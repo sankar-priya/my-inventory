@@ -4975,5 +4975,26 @@
     ],
     "createdAt": "2026-06-26T19:23:08.586Z",
     "updatedAt": "2026-06-26T19:24:18.457Z"
+  },
+  {
+    "id": "mqvbq3xwtcxh",
+    "name": "White warren grey long sleeve",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "59",
+    "currency": "USD",
+    "date": "2018-12-29",
+    "location": "",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mqvbq3xwtcxh_WW.pdf"
+    ],
+    "photos": [
+      "photos/mqvbq3xwtcxh_IMG_2202.HEIC"
+    ],
+    "createdAt": "2026-06-26T19:28:20.624Z",
+    "updatedAt": "2026-06-26T19:28:20.624Z"
   }
 ]
