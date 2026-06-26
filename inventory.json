@@ -4914,5 +4914,26 @@
     ],
     "createdAt": "2026-06-26T19:17:44.179Z",
     "updatedAt": "2026-06-26T19:17:44.179Z"
+  },
+  {
+    "id": "mqvbgjzv5206",
+    "name": "White Warren Tee Black V",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "39",
+    "currency": "USD",
+    "date": "2018-10-10",
+    "location": "",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mqvbgjzv5206_WW.pdf"
+    ],
+    "photos": [
+      "photos/mqvbgjzv5206_IMG_2198.HEIC"
+    ],
+    "createdAt": "2026-06-26T19:20:54.401Z",
+    "updatedAt": "2026-06-26T19:20:54.401Z"
   }
 ]
