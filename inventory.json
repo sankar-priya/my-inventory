@@ -4836,5 +4836,24 @@
     ],
     "createdAt": "2026-06-26T10:43:16.644Z",
     "updatedAt": "2026-06-26T10:43:16.644Z"
+  },
+  {
+    "id": "mqut07z0jzi6",
+    "name": "Lululemon Swiftly Tech short sleeve black tee",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "78",
+    "currency": "CHF",
+    "date": "",
+    "location": "",
+    "description": "",
+    "link": "https://www.eu.lululemon.com/en-ch/p/swiftly-tech-short-sleeve-shirt-2.0-hip-length/prod9750519.html?dwvar_prod9750519_color=0572",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mqut07z0jzi6_IMG_2194.HEIC"
+    ],
+    "createdAt": "2026-06-26T10:44:17.516Z",
+    "updatedAt": "2026-06-26T10:44:17.516Z"
   }
 ]
