@@ -5055,5 +5055,26 @@
     ],
     "createdAt": "2026-06-26T19:31:20.031Z",
     "updatedAt": "2026-06-26T19:31:20.031Z"
+  },
+  {
+    "id": "mqvbvbcb6w17",
+    "name": "ASTR white shirred top",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "31.16",
+    "currency": "USD",
+    "date": "2021-11-02",
+    "location": "",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mqvbvbcb6w17_Astr_top.pdf"
+    ],
+    "photos": [
+      "photos/mqvbvbcb6w17_IMG_2206.HEIC"
+    ],
+    "createdAt": "2026-06-26T19:32:23.213Z",
+    "updatedAt": "2026-06-26T19:32:23.213Z"
   }
 ]
