@@ -5365,5 +5365,24 @@
     ],
     "createdAt": "2026-06-26T20:04:57.395Z",
     "updatedAt": "2026-06-26T20:04:57.395Z"
+  },
+  {
+    "id": "mqvd2mjryo5b",
+    "name": "JLC Reverso",
+    "category": "Jewelry",
+    "status": "OK",
+    "price": "5900",
+    "currency": "USD",
+    "date": "",
+    "location": "Jewelry boxes",
+    "description": "",
+    "link": "https://www.jaeger-lecoultre.com/us-en/watches/reverso/reverso-classic/reverso-classic-monoface-origin-q3878520",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mqvd2mjryo5b_IMG_2227.HEIC"
+    ],
+    "createdAt": "2026-06-26T20:06:02.191Z",
+    "updatedAt": "2026-06-26T20:06:02.191Z"
   }
 ]
