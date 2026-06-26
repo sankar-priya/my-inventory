@@ -5095,5 +5095,43 @@
     ],
     "createdAt": "2026-06-26T19:38:01.262Z",
     "updatedAt": "2026-06-26T19:38:01.262Z"
+  },
+  {
+    "id": "mqvc34omvgdm",
+    "name": "Jcrew Orange print pajamas",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "40",
+    "currency": "USD",
+    "date": "",
+    "location": "",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mqvc34omvgdm_IMG_2208.HEIC"
+    ],
+    "createdAt": "2026-06-26T19:38:26.226Z",
+    "updatedAt": "2026-06-26T19:38:26.226Z"
+  },
+  {
+    "id": "mqvc6vobehrk",
+    "name": "Montblanc Meisterstuck fountain pen",
+    "category": "Misc",
+    "status": "OK",
+    "price": "720",
+    "currency": "CHF",
+    "date": "",
+    "location": "",
+    "description": "",
+    "link": "https://www.montblanc.com/en-ch/meisterstuck-gold-coated-classique-fountain-pen-MB132464.html?utm_source=google&utm_source_platform=SA360&utm_medium=cpc&utm_campaign=A-MTBHQ-CH-EN-PLA_BR_CAT_PMAX_LOWSELLER-PROL-FY25-MTP-MULTIPLE_COLLECTIONS-PLA-AUC-PU-LXA-GG-BR-RICHZOCJ7DO&utm_id=18646345662&gclsrc=aw.ds&gad_source=1&gad_campaignid=18646364136&gclid=Cj0KCQjwxvjRBhC2ARIsAI7KJa0Tutde7AVuw-RdegWaC0Hgqq9sw3zKyj3jkGnTqqoe1MKoYKm8Mp0aArDoEALw_wcB",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mqvc6vobehrk_IMG_2209.HEIC"
+    ],
+    "createdAt": "2026-06-26T19:41:21.040Z",
+    "updatedAt": "2026-06-26T19:41:21.040Z"
   }
 ]
