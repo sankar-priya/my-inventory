@@ -5308,5 +5308,43 @@
     ],
     "createdAt": "2026-06-26T20:00:23.794Z",
     "updatedAt": "2026-06-26T20:00:23.794Z"
+  },
+  {
+    "id": "mqvcw27z5i99",
+    "name": "Dartmouth fencing championship ring",
+    "category": "Jewelry",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Jewelry boxes",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mqvcw27z5i99_IMG_2224.HEIC"
+    ],
+    "createdAt": "2026-06-26T20:00:55.951Z",
+    "updatedAt": "2026-06-26T20:00:55.951Z"
+  },
+  {
+    "id": "mqvcxwi3a5z6",
+    "name": "Shiffon silver and sapphire pinky ring",
+    "category": "Jewelry",
+    "status": "OK",
+    "price": "90",
+    "currency": "USD",
+    "date": "2019-02-05",
+    "location": "Jewelry boxes",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mqvcxwi3a5z6_IMG_2225.HEIC"
+    ],
+    "createdAt": "2026-06-26T20:02:21.854Z",
+    "updatedAt": "2026-06-26T20:02:21.854Z"
   }
 ]
