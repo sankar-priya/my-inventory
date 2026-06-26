@@ -4716,5 +4716,26 @@
     ],
     "createdAt": "2026-06-26T10:23:00.871Z",
     "updatedAt": "2026-06-26T10:23:00.871Z"
+  },
+  {
+    "id": "mqusc768knoe",
+    "name": "Aritizia blue tank",
+    "category": "",
+    "status": "OK",
+    "price": "58",
+    "currency": "USD",
+    "date": "2022-07-11",
+    "location": "",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mqusc768knoe_aritzia.pdf"
+    ],
+    "photos": [
+      "photos/mqusc768knoe_IMG_2192.HEIC"
+    ],
+    "createdAt": "2026-06-26T10:25:40.192Z",
+    "updatedAt": "2026-06-26T10:25:40.192Z"
   }
 ]
