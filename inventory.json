@@ -5232,5 +5232,43 @@
     ],
     "createdAt": "2026-06-26T19:49:53.856Z",
     "updatedAt": "2026-06-26T19:49:53.856Z"
+  },
+  {
+    "id": "mqvcl8qff00i",
+    "name": "Platinum Wedding Ring",
+    "category": "Jewelry",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Jewelry boxes",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mqvcl8qff00i_IMG_2218.HEIC"
+    ],
+    "createdAt": "2026-06-26T19:52:31.148Z",
+    "updatedAt": "2026-06-26T19:52:31.148Z"
+  },
+  {
+    "id": "mqvclsg5750n",
+    "name": "2 Pearl Necklaces",
+    "category": "Jewelry",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Jewelry boxes",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mqvclsg5750n_IMG_2220.HEIC"
+    ],
+    "createdAt": "2026-06-26T19:52:56.746Z",
+    "updatedAt": "2026-06-26T19:52:56.746Z"
   }
 ]
