@@ -4798,5 +4798,24 @@
     ],
     "createdAt": "2026-06-26T10:39:14.270Z",
     "updatedAt": "2026-06-26T10:39:14.270Z"
+  },
+  {
+    "id": "mqusv67jvvea",
+    "name": "Dartmouth nike shirt",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "50",
+    "currency": "USD",
+    "date": "",
+    "location": "",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mqusv67jvvea_IMG_2195.HEIC"
+    ],
+    "createdAt": "2026-06-26T10:40:22.469Z",
+    "updatedAt": "2026-06-26T10:40:22.469Z"
   }
 ]
