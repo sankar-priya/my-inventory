@@ -5614,5 +5614,24 @@
     ],
     "createdAt": "2026-07-08T12:24:41.430Z",
     "updatedAt": "2026-07-08T12:24:41.430Z"
+  },
+  {
+    "id": "mrc1y9f4tip3",
+    "name": "Sheertex tights",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "35",
+    "currency": "USD",
+    "date": "2023-12-11",
+    "location": "Blue suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mrc1y9f4tip3_IMG_2394.HEIC"
+    ],
+    "createdAt": "2026-07-08T12:26:48.103Z",
+    "updatedAt": "2026-07-08T12:26:48.103Z"
   }
 ]
