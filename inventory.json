@@ -5633,5 +5633,24 @@
     ],
     "createdAt": "2026-07-08T12:26:48.103Z",
     "updatedAt": "2026-07-08T12:26:48.103Z"
+  },
+  {
+    "id": "mrc201jx1zgc",
+    "name": "Sequin Halston New Year Dress",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "63.56",
+    "currency": "USD",
+    "date": "2018-12-24",
+    "location": "Blue suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mrc201jx1zgc_IMG_2395.HEIC"
+    ],
+    "createdAt": "2026-07-08T12:28:11.664Z",
+    "updatedAt": "2026-07-08T12:28:11.664Z"
   }
 ]
