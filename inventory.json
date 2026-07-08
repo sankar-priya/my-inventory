@@ -5595,5 +5595,24 @@
     ],
     "createdAt": "2026-06-26T20:36:23.825Z",
     "updatedAt": "2026-06-26T20:36:23.825Z"
+  },
+  {
+    "id": "mrc1vj8eftqq",
+    "name": "Pens and pencils (blackwing, montblanc, stabilo)",
+    "category": "Misc",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Large Backpack",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mrc1vj8eftqq_IMG_2240_2.HEIC"
+    ],
+    "createdAt": "2026-07-08T12:24:41.430Z",
+    "updatedAt": "2026-07-08T12:24:41.430Z"
   }
 ]
