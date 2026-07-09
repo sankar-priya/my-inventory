@@ -5123,8 +5123,8 @@
     "price": "720",
     "currency": "CHF",
     "date": "",
-    "location": "",
-    "description": "",
+    "location": "Large Backpack",
+    "description": "dubai pouch",
     "link": "https://www.montblanc.com/en-ch/meisterstuck-gold-coated-classique-fountain-pen-MB132464.html?utm_source=google&utm_source_platform=SA360&utm_medium=cpc&utm_campaign=A-MTBHQ-CH-EN-PLA_BR_CAT_PMAX_LOWSELLER-PROL-FY25-MTP-MULTIPLE_COLLECTIONS-PLA-AUC-PU-LXA-GG-BR-RICHZOCJ7DO&utm_id=18646345662&gclsrc=aw.ds&gad_source=1&gad_campaignid=18646364136&gclid=Cj0KCQjwxvjRBhC2ARIsAI7KJa0Tutde7AVuw-RdegWaC0Hgqq9sw3zKyj3jkGnTqqoe1MKoYKm8Mp0aArDoEALw_wcB",
     "tags": "",
     "receipts": [],
@@ -5132,7 +5132,7 @@
       "photos/mqvc6vobehrk_IMG_2209.HEIC"
     ],
     "createdAt": "2026-06-26T19:41:21.040Z",
-    "updatedAt": "2026-06-26T19:41:21.040Z"
+    "updatedAt": "2026-07-09T12:13:40.089Z"
   },
   {
     "id": "mqvc99c75zot",
@@ -5694,5 +5694,24 @@
     ],
     "createdAt": "2026-07-09T12:12:01.829Z",
     "updatedAt": "2026-07-09T12:12:01.829Z"
+  },
+  {
+    "id": "mrdgvq5f5k5y",
+    "name": "Hand knit socks",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Blue suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mrdgvq5f5k5y_IMG_2397.HEIC"
+    ],
+    "createdAt": "2026-07-09T12:12:30.438Z",
+    "updatedAt": "2026-07-09T12:12:30.438Z"
   }
 ]
