@@ -5673,5 +5673,26 @@
     ],
     "createdAt": "2026-07-09T12:10:54.250Z",
     "updatedAt": "2026-07-09T12:10:54.250Z"
+  },
+  {
+    "id": "mrdgv31gogel",
+    "name": "Lovense Ferri",
+    "category": "Electronics",
+    "status": "OK",
+    "price": "137.50",
+    "currency": "USD",
+    "date": "2023-02-25",
+    "location": "Large Backpack",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mrdgv31gogel_lovense_ferri.pdf"
+    ],
+    "photos": [
+      "photos/mrdgv31gogel_IMG_2399.HEIC"
+    ],
+    "createdAt": "2026-07-09T12:12:01.829Z",
+    "updatedAt": "2026-07-09T12:12:01.829Z"
   }
 ]
