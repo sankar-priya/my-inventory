@@ -5713,5 +5713,24 @@
     ],
     "createdAt": "2026-07-09T12:12:30.438Z",
     "updatedAt": "2026-07-09T12:12:30.438Z"
+  },
+  {
+    "id": "msn4laek95i5",
+    "name": "Cork Art piece",
+    "category": "Art",
+    "status": "OK",
+    "price": "25",
+    "currency": "EUR",
+    "date": "2026-08-09",
+    "location": "Large Backpack",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/msn4laek95i5_IMG_2611.HEIC"
+    ],
+    "createdAt": "2026-08-10T11:05:52.202Z",
+    "updatedAt": "2026-08-10T11:05:52.202Z"
   }
 ]
