@@ -3457,7 +3457,7 @@
     "currency": "CHF",
     "date": "",
     "location": "Plastic Box 2",
-    "description": "Not photographed - card from Josie's wedding",
+    "description": "",
     "link": "",
     "tags": "",
     "receipts": [],
@@ -3468,7 +3468,7 @@
       "photos/mqo9tyibrvxb_IMG_2113.HEIC"
     ],
     "createdAt": "2026-06-21T21:01:07.946Z",
-    "updatedAt": "2026-08-10T11:06:30.942Z"
+    "updatedAt": "2026-06-21T21:01:07.946Z"
   },
   {
     "id": "mqoa2zhrg8ia",
@@ -5732,5 +5732,24 @@
     ],
     "createdAt": "2026-08-10T11:05:52.202Z",
     "updatedAt": "2026-08-10T11:05:52.202Z"
+  },
+  {
+    "id": "msob1qo4pqh1",
+    "name": "Brown Savvas Sandals",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "40",
+    "currency": "EUR",
+    "date": "",
+    "location": "Blue suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/msob1qo4pqh1_IMG_2613.HEIC"
+    ],
+    "createdAt": "2026-08-11T06:54:23.897Z",
+    "updatedAt": "2026-08-11T06:54:23.897Z"
   }
 ]
