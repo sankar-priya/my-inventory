@@ -5789,5 +5789,26 @@
     ],
     "createdAt": "2026-08-11T06:57:40.581Z",
     "updatedAt": "2026-08-11T06:57:40.581Z"
+  },
+  {
+    "id": "msobaj66t6o3",
+    "name": "Outdoor Voice Black Powerhouse Tennis Dress",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "49.08",
+    "currency": "USD",
+    "date": "2022-11-27",
+    "location": "Blue suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/msobaj66t6o3_Gmail_-_Thank_you_for_Doing_Things.pdf"
+    ],
+    "photos": [
+      "photos/msobaj66t6o3_IMG_2617.HEIC"
+    ],
+    "createdAt": "2026-08-11T07:01:14.539Z",
+    "updatedAt": "2026-08-11T07:01:14.539Z"
   }
 ]
