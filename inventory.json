@@ -5751,5 +5751,24 @@
     ],
     "createdAt": "2026-08-11T06:54:23.897Z",
     "updatedAt": "2026-08-11T06:54:23.897Z"
+  },
+  {
+    "id": "msob52g65sz1",
+    "name": "Black Stradivarius heels",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Blue suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/msob52g65sz1_IMG_2613.HEIC"
+    ],
+    "createdAt": "2026-08-11T06:56:58.211Z",
+    "updatedAt": "2026-08-11T06:56:58.211Z"
   }
 ]
