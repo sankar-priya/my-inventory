@@ -3896,7 +3896,7 @@
     "price": "59.40",
     "currency": "USD",
     "date": "2020-12-17",
-    "location": "",
+    "location": "Blue suitcase",
     "description": "",
     "link": "",
     "tags": "",
@@ -3907,7 +3907,7 @@
       "photos/mqrt4emqy8m6_IMG_2148.HEIC"
     ],
     "createdAt": "2026-06-24T08:24:16.743Z",
-    "updatedAt": "2026-06-24T08:24:16.743Z"
+    "updatedAt": "2026-08-11T06:58:54.292Z"
   },
   {
     "id": "mqrt6q1jqea1",
@@ -5770,5 +5770,24 @@
     ],
     "createdAt": "2026-08-11T06:56:58.211Z",
     "updatedAt": "2026-08-11T06:56:58.211Z"
+  },
+  {
+    "id": "msob5yq7rocu",
+    "name": "Tuck Skida headband",
+    "category": "Accessories",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Blue suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/msob5yq7rocu_IMG_2614.HEIC"
+    ],
+    "createdAt": "2026-08-11T06:57:40.581Z",
+    "updatedAt": "2026-08-11T06:57:40.581Z"
   }
 ]
