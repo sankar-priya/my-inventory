@@ -4327,27 +4327,6 @@
     "updatedAt": "2026-06-24T09:43:58.726Z"
   },
   {
-    "id": "mqrw3fhztdm3",
-    "name": "OV Black dress",
-    "category": "Clothing",
-    "status": "OK",
-    "price": "49.08",
-    "currency": "USD",
-    "date": "2022-11-27",
-    "location": "",
-    "description": "",
-    "link": "",
-    "tags": "",
-    "receipts": [
-      "receipts/mqrw3fhztdm3_ov_dress.pdf"
-    ],
-    "photos": [
-      "photos/mqrw3fhztdm3_IMG_2140.HEIC"
-    ],
-    "createdAt": "2026-06-24T09:47:29.674Z",
-    "updatedAt": "2026-06-24T09:47:29.674Z"
-  },
-  {
     "id": "mqtfcohs9qoi",
     "name": "Dubai pouch - foreign currency",
     "category": "Misc",
