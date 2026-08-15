@@ -3812,7 +3812,7 @@
     "price": "131.44",
     "currency": "USD",
     "date": "2022-08-24",
-    "location": "",
+    "location": "Grey suitcase",
     "description": "",
     "link": "",
     "tags": "",
@@ -3823,7 +3823,7 @@
       "photos/mqrslwosy1vx_IMG_2129.HEIC"
     ],
     "createdAt": "2026-06-24T08:09:55.589Z",
-    "updatedAt": "2026-06-24T08:09:55.589Z"
+    "updatedAt": "2026-08-15T14:13:16.508Z"
   },
   {
     "id": "mqrspci6xkad",
@@ -4204,7 +4204,7 @@
     "price": "89",
     "currency": "USD",
     "date": "2017-08-29",
-    "location": "",
+    "location": "Grey suitcase",
     "description": "",
     "link": "",
     "tags": "",
@@ -4215,7 +4215,7 @@
       "photos/mqrvenfee62g_IMG_2146.HEIC"
     ],
     "createdAt": "2026-06-24T09:28:13.377Z",
-    "updatedAt": "2026-06-24T09:28:13.377Z"
+    "updatedAt": "2026-08-15T14:12:28.628Z"
   },
   {
     "id": "mqrvgs344rua",
