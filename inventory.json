@@ -5833,5 +5833,45 @@
     ],
     "createdAt": "2026-08-15T13:59:02.801Z",
     "updatedAt": "2026-08-15T13:59:02.801Z"
+  },
+  {
+    "id": "msuj4hc2mtfv",
+    "name": "Tweed jacket",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "20",
+    "currency": "CHF",
+    "date": "",
+    "location": "Grey suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/msuj4hc2mtfv_IMG_2657.HEIC"
+    ],
+    "createdAt": "2026-08-15T15:27:05.063Z",
+    "updatedAt": "2026-08-15T15:27:05.063Z"
+  },
+  {
+    "id": "msuj6jf6ruup",
+    "name": "WETRST Shirt",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "54",
+    "currency": "CHF",
+    "date": "2024-10-09",
+    "location": "Grey suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/msuj6jf6ruup_wetrst.pdf"
+    ],
+    "photos": [
+      "photos/msuj6jf6ruup_IMG_2659.HEIC"
+    ],
+    "createdAt": "2026-08-15T15:28:42.546Z",
+    "updatedAt": "2026-08-15T15:28:42.546Z"
   }
 ]
