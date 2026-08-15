@@ -5829,5 +5829,26 @@
     ],
     "createdAt": "2026-08-11T07:01:57.340Z",
     "updatedAt": "2026-08-11T07:01:57.340Z"
+  },
+  {
+    "id": "msufz8cgfojd",
+    "name": "Hunter Green Chelsea Rain Boots",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "129.43",
+    "currency": "CHF",
+    "date": "2023-10-19",
+    "location": "Blue suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/msufz8cgfojd_Order_Details.pdf"
+    ],
+    "photos": [
+      "photos/msufz8cgfojd_IMG_2647.HEIC"
+    ],
+    "createdAt": "2026-08-15T13:59:02.801Z",
+    "updatedAt": "2026-08-15T13:59:02.801Z"
   }
 ]
