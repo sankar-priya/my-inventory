@@ -4084,7 +4084,7 @@
     "id": "mqrtnc78nkgo",
     "name": "white knit maxi dress vero moda",
     "category": "Clothing",
-    "status": "OK",
+    "status": "Gifted",
     "price": "40",
     "currency": "CHF",
     "date": "",
@@ -4097,7 +4097,11 @@
       "photos/mqrtnc78nkgo_IMG_2155.HEIC"
     ],
     "createdAt": "2026-06-24T08:38:58.095Z",
-    "updatedAt": "2026-06-24T08:38:58.095Z"
+    "updatedAt": "2026-08-15T14:23:01.535Z",
+    "archived": true,
+    "archivedAs": "Gifted",
+    "archivedDate": "2026-08-15",
+    "archiveNote": "Sofja"
   },
   {
     "id": "mqrtoijs1vbi",
@@ -4786,7 +4790,7 @@
     "price": "32",
     "currency": "USD",
     "date": "2022-11-07",
-    "location": "",
+    "location": "Grey suitcase",
     "description": "",
     "link": "",
     "tags": "",
@@ -4797,7 +4801,7 @@
       "photos/mqusto73a9zj_IMG_2196.HEIC"
     ],
     "createdAt": "2026-06-26T10:39:14.270Z",
-    "updatedAt": "2026-06-26T10:39:14.270Z"
+    "updatedAt": "2026-08-15T14:22:29.985Z"
   },
   {
     "id": "mqusv67jvvea",
@@ -4807,7 +4811,7 @@
     "price": "50",
     "currency": "USD",
     "date": "",
-    "location": "",
+    "location": "Grey suitcase",
     "description": "",
     "link": "",
     "tags": "",
@@ -4816,7 +4820,7 @@
       "photos/mqusv67jvvea_IMG_2195.HEIC"
     ],
     "createdAt": "2026-06-26T10:40:22.469Z",
-    "updatedAt": "2026-06-26T10:40:22.469Z"
+    "updatedAt": "2026-08-15T14:22:22.600Z"
   },
   {
     "id": "mqusywkhk7gt",
