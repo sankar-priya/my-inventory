@@ -5873,5 +5873,22 @@
     ],
     "createdAt": "2026-08-15T15:28:42.546Z",
     "updatedAt": "2026-08-15T15:28:42.546Z"
+  },
+  {
+    "id": "msw8xtpyqa14",
+    "name": "Four Months worth of contacts",
+    "category": "Misc",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Grey suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [],
+    "createdAt": "2026-08-16T20:17:28.246Z",
+    "updatedAt": "2026-08-16T20:17:28.246Z"
   }
 ]
