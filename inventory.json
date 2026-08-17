@@ -5948,5 +5948,26 @@
     "photos": [],
     "createdAt": "2026-08-17T15:40:34.432Z",
     "updatedAt": "2026-08-17T15:40:34.432Z"
+  },
+  {
+    "id": "msxlfdc1lo5x",
+    "name": "Garmin Forerunner 245",
+    "category": "Electronics",
+    "status": "OK",
+    "price": "222.58",
+    "currency": "USD",
+    "date": "2023-07-12",
+    "location": "Large Backpack",
+    "description": "In Green floral pouch containing all my charging cables.",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/msxlfdc1lo5x_Order_Details.pdf"
+    ],
+    "photos": [
+      "photos/msxlfdc1lo5x_IMG_2668.HEIC"
+    ],
+    "createdAt": "2026-08-17T18:54:52.896Z",
+    "updatedAt": "2026-08-17T18:54:52.896Z"
   }
 ]
