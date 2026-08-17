@@ -5890,5 +5890,25 @@
     "photos": [],
     "createdAt": "2026-08-16T20:17:28.246Z",
     "updatedAt": "2026-08-16T20:17:28.246Z"
+  },
+  {
+    "id": "msxb0tonlc23",
+    "name": "Omega Seamaster",
+    "category": "Accessories",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Daily Wear",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/msxb0tonlc23_IMG_2667.HEIC",
+      "photos/msxb0tonlc23_IMG_2666.HEIC"
+    ],
+    "createdAt": "2026-08-17T14:03:42.830Z",
+    "updatedAt": "2026-08-17T14:03:42.830Z"
   }
 ]
