@@ -5395,7 +5395,7 @@
     "price": "",
     "currency": "CHF",
     "date": "",
-    "location": "Daily Wear",
+    "location": "Large Backpack",
     "description": "",
     "link": "",
     "tags": "gift",
@@ -5404,7 +5404,7 @@
       "photos/mqvdk6jf4jif_IMG_2229.HEIC"
     ],
     "createdAt": "2026-06-26T20:19:41.218Z",
-    "updatedAt": "2026-06-26T20:19:41.218Z"
+    "updatedAt": "2026-08-17T14:04:47.402Z"
   },
   {
     "id": "mqvdlqp80lmx",
@@ -5910,5 +5910,22 @@
     ],
     "createdAt": "2026-08-17T14:03:42.830Z",
     "updatedAt": "2026-08-17T14:03:42.830Z"
+  },
+  {
+    "id": "msxb1rzcw3il",
+    "name": "Playing Cards",
+    "category": "Misc",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Large Backpack",
+    "description": "3 decks - 1 bicycle, 1 HSG Alumni jasskarten, 1 female jasskarte",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [],
+    "createdAt": "2026-08-17T14:04:18.024Z",
+    "updatedAt": "2026-08-17T14:04:18.024Z"
   }
 ]
