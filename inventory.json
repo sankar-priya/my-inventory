@@ -5931,5 +5931,22 @@
     "photos": [],
     "createdAt": "2026-08-17T14:04:18.024Z",
     "updatedAt": "2026-08-17T14:04:18.024Z"
+  },
+  {
+    "id": "msxehl3401q4",
+    "name": "Important documents",
+    "category": "Documents",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Large Backpack",
+    "description": "UBS info\nbirth certificate copy\ndiplomas\npaperwork",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [],
+    "createdAt": "2026-08-17T15:40:34.432Z",
+    "updatedAt": "2026-08-17T15:40:34.432Z"
   }
 ]
