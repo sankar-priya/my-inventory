@@ -4225,7 +4225,7 @@
     "id": "mqrvgs344rua",
     "name": "Max studio patterned dress",
     "category": "Clothing",
-    "status": "OK",
+    "status": "Donated",
     "price": "40.94",
     "currency": "USD",
     "date": "2021-11-19",
@@ -4240,7 +4240,11 @@
       "photos/mqrvgs344rua_IMG_2152.HEIC"
     ],
     "createdAt": "2026-06-24T09:29:53.419Z",
-    "updatedAt": "2026-06-24T09:29:53.419Z"
+    "updatedAt": "2026-08-17T14:58:51.229Z",
+    "archived": true,
+    "archivedAs": "Donated",
+    "archivedDate": "2026-08-17",
+    "archiveNote": ""
   },
   {
     "id": "mqrvlvqc37mx",
