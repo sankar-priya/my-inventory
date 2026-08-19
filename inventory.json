@@ -5969,5 +5969,24 @@
     ],
     "createdAt": "2026-08-17T18:54:52.896Z",
     "updatedAt": "2026-08-17T18:54:52.896Z"
+  },
+  {
+    "id": "mszomcmh0dbw",
+    "name": "Acqua Di Parma Colonia Esenza 100 ml",
+    "category": "Misc",
+    "status": "OK",
+    "price": "178",
+    "currency": "CHF",
+    "date": "",
+    "location": "Grey suitcase",
+    "description": "",
+    "link": "https://www.globus.ch/en/acqua-di-parma-eau-de-cologne-bp13381635000000",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mszomcmh0dbw_IMG_2669.HEIC"
+    ],
+    "createdAt": "2026-08-19T05:59:47.404Z",
+    "updatedAt": "2026-08-19T05:59:47.404Z"
   }
 ]
