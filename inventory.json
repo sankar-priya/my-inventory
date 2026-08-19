@@ -5988,5 +5988,43 @@
     ],
     "createdAt": "2026-08-19T05:59:47.404Z",
     "updatedAt": "2026-08-19T05:59:47.404Z"
+  },
+  {
+    "id": "mszonbhla3yo",
+    "name": "Uniqlo Merino Crewneck Jumper Navy",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "40",
+    "currency": "EUR",
+    "date": "",
+    "location": "Grey suitcase",
+    "description": "",
+    "link": "https://www.uniqlo.com/eu-at/en/products/E469410-000/00?colorDisplayCode=08&sizeDisplayCode=003",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mszonbhla3yo_IMG_2670.HEIC"
+    ],
+    "createdAt": "2026-08-19T06:00:32.975Z",
+    "updatedAt": "2026-08-19T06:00:32.975Z"
+  },
+  {
+    "id": "mszonv4z8ifq",
+    "name": "Jcrew Navy Cameron Pants",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "60",
+    "currency": "USD",
+    "date": "",
+    "location": "Grey suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mszonv4z8ifq_IMG_2671.HEIC"
+    ],
+    "createdAt": "2026-08-19T06:00:58.269Z",
+    "updatedAt": "2026-08-19T06:00:58.269Z"
   }
 ]
