@@ -6048,5 +6048,26 @@
     ],
     "createdAt": "2026-08-20T15:55:39.665Z",
     "updatedAt": "2026-08-20T15:55:39.665Z"
+  },
+  {
+    "id": "mt1pebld6xu0",
+    "name": "Reformation Blue Floral Maxi",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "165",
+    "currency": "CHF",
+    "date": "2026-08-16",
+    "location": "Grey suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mt1pebld6xu0_ref.pdf"
+    ],
+    "photos": [
+      "photos/mt1pebld6xu0_IMG_2677.HEIC"
+    ],
+    "createdAt": "2026-08-20T15:57:07.073Z",
+    "updatedAt": "2026-08-20T15:57:07.073Z"
   }
 ]
