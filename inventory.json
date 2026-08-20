@@ -4992,7 +4992,7 @@
     "price": "124",
     "currency": "USD",
     "date": "2017-07-16",
-    "location": "",
+    "location": "Grey suitcase",
     "description": "",
     "link": "",
     "tags": "",
@@ -5003,7 +5003,7 @@
       "photos/mqvbsl4l709s_IMG_2203.HEIC"
     ],
     "createdAt": "2026-06-26T19:30:16.641Z",
-    "updatedAt": "2026-06-26T19:30:16.641Z"
+    "updatedAt": "2026-08-20T15:54:35.275Z"
   },
   {
     "id": "mqvbtibivvfn",
@@ -6026,5 +6026,27 @@
     ],
     "createdAt": "2026-08-19T06:00:58.269Z",
     "updatedAt": "2026-08-19T06:00:58.269Z"
+  },
+  {
+    "id": "mt1pcdtcwgd9",
+    "name": "Mango Suit",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "119",
+    "currency": "CHF",
+    "date": "2026-08-14",
+    "location": "Grey suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mt1pcdtcwgd9_mango.pdf"
+    ],
+    "photos": [
+      "photos/mt1pcdtcwgd9_IMG_2679.HEIC",
+      "photos/mt1pcdtcwgd9_IMG_2678.HEIC"
+    ],
+    "createdAt": "2026-08-20T15:55:39.665Z",
+    "updatedAt": "2026-08-20T15:55:39.665Z"
   }
 ]
