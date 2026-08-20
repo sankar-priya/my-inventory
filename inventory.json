@@ -6069,5 +6069,26 @@
     ],
     "createdAt": "2026-08-20T15:57:07.073Z",
     "updatedAt": "2026-08-20T15:57:07.073Z"
+  },
+  {
+    "id": "mt1pggxqu2wk",
+    "name": "Aesop Marrakesh Perfume",
+    "category": "Misc",
+    "status": "OK",
+    "price": "135",
+    "currency": "CHF",
+    "date": "2024-09-12",
+    "location": "Grey suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mt1pggxqu2wk_ffo_07003_42054_240912_131243_4be0.pdf"
+    ],
+    "photos": [
+      "photos/mt1pggxqu2wk_IMG_2680.HEIC"
+    ],
+    "createdAt": "2026-08-20T15:58:47.734Z",
+    "updatedAt": "2026-08-20T15:58:47.734Z"
   }
 ]
