@@ -6090,5 +6090,24 @@
     ],
     "createdAt": "2026-08-20T15:58:47.734Z",
     "updatedAt": "2026-08-20T15:58:47.734Z"
+  },
+  {
+    "id": "mt1sju6fqax0",
+    "name": "Lululemon Micro Pillow socks running",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "",
+    "description": "5 Pairs",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mt1sju6fqax0_IMG_2682.HEIC"
+    ],
+    "createdAt": "2026-08-20T17:25:22.200Z",
+    "updatedAt": "2026-08-20T17:25:22.200Z"
   }
 ]
