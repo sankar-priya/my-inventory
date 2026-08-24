@@ -6109,5 +6109,43 @@
     ],
     "createdAt": "2026-08-20T17:25:22.200Z",
     "updatedAt": "2026-08-20T17:25:22.200Z"
+  },
+  {
+    "id": "mt743eyde9ph",
+    "name": "Bluebella black lingerie set",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Grey suitcase",
+    "description": "2x underwear",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mt743eyde9ph_IMG_2716.HEIC"
+    ],
+    "createdAt": "2026-08-24T10:47:22.107Z",
+    "updatedAt": "2026-08-24T10:47:22.107Z"
+  },
+  {
+    "id": "mt7442ihbgai",
+    "name": "Bluebella White Lingerie set",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Grey suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mt7442ihbgai_IMG_2717.HEIC"
+    ],
+    "createdAt": "2026-08-24T10:47:52.333Z",
+    "updatedAt": "2026-08-24T10:47:52.333Z"
   }
 ]
