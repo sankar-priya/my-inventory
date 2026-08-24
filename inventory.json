@@ -6366,5 +6366,26 @@
     ],
     "createdAt": "2026-08-24T19:54:31.859Z",
     "updatedAt": "2026-08-24T21:02:32.823Z"
+  },
+  {
+    "id": "mt7q4um59usy",
+    "name": "Osprey Backpack",
+    "category": "Luggage",
+    "status": "OK",
+    "price": "74.95",
+    "currency": "USD",
+    "date": "2023-04-19",
+    "location": "EDC",
+    "description": "Including hat carrier - $20",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mt7q4um59usy_Osprey_Backpack.pdf"
+    ],
+    "photos": [
+      "photos/mt7q4um59usy_IMG_2729.HEIC"
+    ],
+    "createdAt": "2026-08-24T21:04:23.023Z",
+    "updatedAt": "2026-08-24T21:04:23.023Z"
   }
 ]
