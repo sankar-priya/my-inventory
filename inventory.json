@@ -6166,5 +6166,24 @@
     ],
     "createdAt": "2026-08-24T11:31:31.694Z",
     "updatedAt": "2026-08-24T11:31:31.694Z"
+  },
+  {
+    "id": "mt77s385bd0g",
+    "name": "Crochet white puff flower WIP",
+    "category": "Misc",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Grey suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mt77s385bd0g_IMG_2721.HEIC"
+    ],
+    "createdAt": "2026-08-24T12:30:31.855Z",
+    "updatedAt": "2026-08-24T12:30:31.855Z"
   }
 ]
