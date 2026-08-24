@@ -6147,5 +6147,24 @@
     ],
     "createdAt": "2026-08-24T10:47:52.333Z",
     "updatedAt": "2026-08-24T10:47:52.333Z"
+  },
+  {
+    "id": "mt75o7kkur5i",
+    "name": "Rolex tote bag 2026",
+    "category": "Accessories",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Grey suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mt75o7kkur5i_IMG_2719.HEIC"
+    ],
+    "createdAt": "2026-08-24T11:31:31.694Z",
+    "updatedAt": "2026-08-24T11:31:31.694Z"
   }
 ]
