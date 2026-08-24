@@ -6246,5 +6246,24 @@
     ],
     "createdAt": "2026-08-24T12:34:37.518Z",
     "updatedAt": "2026-08-24T12:34:37.518Z"
+  },
+  {
+    "id": "mt77z4qyhjq3",
+    "name": "Vintage Fortis Mechanical Watch 33mm Reference 004.10.33",
+    "category": "Accessories",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Large Backpack",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mt77z4qyhjq3_IMG_2724.HEIC"
+    ],
+    "createdAt": "2026-08-24T12:36:01.031Z",
+    "updatedAt": "2026-08-24T12:36:01.031Z"
   }
 ]
