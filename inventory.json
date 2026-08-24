@@ -6188,7 +6188,7 @@
   },
   {
     "id": "mt77sr5okyn3",
-    "name": "Two DÃÂÃÂ¼rrenmatt books",
+    "name": "Two DÃÂÃÂÃÂÃÂ¼rrenmatt books",
     "category": "Books",
     "status": "OK",
     "price": "",
@@ -6320,5 +6320,24 @@
     ],
     "createdAt": "2026-08-24T15:17:20.178Z",
     "updatedAt": "2026-08-24T15:17:20.178Z"
+  },
+  {
+    "id": "mt7drwrbz3ad",
+    "name": "Leatherman Wave+ knife",
+    "category": "Misc",
+    "status": "OK",
+    "price": "160",
+    "currency": "CHF",
+    "date": "",
+    "location": "Grey suitcase",
+    "description": "",
+    "link": "https://www.leatherman.ch/produktseite/wave-plus-1?srsltid=AfmBOooc9ktGRPlRGFmfppPGOZ0N7YxtguE8ZZTtd0K6X4I097zg1sXp",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mt7drwrbz3ad_IMG_2725.HEIC"
+    ],
+    "createdAt": "2026-08-24T15:18:20.642Z",
+    "updatedAt": "2026-08-24T15:18:20.642Z"
   }
 ]
