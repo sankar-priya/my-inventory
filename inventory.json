@@ -6428,5 +6428,24 @@
     ],
     "createdAt": "2026-08-24T21:11:47.773Z",
     "updatedAt": "2026-08-24T21:11:47.773Z"
+  },
+  {
+    "id": "mt7qfixx99vy",
+    "name": "Minimergency kit small",
+    "category": "Misc",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "EDC",
+    "description": "Contains:\n\nPanties\nCondom\nToothpaste\nToothbrush\nDeodorant\nTweezers\nIbuprofen\nImodium",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mt7qfixx99vy_IMG_2733.HEIC"
+    ],
+    "createdAt": "2026-08-24T21:12:38.064Z",
+    "updatedAt": "2026-08-24T21:12:38.064Z"
   }
 ]
