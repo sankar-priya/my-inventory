@@ -4832,7 +4832,7 @@
     "price": "78",
     "currency": "CHF",
     "date": "",
-    "location": "",
+    "location": "Grey suitcase",
     "description": "",
     "link": "https://www.eu.lululemon.com/en-ch/p/swiftly-tech-short-sleeve-shirt-2.0-hip-length/prod9750519.html?dwvar_prod9750519_color=0572",
     "tags": "",
@@ -4841,7 +4841,7 @@
       "photos/mqut1m1qffop_IMG_2194.HEIC"
     ],
     "createdAt": "2026-06-26T10:45:22.801Z",
-    "updatedAt": "2026-06-26T10:45:22.801Z"
+    "updatedAt": "2026-08-24T15:13:42.630Z"
   },
   {
     "id": "mqvb4qtfw3wr",
@@ -6188,7 +6188,7 @@
   },
   {
     "id": "mt77sr5okyn3",
-    "name": "Two DÃ¼rrenmatt books",
+    "name": "Two DÃÂ¼rrenmatt books",
     "category": "Books",
     "status": "OK",
     "price": "",
