@@ -6387,5 +6387,27 @@
     ],
     "createdAt": "2026-08-24T21:04:23.023Z",
     "updatedAt": "2026-08-24T21:04:23.023Z"
+  },
+  {
+    "id": "mt7qajp3jxtw",
+    "name": "Goyard Wallet",
+    "category": "Accessories",
+    "status": "OK",
+    "price": "849.23",
+    "currency": "USD",
+    "date": "2023-04-29",
+    "location": "EDC",
+    "description": "Contains:\nSwiss Driving License\nSwiss resident permit\nHSG ID\nBofA Debit card\nBofA Credit Card\nRevolut Card\nYale ID\nUBS Debit Card\nGerman Healthcard\nSwiss pass\n140 CHF\n60 Eur\nGutschein DB 33.85 EUR",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mt7qajp3jxtw_4Nk6U3RJmb_y992o06.pdf"
+    ],
+    "photos": [
+      "photos/mt7qajp3jxtw_IMG_2731.HEIC",
+      "photos/mt7qajp3jxtw_IMG_2730.HEIC"
+    ],
+    "createdAt": "2026-08-24T21:08:49.819Z",
+    "updatedAt": "2026-08-24T21:08:49.819Z"
   }
 ]
