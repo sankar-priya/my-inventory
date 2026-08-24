@@ -6265,5 +6265,41 @@
     ],
     "createdAt": "2026-08-24T12:36:01.031Z",
     "updatedAt": "2026-08-24T12:36:01.031Z"
+  },
+  {
+    "id": "mt7dm9zrjh2q",
+    "name": "Swiss Flag",
+    "category": "Misc",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Grey suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [],
+    "createdAt": "2026-08-24T15:13:55.480Z",
+    "updatedAt": "2026-08-24T15:13:55.480Z"
+  },
+  {
+    "id": "mt7dmtbl0qk3",
+    "name": "Round knitting needles",
+    "category": "",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Grey suitcase",
+    "description": "3x\n\n3.5mm 5mm 6.5mm",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mt7dmtbl0qk3_IMG_2727.HEIC"
+    ],
+    "createdAt": "2026-08-24T15:14:23.170Z",
+    "updatedAt": "2026-08-24T15:14:23.170Z"
   }
 ]
