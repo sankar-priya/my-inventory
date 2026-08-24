@@ -6225,5 +6225,26 @@
     ],
     "createdAt": "2026-08-24T12:32:47.521Z",
     "updatedAt": "2026-08-24T12:32:47.521Z"
+  },
+  {
+    "id": "mt77xb0qrvn8",
+    "name": "Polaroid ZINK Paper",
+    "category": "Misc",
+    "status": "OK",
+    "price": "8",
+    "currency": "USD",
+    "date": "2020-01-14",
+    "location": "Large Backpack",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mt77xb0qrvn8_zink.pdf"
+    ],
+    "photos": [
+      "photos/mt77xb0qrvn8_IMG_2723.HEIC"
+    ],
+    "createdAt": "2026-08-24T12:34:37.518Z",
+    "updatedAt": "2026-08-24T12:34:37.518Z"
   }
 ]
