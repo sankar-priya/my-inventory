@@ -6343,5 +6343,24 @@
     ],
     "createdAt": "2026-08-24T15:18:20.642Z",
     "updatedAt": "2026-08-24T15:18:20.642Z"
+  },
+  {
+    "id": "mt7nn36ikwx2",
+    "name": "Lululemon Shorter black leggings",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "128",
+    "currency": "USD",
+    "date": "",
+    "location": "",
+    "description": "",
+    "link": "https://shop.lululemon.com/p/fast-and-free-6-pocket-high-rise-crop-23-updated/ll87k3z6bq?fp=1&color=77066",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mt7nn36ikwx2_IMG_2726.HEIC"
+    ],
+    "createdAt": "2026-08-24T19:54:31.859Z",
+    "updatedAt": "2026-08-24T19:54:31.859Z"
   }
 ]
