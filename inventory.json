@@ -4027,7 +4027,7 @@
     "id": "mqrtgtlrgh3p",
     "name": "Blue shirred sundress SC",
     "category": "Clothing",
-    "status": "OK",
+    "status": "Donated",
     "price": "45",
     "currency": "USD",
     "date": "",
@@ -4040,7 +4040,11 @@
       "photos/mqrtgtlrgh3p_IMG_2138.HEIC"
     ],
     "createdAt": "2026-06-24T08:33:55.077Z",
-    "updatedAt": "2026-06-24T08:34:07.676Z"
+    "updatedAt": "2026-08-24T20:06:44.126Z",
+    "archived": true,
+    "archivedAs": "Donated",
+    "archivedDate": "2026-08-24",
+    "archiveNote": ""
   },
   {
     "id": "mqrthvqgzw2q",
@@ -6192,7 +6196,7 @@
   },
   {
     "id": "mt77sr5okyn3",
-    "name": "Two DÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¼rrenmatt books",
+    "name": "Two DÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¼rrenmatt books",
     "category": "Books",
     "status": "OK",
     "price": "",
