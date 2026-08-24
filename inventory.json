@@ -6188,7 +6188,7 @@
   },
   {
     "id": "mt77sr5okyn3",
-    "name": "Two DÃÂ¼rrenmatt books",
+    "name": "Two DÃÂÃÂ¼rrenmatt books",
     "category": "Books",
     "status": "OK",
     "price": "",
@@ -6301,5 +6301,24 @@
     ],
     "createdAt": "2026-08-24T15:14:23.170Z",
     "updatedAt": "2026-08-24T15:14:23.170Z"
+  },
+  {
+    "id": "mt7dqlp2p9bl",
+    "name": "5MM Crochet Hook",
+    "category": "Misc",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Grey suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mt7dqlp2p9bl_IMG_2728.HEIC"
+    ],
+    "createdAt": "2026-08-24T15:17:20.178Z",
+    "updatedAt": "2026-08-24T15:17:20.178Z"
   }
 ]
