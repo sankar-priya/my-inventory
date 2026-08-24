@@ -4313,7 +4313,7 @@
     "id": "mqrvywdrdybg",
     "name": "Quince cream silk skirt",
     "category": "Clothing",
-    "status": "OK",
+    "status": "Donated",
     "price": "79.90",
     "currency": "USD",
     "date": "2024-11-06",
@@ -4328,7 +4328,11 @@
       "photos/mqrvywdrdybg_IMG_2150.HEIC"
     ],
     "createdAt": "2026-06-24T09:43:58.726Z",
-    "updatedAt": "2026-06-24T09:43:58.726Z"
+    "updatedAt": "2026-08-24T19:52:43.519Z",
+    "archived": true,
+    "archivedAs": "Donated",
+    "archivedDate": "2026-08-24",
+    "archiveNote": ""
   },
   {
     "id": "mqtfcohs9qoi",
@@ -6188,7 +6192,7 @@
   },
   {
     "id": "mt77sr5okyn3",
-    "name": "Two DÃÂÃÂÃÂÃÂ¼rrenmatt books",
+    "name": "Two DÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¼rrenmatt books",
     "category": "Books",
     "status": "OK",
     "price": "",
