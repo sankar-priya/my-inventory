@@ -4130,7 +4130,7 @@
     "price": "40",
     "currency": "EUR",
     "date": "",
-    "location": "",
+    "location": "Grey suitcase",
     "description": "",
     "link": "https://www.uniqlo.com/eu-at/en/products/E488345-000/00?colorDisplayCode=17&sizeDisplayCode=003&pldDisplayCode=020",
     "tags": "",
@@ -4139,7 +4139,7 @@
       "photos/mqrtro63yn53_IMG_2145.HEIC"
     ],
     "createdAt": "2026-06-24T08:42:20.015Z",
-    "updatedAt": "2026-06-24T08:42:20.015Z"
+    "updatedAt": "2026-08-24T12:25:17.534Z"
   },
   {
     "id": "mqrtt13p0n4q",
