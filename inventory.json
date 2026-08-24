@@ -6185,5 +6185,45 @@
     ],
     "createdAt": "2026-08-24T12:30:31.855Z",
     "updatedAt": "2026-08-24T12:30:31.855Z"
+  },
+  {
+    "id": "mt77sr5okyn3",
+    "name": "Two Dürrenmatt books",
+    "category": "Books",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Grey suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mt77sr5okyn3_IMG_2722.HEIC"
+    ],
+    "createdAt": "2026-08-24T12:31:03.092Z",
+    "updatedAt": "2026-08-24T12:31:03.092Z"
+  },
+  {
+    "id": "mt77uz1na69n",
+    "name": "Bellroy Tokyo Tote",
+    "category": "Misc",
+    "status": "OK",
+    "price": "139.32",
+    "currency": "USD",
+    "date": "2024-11-06",
+    "location": "Grey suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mt77uz1na69n_bellroy.pdf"
+    ],
+    "photos": [
+      "photos/mt77uz1na69n_IMG_2720.HEIC"
+    ],
+    "createdAt": "2026-08-24T12:32:47.521Z",
+    "updatedAt": "2026-08-24T12:32:47.521Z"
   }
 ]
