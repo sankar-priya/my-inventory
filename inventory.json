@@ -3970,7 +3970,7 @@
     "id": "mqrtbz4gtwvx",
     "name": "Uniqlo airism dress cream",
     "category": "Clothing",
-    "status": "OK",
+    "status": "Donated",
     "price": "30",
     "currency": "EUR",
     "date": "",
@@ -3983,7 +3983,11 @@
       "photos/mqrtbz4gtwvx_IMG_2137.HEIC"
     ],
     "createdAt": "2026-06-24T08:30:07.906Z",
-    "updatedAt": "2026-06-24T08:30:07.906Z"
+    "updatedAt": "2026-08-25T18:59:37.584Z",
+    "archived": true,
+    "archivedAs": "Donated",
+    "archivedDate": "2026-08-25",
+    "archiveNote": ""
   },
   {
     "id": "mqrtcfk4mtl5",
@@ -4716,7 +4720,7 @@
     "id": "mqusc768knoe",
     "name": "Aritizia blue tank",
     "category": "",
-    "status": "OK",
+    "status": "Donated",
     "price": "58",
     "currency": "USD",
     "date": "2022-07-11",
@@ -4731,7 +4735,11 @@
       "photos/mqusc768knoe_IMG_2192.HEIC"
     ],
     "createdAt": "2026-06-26T10:25:40.192Z",
-    "updatedAt": "2026-06-26T10:25:40.192Z"
+    "updatedAt": "2026-08-25T18:57:08.451Z",
+    "archived": true,
+    "archivedAs": "Donated",
+    "archivedDate": "2026-08-25",
+    "archiveNote": ""
   },
   {
     "id": "mqusfmh3iqr5",
