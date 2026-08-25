@@ -5095,7 +5095,7 @@
     "id": "mqvc34omvgdm",
     "name": "Jcrew Orange print pajamas",
     "category": "Clothing",
-    "status": "OK",
+    "status": "Donated",
     "price": "40",
     "currency": "USD",
     "date": "",
@@ -5108,7 +5108,11 @@
       "photos/mqvc34omvgdm_IMG_2208.HEIC"
     ],
     "createdAt": "2026-06-26T19:38:26.226Z",
-    "updatedAt": "2026-06-26T19:38:26.226Z"
+    "updatedAt": "2026-08-25T18:45:43.917Z",
+    "archived": true,
+    "archivedAs": "Donated",
+    "archivedDate": "2026-08-25",
+    "archiveNote": ""
   },
   {
     "id": "mqvc6vobehrk",
@@ -6419,7 +6423,7 @@
     "currency": "CHF",
     "date": "",
     "location": "EDC",
-    "description": "Contains:\n\nContacts\nNail cliipper\nTweezers\nIbuprofen\nImodium\nSewing kit\nCord converters\nPerfume\nEarrings \nTampon\nBobby pins\nHair ties\nNail file\nMeasuring tape\nMints\nAntacid\nAlka Seltzer\nStain remover wipe\nBandaids\nButtons\nSafety pins\nFloss\nEmergen-CÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¨Electrolytes\nPad\nHair oil\nHand cream\nScissors\nPen\nFace mask\nLaundry detergent\nInsect spray\nPolish remover\nCleaning spray\nBreath freshener\nSunscreen \nNail polish\nQ tips\nCotton pads\nTide pen\nMicrofiber cloth\nAllergy pills\nWet wipe\nBody wash\nMirror\nCharging cable\nFace wipe",
+    "description": "Contains:\n\nContacts\nNail cliipper\nTweezers\nIbuprofen\nImodium\nSewing kit\nCord converters\nPerfume\nEarrings \nTampon\nBobby pins\nHair ties\nNail file\nMeasuring tape\nMints\nAntacid\nAlka Seltzer\nStain remover wipe\nBandaids\nButtons\nSafety pins\nFloss\nEmergen-CÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨Electrolytes\nPad\nHair oil\nHand cream\nScissors\nPen\nFace mask\nLaundry detergent\nInsect spray\nPolish remover\nCleaning spray\nBreath freshener\nSunscreen \nNail polish\nQ tips\nCotton pads\nTide pen\nMicrofiber cloth\nAllergy pills\nWet wipe\nBody wash\nMirror\nCharging cable\nFace wipe",
     "link": "",
     "tags": "",
     "receipts": [],
