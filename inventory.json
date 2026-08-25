@@ -6509,5 +6509,26 @@
     ],
     "createdAt": "2026-08-25T11:59:30.679Z",
     "updatedAt": "2026-08-25T11:59:30.679Z"
+  },
+  {
+    "id": "mt8m653w9irg",
+    "name": "MacBook Air",
+    "category": "Electronics",
+    "status": "OK",
+    "price": "1291",
+    "currency": "USD",
+    "date": "2022-12-09",
+    "location": "EDC",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mt8m653w9irg_macbook.pdf"
+    ],
+    "photos": [
+      "photos/mt8m653w9irg_IMG_2738.HEIC"
+    ],
+    "createdAt": "2026-08-25T12:01:10.532Z",
+    "updatedAt": "2026-08-25T12:01:10.532Z"
   }
 ]
