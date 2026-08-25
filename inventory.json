@@ -3970,7 +3970,7 @@
     "id": "mqrtbz4gtwvx",
     "name": "Uniqlo airism dress cream",
     "category": "Clothing",
-    "status": "OK",
+    "status": "Donated",
     "price": "30",
     "currency": "EUR",
     "date": "",
@@ -3983,7 +3983,11 @@
       "photos/mqrtbz4gtwvx_IMG_2137.HEIC"
     ],
     "createdAt": "2026-06-24T08:30:07.906Z",
-    "updatedAt": "2026-06-24T08:30:07.906Z"
+    "updatedAt": "2026-08-25T11:18:41.030Z",
+    "archived": true,
+    "archivedAs": "Donated",
+    "archivedDate": "2026-08-25",
+    "archiveNote": ""
   },
   {
     "id": "mqrtcfk4mtl5",
@@ -5095,7 +5099,7 @@
     "id": "mqvc34omvgdm",
     "name": "Jcrew Orange print pajamas",
     "category": "Clothing",
-    "status": "OK",
+    "status": "Donated",
     "price": "40",
     "currency": "USD",
     "date": "",
@@ -5108,7 +5112,11 @@
       "photos/mqvc34omvgdm_IMG_2208.HEIC"
     ],
     "createdAt": "2026-06-26T19:38:26.226Z",
-    "updatedAt": "2026-06-26T19:38:26.226Z"
+    "updatedAt": "2026-08-25T11:18:53.896Z",
+    "archived": true,
+    "archivedAs": "Donated",
+    "archivedDate": "2026-08-25",
+    "archiveNote": ""
   },
   {
     "id": "mqvc6vobehrk",
@@ -6469,5 +6477,26 @@
     ],
     "createdAt": "2026-08-25T11:18:19.120Z",
     "updatedAt": "2026-08-25T11:18:19.120Z"
+  },
+  {
+    "id": "mt8kqj7e2d4t",
+    "name": "Misc cosmetic pouch suitcase",
+    "category": "Misc",
+    "status": "OK",
+    "price": "68.90",
+    "currency": "CHF",
+    "date": "",
+    "location": "Grey suitcase",
+    "description": "makeup for ever powder brush \n2 misc brushes\ncuticle cutter\nnail clipper\nhairbrush cleaning brush\nMisc makeup and cosmetic tools",
+    "link": "https://www.sephora.ch/p/pinsel-nr.-130-%E2%80%93-grosser-puderpinsel-262107.html?utm_source=google&utm_medium=cpc&utm_campaign=SephoraEUR_SR_CHE_GLOBAL_GEN_OTH_OGOING_EC_PEMA_GPMA_CRD_CHE_EUR_NAPP_LABELshopping&utm_term=&gad_source=1&gad_campaignid=23022295857&gclid=CjwKCAjw-rTUBhAiEiwADv8gBDPFcE3xZO6r4MXM4-UyTQGTvqBfZDlwbu3eoI0NCQEEr-iZYFpSpBoCh9gQAvD_BwE",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mt8kqj7e2d4t_IMG_2735.HEIC",
+      "photos/mt8kqj7e2d4t_IMG_2737.HEIC",
+      "photos/mt8kqj7e2d4t_IMG_2736.HEIC"
+    ],
+    "createdAt": "2026-08-25T11:21:07.653Z",
+    "updatedAt": "2026-08-25T11:21:07.653Z"
   }
 ]
