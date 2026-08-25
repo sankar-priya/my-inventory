@@ -4699,7 +4699,7 @@
     "id": "mqus8sz56qxv",
     "name": "Zadig and Voltaire shiny tank",
     "category": "Clothing",
-    "status": "OK",
+    "status": "Donated",
     "price": "59.99",
     "currency": "USD",
     "date": "2019-04-25",
@@ -4714,7 +4714,11 @@
       "photos/mqus8sz56qxv_IMG_2190.HEIC"
     ],
     "createdAt": "2026-06-26T10:23:00.871Z",
-    "updatedAt": "2026-06-26T10:23:00.871Z"
+    "updatedAt": "2026-08-25T19:18:58.865Z",
+    "archived": true,
+    "archivedAs": "Donated",
+    "archivedDate": "2026-08-25",
+    "archiveNote": ""
   },
   {
     "id": "mqusc768knoe",
@@ -6431,7 +6435,7 @@
     "currency": "CHF",
     "date": "",
     "location": "EDC",
-    "description": "Contains:\n\nContacts\nNail cliipper\nTweezers\nIbuprofen\nImodium\nSewing kit\nCord converters\nPerfume\nEarrings \nTampon\nBobby pins\nHair ties\nNail file\nMeasuring tape\nMints\nAntacid\nAlka Seltzer\nStain remover wipe\nBandaids\nButtons\nSafety pins\nFloss\nEmergen-CÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨Electrolytes\nPad\nHair oil\nHand cream\nScissors\nPen\nFace mask\nLaundry detergent\nInsect spray\nPolish remover\nCleaning spray\nBreath freshener\nSunscreen \nNail polish\nQ tips\nCotton pads\nTide pen\nMicrofiber cloth\nAllergy pills\nWet wipe\nBody wash\nMirror\nCharging cable\nFace wipe",
+    "description": "Contains:\n\nContacts\nNail cliipper\nTweezers\nIbuprofen\nImodium\nSewing kit\nCord converters\nPerfume\nEarrings \nTampon\nBobby pins\nHair ties\nNail file\nMeasuring tape\nMints\nAntacid\nAlka Seltzer\nStain remover wipe\nBandaids\nButtons\nSafety pins\nFloss\nEmergen-CÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨Electrolytes\nPad\nHair oil\nHand cream\nScissors\nPen\nFace mask\nLaundry detergent\nInsect spray\nPolish remover\nCleaning spray\nBreath freshener\nSunscreen \nNail polish\nQ tips\nCotton pads\nTide pen\nMicrofiber cloth\nAllergy pills\nWet wipe\nBody wash\nMirror\nCharging cable\nFace wipe",
     "link": "",
     "tags": "",
     "receipts": [],
