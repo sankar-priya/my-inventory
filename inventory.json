@@ -3993,7 +3993,7 @@
     "price": "30",
     "currency": "EUR",
     "date": "",
-    "location": "",
+    "location": "Carry On",
     "description": "",
     "link": "https://www.uniqlo.com/eu-at/en/products/E482982-000/00?colorDisplayCode=38&sizeDisplayCode=003",
     "tags": "",
@@ -4002,7 +4002,7 @@
       "photos/mqrtcfk4mtl5_IMG_2139.HEIC"
     ],
     "createdAt": "2026-06-24T08:30:29.262Z",
-    "updatedAt": "2026-06-24T08:30:35.082Z"
+    "updatedAt": "2026-08-25T18:40:55.798Z"
   },
   {
     "id": "mqrtg96l006o",
@@ -6107,7 +6107,7 @@
     "price": "",
     "currency": "CHF",
     "date": "",
-    "location": "",
+    "location": "Carry On",
     "description": "5 Pairs",
     "link": "",
     "tags": "",
@@ -6116,7 +6116,7 @@
       "photos/mt1sju6fqax0_IMG_2682.HEIC"
     ],
     "createdAt": "2026-08-20T17:25:22.200Z",
-    "updatedAt": "2026-08-20T17:25:22.200Z"
+    "updatedAt": "2026-08-25T18:41:13.867Z"
   },
   {
     "id": "mt743eyde9ph",
@@ -6551,5 +6551,26 @@
     ],
     "createdAt": "2026-08-25T12:02:32.793Z",
     "updatedAt": "2026-08-25T12:02:32.793Z"
+  },
+  {
+    "id": "mt90j7tj8yux",
+    "name": "Polene Purse",
+    "category": "Accessories",
+    "status": "OK",
+    "price": "430",
+    "currency": "USD",
+    "date": "2023-04-14",
+    "location": "Carry On",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mt90j7tj8yux_Gmail_-_Order_S139595_confirmed.pdf"
+    ],
+    "photos": [
+      "photos/mt90j7tj8yux_IMG_2740.HEIC"
+    ],
+    "createdAt": "2026-08-25T18:43:15.152Z",
+    "updatedAt": "2026-08-25T18:43:15.152Z"
   }
 ]
