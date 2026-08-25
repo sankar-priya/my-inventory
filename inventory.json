@@ -4682,7 +4682,7 @@
     "price": "29",
     "currency": "USD",
     "date": "2023-01-01",
-    "location": "",
+    "location": "Carry On",
     "description": "",
     "link": "",
     "tags": "",
@@ -4693,7 +4693,7 @@
       "photos/mqus6o2o2e5w_IMG_2189.HEIC"
     ],
     "createdAt": "2026-06-26T10:21:24.706Z",
-    "updatedAt": "2026-06-26T10:21:24.706Z"
+    "updatedAt": "2026-08-25T19:19:06.598Z"
   },
   {
     "id": "mqus8sz56qxv",
@@ -4930,7 +4930,7 @@
     "price": "39",
     "currency": "USD",
     "date": "2018-10-10",
-    "location": "",
+    "location": "Carry On",
     "description": "",
     "link": "",
     "tags": "",
@@ -4941,7 +4941,7 @@
       "photos/mqvbgjzv5206_IMG_2198.HEIC"
     ],
     "createdAt": "2026-06-26T19:20:54.401Z",
-    "updatedAt": "2026-06-26T19:20:54.401Z"
+    "updatedAt": "2026-08-25T19:19:14.982Z"
   },
   {
     "id": "mqvbin1qd51c",
@@ -6588,5 +6588,24 @@
     ],
     "createdAt": "2026-08-25T18:43:15.152Z",
     "updatedAt": "2026-08-25T18:43:15.152Z"
+  },
+  {
+    "id": "mt91uwgv6nlo",
+    "name": "Lululemon Bike short x2",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "176",
+    "currency": "CHF",
+    "date": "",
+    "location": "Carry On",
+    "description": "",
+    "link": "https://www.eu.lululemon.com/de-ch/p/lululemon-align%E2%84%A2-shorts-mit-hohem-bund-und-taschen-15%C2%A0cm/147031968.html?utm_source=google&utm_medium=cpc&utm_campaign=24081641226&utm_content=199829062258&undefined=utm_term%3D&CID=Google_SHOP_CH_NAT_DE_X_BRANDSHOP_ALL_GEN_Y26_ag-SHOP_G_CH_DE_DM_X_GEN_NO_INCREMENTAL&gclsrc=aw.ds&gad_source=1&gad_campaignid=24081641226&gclid=CjwKCAjw-rTUBhAiEiwADv8gBLoTEe5JStRxUMIF0ib2zOjQ_lXmLFq45ouyq1ZlodpW1ZNWfJZuQBoCRR8QAvD_BwE",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mt91uwgv6nlo_IMG_2741.HEIC"
+    ],
+    "createdAt": "2026-08-25T19:20:16.932Z",
+    "updatedAt": "2026-08-25T19:20:16.932Z"
   }
 ]
