@@ -6447,5 +6447,27 @@
     ],
     "createdAt": "2026-08-24T21:12:38.064Z",
     "updatedAt": "2026-08-24T21:12:38.064Z"
+  },
+  {
+    "id": "mt8kmxru6b22",
+    "name": "Marysia Red Scallop bikini",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "300",
+    "currency": "USD",
+    "date": "2019-05-08",
+    "location": "Grey suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mt8kmxru6b22_Order_Details2.pdf",
+      "receipts/mt8kmxru6b22_Order_Details.pdf"
+    ],
+    "photos": [
+      "photos/mt8kmxru6b22_IMG_2734.HEIC"
+    ],
+    "createdAt": "2026-08-25T11:18:19.120Z",
+    "updatedAt": "2026-08-25T11:18:19.120Z"
   }
 ]
