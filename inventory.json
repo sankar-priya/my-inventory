@@ -6530,5 +6530,26 @@
     ],
     "createdAt": "2026-08-25T12:01:10.532Z",
     "updatedAt": "2026-08-25T12:01:10.532Z"
+  },
+  {
+    "id": "mt8m7xgzgovi",
+    "name": "Airpods Pro 3",
+    "category": "Electronics",
+    "status": "OK",
+    "price": "219",
+    "currency": "CHF",
+    "date": "2025-11-17",
+    "location": "EDC",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mt8m7xgzgovi_EmailReceipt_20251117R1591156518.pdf"
+    ],
+    "photos": [
+      "photos/mt8m7xgzgovi_IMG_2739.HEIC"
+    ],
+    "createdAt": "2026-08-25T12:02:32.793Z",
+    "updatedAt": "2026-08-25T12:02:32.793Z"
   }
 ]
