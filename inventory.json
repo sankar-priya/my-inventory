@@ -4972,7 +4972,7 @@
     "price": "30",
     "currency": "SGD",
     "date": "",
-    "location": "",
+    "location": "Carry On",
     "description": "",
     "link": "",
     "tags": "",
@@ -4981,7 +4981,7 @@
       "photos/mqvbjgm34q7z_IMG_2201.HEIC"
     ],
     "createdAt": "2026-06-26T19:23:08.586Z",
-    "updatedAt": "2026-06-26T19:24:18.457Z"
+    "updatedAt": "2026-08-26T17:21:42.110Z"
   },
   {
     "id": "mqvbq3xwtcxh",
@@ -5052,7 +5052,7 @@
     "price": "16",
     "currency": "EUR",
     "date": "",
-    "location": "",
+    "location": "Carry On",
     "description": "",
     "link": "",
     "tags": "",
@@ -5061,7 +5061,7 @@
       "photos/mqvbtzygzg2i_IMG_2205.HEIC"
     ],
     "createdAt": "2026-06-26T19:31:20.031Z",
-    "updatedAt": "2026-06-26T19:31:20.031Z"
+    "updatedAt": "2026-08-26T17:21:49.175Z"
   },
   {
     "id": "mqvbvbcb6w17",
@@ -6738,5 +6738,22 @@
     ],
     "createdAt": "2026-08-26T11:06:53.534Z",
     "updatedAt": "2026-08-26T11:06:53.534Z"
+  },
+  {
+    "id": "mtad3ur0o894",
+    "name": "Sparkly blue VS bikini",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "30",
+    "currency": "USD",
+    "date": "",
+    "location": "Carry On",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [],
+    "createdAt": "2026-08-26T17:22:54.444Z",
+    "updatedAt": "2026-08-26T17:22:54.444Z"
   }
 ]
