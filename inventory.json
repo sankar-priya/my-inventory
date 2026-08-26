@@ -6793,5 +6793,24 @@
     ],
     "createdAt": "2026-08-26T17:43:06.636Z",
     "updatedAt": "2026-08-26T17:43:36.028Z"
+  },
+  {
+    "id": "mtadw8ah5vbp",
+    "name": "Uniqlo Black Trousers",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "40",
+    "currency": "EUR",
+    "date": "",
+    "location": "Carry On",
+    "description": "",
+    "link": "https://www.uniqlo.com/eu-at/en/products/E487957-000/00?colorDisplayCode=08&sizeDisplayCode=003&pldDisplayCode=030",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mtadw8ah5vbp_IMG_2750.HEIC"
+    ],
+    "createdAt": "2026-08-26T17:45:01.283Z",
+    "updatedAt": "2026-08-26T17:45:01.283Z"
   }
 ]
