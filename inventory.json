@@ -6712,8 +6712,31 @@
     "link": "https://shop.mango.com/ch/de/p/damen/schuhe/flache-schuhe/leder-mokassin-mit-schnalle/37044430/99/00",
     "tags": "",
     "receipts": [],
-    "photos": [],
+    "photos": [
+      "photos/mt9zm49tsk96_IMG_2744.HEIC"
+    ],
     "createdAt": "2026-08-26T11:05:11.969Z",
-    "updatedAt": "2026-08-26T11:05:11.969Z"
+    "updatedAt": "2026-08-26T11:05:58.262Z"
+  },
+  {
+    "id": "mt9zo7pl5kex",
+    "name": "Asics Running Shoes",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "40",
+    "currency": "USD",
+    "date": "2023-07-11",
+    "location": "Carry On",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [
+      "receipts/mt9zo7pl5kex_Order_Details.pdf"
+    ],
+    "photos": [
+      "photos/mt9zo7pl5kex_IMG_2745.HEIC"
+    ],
+    "createdAt": "2026-08-26T11:06:53.534Z",
+    "updatedAt": "2026-08-26T11:06:53.534Z"
   }
 ]
