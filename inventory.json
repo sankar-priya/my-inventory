@@ -6662,5 +6662,41 @@
     "photos": [],
     "createdAt": "2026-08-26T11:01:29.523Z",
     "updatedAt": "2026-08-26T11:01:29.523Z"
+  },
+  {
+    "id": "mt9zhwvei9q7",
+    "name": "Underwear",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Carry On",
+    "description": "8 skims\n5 lululemon\n6 misc",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [],
+    "createdAt": "2026-08-26T11:01:55.754Z",
+    "updatedAt": "2026-08-26T11:01:55.754Z"
+  },
+  {
+    "id": "mt9zj4dn15bk",
+    "name": "Wacoal red carpet brassiere 34H",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "",
+    "currency": "CHF",
+    "date": "",
+    "location": "Grey suitcase",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mt9zj4dn15bk_IMG_2746.HEIC"
+    ],
+    "createdAt": "2026-08-26T11:02:54.853Z",
+    "updatedAt": "2026-08-26T11:02:54.853Z"
   }
 ]
