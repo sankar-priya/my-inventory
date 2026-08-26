@@ -6774,5 +6774,24 @@
     ],
     "createdAt": "2026-08-26T17:42:16.565Z",
     "updatedAt": "2026-08-26T17:42:16.565Z"
+  },
+  {
+    "id": "mtadts7v977h",
+    "name": "Lululemon Swiftly Tech Burgundy tee",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "78",
+    "currency": "CHF",
+    "date": "",
+    "location": "Carry On",
+    "description": "",
+    "link": "https://www.eu.lululemon.com/en-ch/p/swiftly-tech-short-sleeve-shirt-2.0-hip-length/prod9750519.html?dwvar_prod9750519_color=0572",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mtadts7v977h_IMG_2749.HEIC"
+    ],
+    "createdAt": "2026-08-26T17:43:06.636Z",
+    "updatedAt": "2026-08-26T17:43:36.028Z"
   }
 ]
