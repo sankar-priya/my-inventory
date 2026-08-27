@@ -6888,5 +6888,24 @@
     ],
     "createdAt": "2026-08-27T11:55:36.283Z",
     "updatedAt": "2026-08-27T11:55:36.283Z"
+  },
+  {
+    "id": "mtbgw36kzqmq",
+    "name": "Uniqlo Boatneck Shirred Black Top",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "15",
+    "currency": "EUR",
+    "date": "",
+    "location": "Carry On",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mtbgw36kzqmq_IMG_2818.HEIC"
+    ],
+    "createdAt": "2026-08-27T11:56:39.103Z",
+    "updatedAt": "2026-08-27T11:56:39.103Z"
   }
 ]
