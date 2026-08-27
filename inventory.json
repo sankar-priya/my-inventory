@@ -6831,5 +6831,24 @@
     ],
     "createdAt": "2026-08-27T11:53:03.706Z",
     "updatedAt": "2026-08-27T11:53:03.706Z"
+  },
+  {
+    "id": "mtbgtai0ezn1",
+    "name": "Havaiianas square flip flops",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "38",
+    "currency": "USD",
+    "date": "",
+    "location": "Carry On",
+    "description": "",
+    "link": "https://www.havaianas.com/products/womens-slim-square-logo-pop-up-flip-flops-rose-gum-4148959-4622?variant=54187060625683&_pos=2&_fid=87dfdcf9b&_ss=c",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mtbgtai0ezn1_IMG_2820.HEIC"
+    ],
+    "createdAt": "2026-08-27T11:54:28.928Z",
+    "updatedAt": "2026-08-27T11:54:28.928Z"
   }
 ]
