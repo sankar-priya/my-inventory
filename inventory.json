@@ -6850,5 +6850,43 @@
     ],
     "createdAt": "2026-08-27T11:54:28.928Z",
     "updatedAt": "2026-08-27T11:54:28.928Z"
+  },
+  {
+    "id": "mtbgu4g7kx6t",
+    "name": "Lululemon bike short",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "68",
+    "currency": "CHF",
+    "date": "",
+    "location": "Carry On",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mtbgu4g7kx6t_IMG_2819.HEIC"
+    ],
+    "createdAt": "2026-08-27T11:55:07.491Z",
+    "updatedAt": "2026-08-27T11:55:07.491Z"
+  },
+  {
+    "id": "mtbguqcnhvji",
+    "name": "Uniqlo White Tee x 2",
+    "category": "Clothing",
+    "status": "OK",
+    "price": "30",
+    "currency": "EUR",
+    "date": "",
+    "location": "Carry On",
+    "description": "",
+    "link": "",
+    "tags": "",
+    "receipts": [],
+    "photos": [
+      "photos/mtbguqcnhvji_IMG_2821.HEIC"
+    ],
+    "createdAt": "2026-08-27T11:55:36.283Z",
+    "updatedAt": "2026-08-27T11:55:36.283Z"
   }
 ]
