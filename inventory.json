@@ -3951,7 +3951,7 @@
     "id": "mqrt9z7krjzc",
     "name": "Uniqlo Airism dress khaki",
     "category": "Clothing",
-    "status": "OK",
+    "status": "Donated",
     "price": "30",
     "currency": "EUR",
     "date": "",
@@ -3964,7 +3964,11 @@
       "photos/mqrt9z7krjzc_IMG_2135.HEIC"
     ],
     "createdAt": "2026-06-24T08:28:34.723Z",
-    "updatedAt": "2026-06-24T08:28:34.723Z"
+    "updatedAt": "2026-08-28T09:25:03.491Z",
+    "archived": true,
+    "archivedAs": "Donated",
+    "archivedDate": "2026-08-28",
+    "archiveNote": ""
   },
   {
     "id": "mqrtbz4gtwvx",
